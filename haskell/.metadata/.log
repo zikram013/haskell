@@ -1,0 +1,2360 @@
+!SESSION 2020-10-08 14:58:18.397 -----------------------------------------------
+eclipse.buildId=M20080911-1700
+java.version=1.6.0_12
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=es_ES
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2020-10-08 14:59:17.847
+!MESSAGE Replacing:#Fri Jan 30 20:03:50 CET 2009
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2020-10-08 14:59:17.847
+!MESSAGE Replaced:#Fri Jan 30 20:03:50 CET 2009
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2020-10-08 14:59:17.848
+!MESSAGE Replacing:#Fri Jan 30 20:03:50 CET 2009
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2020-10-08 14:59:17.848
+!MESSAGE Replaced:#Fri Jan 30 20:03:50 CET 2009
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2020-10-08 14:59:17.849
+!MESSAGE Replacing:debugging_engine_id=org.eclipse.dltk.ruby.basicdebugger
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2020-10-08 14:59:17.849
+!MESSAGE Replaced:debugging_engine_id=org.eclipse.dltk.ruby.basicdebugger
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2020-10-08 14:59:17.849
+!MESSAGE Replacing:debugging_engine_id=org.eclipse.dltk.ruby.basicdebugger
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2020-10-08 14:59:17.850
+!MESSAGE Replaced:debugging_engine_id=org.eclipse.dltk.ruby.basicdebugger
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2020-10-08 14:59:17.850
+!MESSAGE Replacing:eclipse.preferences.version=1
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2020-10-08 14:59:17.851
+!MESSAGE Replaced:eclipse.preferences.version=1
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2020-10-08 14:59:17.851
+!MESSAGE Replacing:eclipse.preferences.version=1
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2020-10-08 14:59:17.851
+!MESSAGE Replaced:eclipse.preferences.version=1
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2020-10-08 14:59:17.853
+!MESSAGE Replacing:#Fri Jan 30 20:03:50 CET 2009
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2020-10-08 14:59:17.853
+!MESSAGE Replaced:#Fri Jan 30 20:03:50 CET 2009
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2020-10-08 14:59:17.853
+!MESSAGE Replacing:#Fri Jan 30 20:03:50 CET 2009
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2020-10-08 14:59:17.854
+!MESSAGE Replaced:#Fri Jan 30 20:03:50 CET 2009
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2020-10-08 14:59:17.854
+!MESSAGE Replacing:eclipse.preferences.version=1
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2020-10-08 14:59:17.855
+!MESSAGE Replaced:eclipse.preferences.version=1
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2020-10-08 14:59:17.855
+!MESSAGE Replacing:eclipse.preferences.version=1
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2020-10-08 14:59:17.855
+!MESSAGE Replaced:eclipse.preferences.version=1
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2020-10-08 14:59:17.856
+!MESSAGE Replacing:org.eclipse.dltk.launching.PREF_INTERPRETER_XML=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\r\n<interpreterSettings>\r\n<defaultInterpreter environment\="org.eclipse.dltk.core.environment.localEnvironment" id\="66,org.eclipse.dltk.internal.debug.ui.launcher.GenericRubyInstallType13,1233342113270" nature\="org.eclipse.dltk.ruby.core.nature"/>\r\n<interpreterType id\="org.eclipse.dltk.internal.debug.ui.launcher.GenericRubyInstallType">\r\n<interpreter environmentId\="org.eclipse.dltk.core.environment.localEnvironment" id\="1233342113270" name\="ruby.exe" path\="<<<$wsne>>>/ruby-1.8.6-i386-mswin32/bin/ruby.exe"/>\r\n</interpreterType>\r\n</interpreterSettings>\r\n
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2020-10-08 14:59:17.856
+!MESSAGE Replaced:org.eclipse.dltk.launching.PREF_INTERPRETER_XML=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\r\n<interpreterSettings>\r\n<defaultInterpreter environment\="org.eclipse.dltk.core.environment.localEnvironment" id\="66,org.eclipse.dltk.internal.debug.ui.launcher.GenericRubyInstallType13,1233342113270" nature\="org.eclipse.dltk.ruby.core.nature"/>\r\n<interpreterType id\="org.eclipse.dltk.internal.debug.ui.launcher.GenericRubyInstallType">\r\n<interpreter environmentId\="org.eclipse.dltk.core.environment.localEnvironment" id\="1233342113270" name\="ruby.exe" path\="C\:/Program Files (x86)/EclipseGavab 2.0/ruby-1.8.6-i386-mswin32/bin/ruby.exe"/>\r\n</interpreterType>\r\n</interpreterSettings>\r\n
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2020-10-08 14:59:17.856
+!MESSAGE Replacing:org.eclipse.dltk.launching.PREF_INTERPRETER_XML=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\r\n<interpreterSettings>\r\n<defaultInterpreter environment\="org.eclipse.dltk.core.environment.localEnvironment" id\="66,org.eclipse.dltk.internal.debug.ui.launcher.GenericRubyInstallType13,1233342113270" nature\="org.eclipse.dltk.ruby.core.nature"/>\r\n<interpreterType id\="org.eclipse.dltk.internal.debug.ui.launcher.GenericRubyInstallType">\r\n<interpreter environmentId\="org.eclipse.dltk.core.environment.localEnvironment" id\="1233342113270" name\="ruby.exe" path\="C\:/Program Files (x86)/EclipseGavab 2.0/ruby-1.8.6-i386-mswin32/bin/ruby.exe"/>\r\n</interpreterType>\r\n</interpreterSettings>\r\n
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2020-10-08 14:59:17.857
+!MESSAGE Replaced:org.eclipse.dltk.launching.PREF_INTERPRETER_XML=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\r\n<interpreterSettings>\r\n<defaultInterpreter environment\="org.eclipse.dltk.core.environment.localEnvironment" id\="66,org.eclipse.dltk.internal.debug.ui.launcher.GenericRubyInstallType13,1233342113270" nature\="org.eclipse.dltk.ruby.core.nature"/>\r\n<interpreterType id\="org.eclipse.dltk.internal.debug.ui.launcher.GenericRubyInstallType">\r\n<interpreter environmentId\="org.eclipse.dltk.core.environment.localEnvironment" id\="1233342113270" name\="ruby.exe" path\="C\:/Program Files (x86)/EclipseGavab 2.0/ruby-1.8.6-i386-mswin32/bin/ruby.exe"/>\r\n</interpreterType>\r\n</interpreterSettings>\r\n
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2020-10-08 14:59:17.861
+!MESSAGE Replacing:#Wed Jan 09 12:43:40 CET 2008
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2020-10-08 14:59:17.862
+!MESSAGE Replaced:#Wed Jan 09 12:43:40 CET 2008
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2020-10-08 14:59:17.862
+!MESSAGE Replacing:#Wed Jan 09 12:43:40 CET 2008
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2020-10-08 14:59:17.862
+!MESSAGE Replaced:#Wed Jan 09 12:43:40 CET 2008
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2020-10-08 14:59:17.863
+!MESSAGE Replacing:eclipse.preferences.version=1
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2020-10-08 14:59:17.863
+!MESSAGE Replaced:eclipse.preferences.version=1
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2020-10-08 14:59:17.863
+!MESSAGE Replacing:eclipse.preferences.version=1
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2020-10-08 14:59:17.864
+!MESSAGE Replaced:eclipse.preferences.version=1
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2020-10-08 14:59:17.864
+!MESSAGE Replacing:EXECUTABLE_NAME=<<<$ws>>>\\ghc-6.8.1\\bin\\ghc.exe
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2020-10-08 14:59:17.864
+!MESSAGE Replaced:EXECUTABLE_NAME=<<<$ws>>>\\ghc-6.8.1\\bin\\ghc.exe
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2020-10-08 14:59:17.865
+!MESSAGE Replacing:EXECUTABLE_NAME=<<<$ws>>>\\ghc-6.8.1\\bin\\ghc.exe
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2020-10-08 14:59:17.865
+!MESSAGE Replaced:EXECUTABLE_NAME=C\:\\Program Files (x86)\\EclipseGavab 2.0\\ghc-6.8.1\\bin\\ghc.exe
+
+!ENTRY net.sf.eclipsefp.haskell.ui 4 0 2020-10-08 15:07:10.415
+!MESSAGE Could not launch Haskell application.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not locate the project's executable.
+	at net.sf.eclipsefp.haskell.core.launch.HaskellLaunchDelegate.getLocation(HaskellLaunchDelegate.java:140)
+	at net.sf.eclipsefp.haskell.core.launch.HaskellLaunchDelegate.launch(HaskellLaunchDelegate.java:30)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:764)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:614)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:607)
+	at net.sf.eclipsefp.haskell.ui.launch.InteractiveLaunchOperation.launch(InteractiveLaunchOperation.java:49)
+	at net.sf.eclipsefp.haskell.ui.launch.InteractiveLaunchShortcut.launch(InteractiveLaunchShortcut.java:76)
+	at net.sf.eclipsefp.haskell.ui.launch.InteractiveLaunchShortcut.launch(InteractiveLaunchShortcut.java:64)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension.launch(LaunchShortcutExtension.java:424)
+	at org.eclipse.debug.internal.ui.actions.LaunchShortcutAction.run(LaunchShortcutAction.java:70)
+	at org.eclipse.debug.internal.ui.actions.LaunchShortcutAction.runWithEvent(LaunchShortcutAction.java:121)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:583)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:500)
+	at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:411)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1003)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1027)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1012)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:770)
+	at org.eclipse.jface.action.ActionContributionItem$9.handleEvent(ActionContributionItem.java:1283)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1003)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3823)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3422)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2382)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2346)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2198)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:493)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:288)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:488)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:193)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:386)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:549)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:504)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1236)
+!SUBENTRY 1 net.sf.eclipsefp.haskell.core 4 0 2020-10-08 15:07:10.415
+!MESSAGE Could not locate the project's executable.
+
+!ENTRY net.sf.eclipsefp.haskell.core 4 0 2020-10-08 15:22:42.645
+!MESSAGE Could not process resource changes in the Haskell language model.
+Project: PrimerosCodigos
+!STACK 1
+org.eclipse.core.runtime.CoreException: Scanning error on PrimerosPasos.hs
+	at net.sf.eclipsefp.haskell.core.jparser.JavaParserBridge.raiseCoreException(JavaParserBridge.java:92)
+	at net.sf.eclipsefp.haskell.core.jparser.JavaParserBridge.parse(JavaParserBridge.java:63)
+	at net.sf.eclipsefp.haskell.core.jparser.JavaParserBridge.parse(JavaParserBridge.java:49)
+	at net.sf.eclipsefp.haskell.core.jparser.JavaParserBridge.parse(JavaParserBridge.java:37)
+	at net.sf.eclipsefp.haskell.core.halamo.ProjectChangeMonitor$ResourceDeltaVisitor.visit(ProjectChangeMonitor.java:100)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:68)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:79)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:48)
+	at net.sf.eclipsefp.haskell.core.halamo.ProjectChangeMonitor.process(ProjectChangeMonitor.java:61)
+	at net.sf.eclipsefp.haskell.core.halamo.ProjectChangeMonitor.resourceChanged(ProjectChangeMonitor.java:46)
+	at net.sf.eclipsefp.haskell.core.halamo.WorkspaceChangeMonitor$DeltaVisitor.visit(WorkspaceChangeMonitor.java:46)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:68)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:79)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:48)
+	at net.sf.eclipsefp.haskell.core.halamo.WorkspaceChangeMonitor.resourceChanged(WorkspaceChangeMonitor.java:79)
+	at org.eclipse.core.internal.events.NotificationManager$2.run(NotificationManager.java:288)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:282)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:148)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:313)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1022)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1809)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:116)
+	at org.eclipse.ui.internal.editors.text.WorkspaceOperationRunner.run(WorkspaceOperationRunner.java:73)
+	at org.eclipse.ui.internal.editors.text.WorkspaceOperationRunner.run(WorkspaceOperationRunner.java:63)
+	at org.eclipse.ui.texteditor.AbstractDocumentProvider.executeOperation(AbstractDocumentProvider.java:549)
+	at org.eclipse.ui.texteditor.AbstractDocumentProvider.saveDocument(AbstractDocumentProvider.java:627)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.performSave(AbstractTextEditor.java:4791)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.doSave(AbstractTextEditor.java:4580)
+	at net.sf.eclipsefp.haskell.ui.editor.HaskellEditor.doSave(HaskellEditor.java:181)
+	at org.eclipse.ui.texteditor.AbstractTextEditor$TextEditorSavable.doSave(AbstractTextEditor.java:6887)
+	at org.eclipse.ui.Saveable.doSave(Saveable.java:212)
+	at org.eclipse.ui.internal.SaveableHelper.doSaveModel(SaveableHelper.java:339)
+	at org.eclipse.ui.internal.SaveableHelper$2.run(SaveableHelper.java:185)
+	at org.eclipse.ui.internal.SaveableHelper$4.run(SaveableHelper.java:266)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:458)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:366)
+	at org.eclipse.jface.window.ApplicationWindow$1.run(ApplicationWindow.java:758)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.jface.window.ApplicationWindow.run(ApplicationWindow.java:755)
+	at org.eclipse.ui.internal.WorkbenchWindow.run(WorkbenchWindow.java:2487)
+	at org.eclipse.ui.internal.SaveableHelper.runProgressMonitorOperation(SaveableHelper.java:274)
+	at org.eclipse.ui.internal.SaveableHelper.runProgressMonitorOperation(SaveableHelper.java:253)
+	at org.eclipse.ui.internal.SaveableHelper.saveModels(SaveableHelper.java:196)
+	at org.eclipse.ui.internal.SaveableHelper.savePart(SaveableHelper.java:136)
+	at org.eclipse.ui.internal.EditorManager.savePart(EditorManager.java:1350)
+	at org.eclipse.ui.internal.WorkbenchPage.savePart(WorkbenchPage.java:3291)
+	at org.eclipse.ui.internal.WorkbenchPage.saveEditor(WorkbenchPage.java:3304)
+	at org.eclipse.ui.internal.SaveAction.run(SaveAction.java:74)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:498)
+	at org.eclipse.ui.commands.ActionHandler.execute(ActionHandler.java:185)
+	at org.eclipse.ui.internal.handlers.LegacyHandlerWrapper.execute(LegacyHandlerWrapper.java:109)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:476)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:508)
+	at org.eclipse.ui.internal.handlers.HandlerService.executeCommand(HandlerService.java:169)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.executeCommand(WorkbenchKeyboard.java:472)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.press(WorkbenchKeyboard.java:824)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.processKeyEvent(WorkbenchKeyboard.java:882)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.filterKeySequenceBindings(WorkbenchKeyboard.java:571)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.access$3(WorkbenchKeyboard.java:512)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard$KeyDownFilter.handleEvent(WorkbenchKeyboard.java:127)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.filterEvent(Display.java:1184)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1002)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1027)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1012)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1040)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1036)
+	at org.eclipse.swt.widgets.Widget.wmChar(Widget.java:1352)
+	at org.eclipse.swt.widgets.Control.WM_CHAR(Control.java:3894)
+	at org.eclipse.swt.widgets.Canvas.WM_CHAR(Canvas.java:341)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:3787)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:337)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4528)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2371)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3420)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2382)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2346)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2198)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:493)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:288)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:488)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:193)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:386)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:549)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:504)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1236)
+Caused by: line 9:24: expecting ''', found 'i'
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellLexer.nextToken(HaskellLexer.java:236)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.nextToken(LookaheadTokenStream.java:21)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.lookAhead(LookaheadTokenStream.java:43)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.peekToken(LookaheadTokenStream.java:35)
+	at net.sf.eclipsefp.haskell.core.jparser.TokenStreamProcessor.peekToken(TokenStreamProcessor.java:41)
+	at net.sf.eclipsefp.haskell.core.jparser.QualifiedIdentifierFilter.insertTokensAsNeeded(QualifiedIdentifierFilter.java:34)
+	at net.sf.eclipsefp.haskell.core.jparser.TokenStreamProcessor.nextToken(TokenStreamProcessor.java:20)
+	at antlr.TokenStreamBasicFilter.nextToken(TokenStreamBasicFilter.java:40)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.lookAhead(LookaheadTokenStream.java:43)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.peekToken(LookaheadTokenStream.java:35)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.peekToken(LookaheadTokenStream.java:28)
+	at net.sf.eclipsefp.haskell.core.jparser.TokenStreamProcessor.peekToken(TokenStreamProcessor.java:37)
+	at net.sf.eclipsefp.haskell.core.jparser.PreprocessedTokenStream.insertTokensAsNeeded(PreprocessedTokenStream.java:26)
+	at net.sf.eclipsefp.haskell.core.jparser.TokenStreamProcessor.nextToken(TokenStreamProcessor.java:20)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.lookAhead(LookaheadTokenStream.java:43)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.peekToken(LookaheadTokenStream.java:35)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.peekToken(LookaheadTokenStream.java:28)
+	at net.sf.eclipsefp.haskell.core.jparser.TokenStreamProcessor.peekToken(TokenStreamProcessor.java:37)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellFormatter.insertTokensAsNeeded(HaskellFormatter.java:23)
+	at net.sf.eclipsefp.haskell.core.jparser.TokenStreamProcessor.nextToken(TokenStreamProcessor.java:20)
+	at antlr.TokenBuffer.fill(TokenBuffer.java:69)
+	at antlr.TokenBuffer.LA(TokenBuffer.java:80)
+	at antlr.LLkParser.LA(LLkParser.java:52)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.declrhs(HaskellParser.java:2054)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.valdef(HaskellParser.java:2817)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.decl(HaskellParser.java:1989)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.stdtopdecl(HaskellParser.java:1522)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.topdecl(HaskellParser.java:1449)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.topdecls(HaskellParser.java:954)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.body(HaskellParser.java:318)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.module(HaskellParser.java:195)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.parseModule(HaskellParser.java:75)
+	at net.sf.eclipsefp.haskell.core.jparser.JavaParserBridge.parse(JavaParserBridge.java:58)
+	... 95 more
+!SUBENTRY 1 net.sf.eclipsefp.haskell.core.jparser 4 -1 2020-10-08 15:22:42.646
+!MESSAGE Scanning error on PrimerosPasos.hs
+!STACK 0
+line 9:24: expecting ''', found 'i'
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellLexer.nextToken(HaskellLexer.java:236)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.nextToken(LookaheadTokenStream.java:21)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.lookAhead(LookaheadTokenStream.java:43)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.peekToken(LookaheadTokenStream.java:35)
+	at net.sf.eclipsefp.haskell.core.jparser.TokenStreamProcessor.peekToken(TokenStreamProcessor.java:41)
+	at net.sf.eclipsefp.haskell.core.jparser.QualifiedIdentifierFilter.insertTokensAsNeeded(QualifiedIdentifierFilter.java:34)
+	at net.sf.eclipsefp.haskell.core.jparser.TokenStreamProcessor.nextToken(TokenStreamProcessor.java:20)
+	at antlr.TokenStreamBasicFilter.nextToken(TokenStreamBasicFilter.java:40)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.lookAhead(LookaheadTokenStream.java:43)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.peekToken(LookaheadTokenStream.java:35)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.peekToken(LookaheadTokenStream.java:28)
+	at net.sf.eclipsefp.haskell.core.jparser.TokenStreamProcessor.peekToken(TokenStreamProcessor.java:37)
+	at net.sf.eclipsefp.haskell.core.jparser.PreprocessedTokenStream.insertTokensAsNeeded(PreprocessedTokenStream.java:26)
+	at net.sf.eclipsefp.haskell.core.jparser.TokenStreamProcessor.nextToken(TokenStreamProcessor.java:20)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.lookAhead(LookaheadTokenStream.java:43)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.peekToken(LookaheadTokenStream.java:35)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.peekToken(LookaheadTokenStream.java:28)
+	at net.sf.eclipsefp.haskell.core.jparser.TokenStreamProcessor.peekToken(TokenStreamProcessor.java:37)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellFormatter.insertTokensAsNeeded(HaskellFormatter.java:23)
+	at net.sf.eclipsefp.haskell.core.jparser.TokenStreamProcessor.nextToken(TokenStreamProcessor.java:20)
+	at antlr.TokenBuffer.fill(TokenBuffer.java:69)
+	at antlr.TokenBuffer.LA(TokenBuffer.java:80)
+	at antlr.LLkParser.LA(LLkParser.java:52)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.declrhs(HaskellParser.java:2054)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.valdef(HaskellParser.java:2817)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.decl(HaskellParser.java:1989)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.stdtopdecl(HaskellParser.java:1522)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.topdecl(HaskellParser.java:1449)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.topdecls(HaskellParser.java:954)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.body(HaskellParser.java:318)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.module(HaskellParser.java:195)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.parseModule(HaskellParser.java:75)
+	at net.sf.eclipsefp.haskell.core.jparser.JavaParserBridge.parse(JavaParserBridge.java:58)
+	at net.sf.eclipsefp.haskell.core.jparser.JavaParserBridge.parse(JavaParserBridge.java:49)
+	at net.sf.eclipsefp.haskell.core.jparser.JavaParserBridge.parse(JavaParserBridge.java:37)
+	at net.sf.eclipsefp.haskell.core.halamo.ProjectChangeMonitor$ResourceDeltaVisitor.visit(ProjectChangeMonitor.java:100)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:68)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:79)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:48)
+	at net.sf.eclipsefp.haskell.core.halamo.ProjectChangeMonitor.process(ProjectChangeMonitor.java:61)
+	at net.sf.eclipsefp.haskell.core.halamo.ProjectChangeMonitor.resourceChanged(ProjectChangeMonitor.java:46)
+	at net.sf.eclipsefp.haskell.core.halamo.WorkspaceChangeMonitor$DeltaVisitor.visit(WorkspaceChangeMonitor.java:46)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:68)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:79)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:48)
+	at net.sf.eclipsefp.haskell.core.halamo.WorkspaceChangeMonitor.resourceChanged(WorkspaceChangeMonitor.java:79)
+	at org.eclipse.core.internal.events.NotificationManager$2.run(NotificationManager.java:288)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:282)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:148)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:313)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1022)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1809)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:116)
+	at org.eclipse.ui.internal.editors.text.WorkspaceOperationRunner.run(WorkspaceOperationRunner.java:73)
+	at org.eclipse.ui.internal.editors.text.WorkspaceOperationRunner.run(WorkspaceOperationRunner.java:63)
+	at org.eclipse.ui.texteditor.AbstractDocumentProvider.executeOperation(AbstractDocumentProvider.java:549)
+	at org.eclipse.ui.texteditor.AbstractDocumentProvider.saveDocument(AbstractDocumentProvider.java:627)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.performSave(AbstractTextEditor.java:4791)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.doSave(AbstractTextEditor.java:4580)
+	at net.sf.eclipsefp.haskell.ui.editor.HaskellEditor.doSave(HaskellEditor.java:181)
+	at org.eclipse.ui.texteditor.AbstractTextEditor$TextEditorSavable.doSave(AbstractTextEditor.java:6887)
+	at org.eclipse.ui.Saveable.doSave(Saveable.java:212)
+	at org.eclipse.ui.internal.SaveableHelper.doSaveModel(SaveableHelper.java:339)
+	at org.eclipse.ui.internal.SaveableHelper$2.run(SaveableHelper.java:185)
+	at org.eclipse.ui.internal.SaveableHelper$4.run(SaveableHelper.java:266)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:458)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:366)
+	at org.eclipse.jface.window.ApplicationWindow$1.run(ApplicationWindow.java:758)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.jface.window.ApplicationWindow.run(ApplicationWindow.java:755)
+	at org.eclipse.ui.internal.WorkbenchWindow.run(WorkbenchWindow.java:2487)
+	at org.eclipse.ui.internal.SaveableHelper.runProgressMonitorOperation(SaveableHelper.java:274)
+	at org.eclipse.ui.internal.SaveableHelper.runProgressMonitorOperation(SaveableHelper.java:253)
+	at org.eclipse.ui.internal.SaveableHelper.saveModels(SaveableHelper.java:196)
+	at org.eclipse.ui.internal.SaveableHelper.savePart(SaveableHelper.java:136)
+	at org.eclipse.ui.internal.EditorManager.savePart(EditorManager.java:1350)
+	at org.eclipse.ui.internal.WorkbenchPage.savePart(WorkbenchPage.java:3291)
+	at org.eclipse.ui.internal.WorkbenchPage.saveEditor(WorkbenchPage.java:3304)
+	at org.eclipse.ui.internal.SaveAction.run(SaveAction.java:74)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:498)
+	at org.eclipse.ui.commands.ActionHandler.execute(ActionHandler.java:185)
+	at org.eclipse.ui.internal.handlers.LegacyHandlerWrapper.execute(LegacyHandlerWrapper.java:109)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:476)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:508)
+	at org.eclipse.ui.internal.handlers.HandlerService.executeCommand(HandlerService.java:169)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.executeCommand(WorkbenchKeyboard.java:472)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.press(WorkbenchKeyboard.java:824)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.processKeyEvent(WorkbenchKeyboard.java:882)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.filterKeySequenceBindings(WorkbenchKeyboard.java:571)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.access$3(WorkbenchKeyboard.java:512)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard$KeyDownFilter.handleEvent(WorkbenchKeyboard.java:127)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.filterEvent(Display.java:1184)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1002)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1027)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1012)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1040)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1036)
+	at org.eclipse.swt.widgets.Widget.wmChar(Widget.java:1352)
+	at org.eclipse.swt.widgets.Control.WM_CHAR(Control.java:3894)
+	at org.eclipse.swt.widgets.Canvas.WM_CHAR(Canvas.java:341)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:3787)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:337)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4528)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2371)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3420)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2382)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2346)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2198)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:493)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:288)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:488)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:193)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:386)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:549)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:504)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1236)
+
+!ENTRY net.sf.eclipsefp.haskell.core 4 0 2020-10-08 15:22:42.887
+!MESSAGE Could not process resource changes in the Haskell language model.
+Project: PrimerosCodigos
+!STACK 1
+org.eclipse.core.runtime.CoreException: Scanning error on PrimerosPasos.hs
+	at net.sf.eclipsefp.haskell.core.jparser.JavaParserBridge.raiseCoreException(JavaParserBridge.java:92)
+	at net.sf.eclipsefp.haskell.core.jparser.JavaParserBridge.parse(JavaParserBridge.java:63)
+	at net.sf.eclipsefp.haskell.core.jparser.JavaParserBridge.parse(JavaParserBridge.java:49)
+	at net.sf.eclipsefp.haskell.core.jparser.JavaParserBridge.parse(JavaParserBridge.java:37)
+	at net.sf.eclipsefp.haskell.core.halamo.ProjectChangeMonitor$ResourceDeltaVisitor.visit(ProjectChangeMonitor.java:100)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:68)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:79)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:48)
+	at net.sf.eclipsefp.haskell.core.halamo.ProjectChangeMonitor.process(ProjectChangeMonitor.java:61)
+	at net.sf.eclipsefp.haskell.core.halamo.ProjectChangeMonitor.resourceChanged(ProjectChangeMonitor.java:46)
+	at net.sf.eclipsefp.haskell.core.halamo.WorkspaceChangeMonitor$DeltaVisitor.visit(WorkspaceChangeMonitor.java:46)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:68)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:79)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:48)
+	at net.sf.eclipsefp.haskell.core.halamo.WorkspaceChangeMonitor.resourceChanged(WorkspaceChangeMonitor.java:79)
+	at org.eclipse.core.internal.events.NotificationManager$2.run(NotificationManager.java:288)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:282)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:148)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:313)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1022)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:153)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:238)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: line 9:24: expecting ''', found 'i'
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellLexer.nextToken(HaskellLexer.java:236)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.nextToken(LookaheadTokenStream.java:21)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.lookAhead(LookaheadTokenStream.java:43)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.peekToken(LookaheadTokenStream.java:35)
+	at net.sf.eclipsefp.haskell.core.jparser.TokenStreamProcessor.peekToken(TokenStreamProcessor.java:41)
+	at net.sf.eclipsefp.haskell.core.jparser.QualifiedIdentifierFilter.insertTokensAsNeeded(QualifiedIdentifierFilter.java:34)
+	at net.sf.eclipsefp.haskell.core.jparser.TokenStreamProcessor.nextToken(TokenStreamProcessor.java:20)
+	at antlr.TokenStreamBasicFilter.nextToken(TokenStreamBasicFilter.java:40)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.lookAhead(LookaheadTokenStream.java:43)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.peekToken(LookaheadTokenStream.java:35)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.peekToken(LookaheadTokenStream.java:28)
+	at net.sf.eclipsefp.haskell.core.jparser.TokenStreamProcessor.peekToken(TokenStreamProcessor.java:37)
+	at net.sf.eclipsefp.haskell.core.jparser.PreprocessedTokenStream.insertTokensAsNeeded(PreprocessedTokenStream.java:26)
+	at net.sf.eclipsefp.haskell.core.jparser.TokenStreamProcessor.nextToken(TokenStreamProcessor.java:20)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.lookAhead(LookaheadTokenStream.java:43)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.peekToken(LookaheadTokenStream.java:35)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.peekToken(LookaheadTokenStream.java:28)
+	at net.sf.eclipsefp.haskell.core.jparser.TokenStreamProcessor.peekToken(TokenStreamProcessor.java:37)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellFormatter.insertTokensAsNeeded(HaskellFormatter.java:23)
+	at net.sf.eclipsefp.haskell.core.jparser.TokenStreamProcessor.nextToken(TokenStreamProcessor.java:20)
+	at antlr.TokenBuffer.fill(TokenBuffer.java:69)
+	at antlr.TokenBuffer.LA(TokenBuffer.java:80)
+	at antlr.LLkParser.LA(LLkParser.java:52)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.declrhs(HaskellParser.java:2054)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.valdef(HaskellParser.java:2817)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.decl(HaskellParser.java:1989)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.stdtopdecl(HaskellParser.java:1522)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.topdecl(HaskellParser.java:1449)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.topdecls(HaskellParser.java:954)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.body(HaskellParser.java:318)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.module(HaskellParser.java:195)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.parseModule(HaskellParser.java:75)
+	at net.sf.eclipsefp.haskell.core.jparser.JavaParserBridge.parse(JavaParserBridge.java:58)
+	... 22 more
+!SUBENTRY 1 net.sf.eclipsefp.haskell.core.jparser 4 -1 2020-10-08 15:22:42.887
+!MESSAGE Scanning error on PrimerosPasos.hs
+!STACK 0
+line 9:24: expecting ''', found 'i'
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellLexer.nextToken(HaskellLexer.java:236)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.nextToken(LookaheadTokenStream.java:21)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.lookAhead(LookaheadTokenStream.java:43)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.peekToken(LookaheadTokenStream.java:35)
+	at net.sf.eclipsefp.haskell.core.jparser.TokenStreamProcessor.peekToken(TokenStreamProcessor.java:41)
+	at net.sf.eclipsefp.haskell.core.jparser.QualifiedIdentifierFilter.insertTokensAsNeeded(QualifiedIdentifierFilter.java:34)
+	at net.sf.eclipsefp.haskell.core.jparser.TokenStreamProcessor.nextToken(TokenStreamProcessor.java:20)
+	at antlr.TokenStreamBasicFilter.nextToken(TokenStreamBasicFilter.java:40)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.lookAhead(LookaheadTokenStream.java:43)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.peekToken(LookaheadTokenStream.java:35)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.peekToken(LookaheadTokenStream.java:28)
+	at net.sf.eclipsefp.haskell.core.jparser.TokenStreamProcessor.peekToken(TokenStreamProcessor.java:37)
+	at net.sf.eclipsefp.haskell.core.jparser.PreprocessedTokenStream.insertTokensAsNeeded(PreprocessedTokenStream.java:26)
+	at net.sf.eclipsefp.haskell.core.jparser.TokenStreamProcessor.nextToken(TokenStreamProcessor.java:20)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.lookAhead(LookaheadTokenStream.java:43)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.peekToken(LookaheadTokenStream.java:35)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.peekToken(LookaheadTokenStream.java:28)
+	at net.sf.eclipsefp.haskell.core.jparser.TokenStreamProcessor.peekToken(TokenStreamProcessor.java:37)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellFormatter.insertTokensAsNeeded(HaskellFormatter.java:23)
+	at net.sf.eclipsefp.haskell.core.jparser.TokenStreamProcessor.nextToken(TokenStreamProcessor.java:20)
+	at antlr.TokenBuffer.fill(TokenBuffer.java:69)
+	at antlr.TokenBuffer.LA(TokenBuffer.java:80)
+	at antlr.LLkParser.LA(LLkParser.java:52)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.declrhs(HaskellParser.java:2054)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.valdef(HaskellParser.java:2817)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.decl(HaskellParser.java:1989)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.stdtopdecl(HaskellParser.java:1522)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.topdecl(HaskellParser.java:1449)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.topdecls(HaskellParser.java:954)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.body(HaskellParser.java:318)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.module(HaskellParser.java:195)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.parseModule(HaskellParser.java:75)
+	at net.sf.eclipsefp.haskell.core.jparser.JavaParserBridge.parse(JavaParserBridge.java:58)
+	at net.sf.eclipsefp.haskell.core.jparser.JavaParserBridge.parse(JavaParserBridge.java:49)
+	at net.sf.eclipsefp.haskell.core.jparser.JavaParserBridge.parse(JavaParserBridge.java:37)
+	at net.sf.eclipsefp.haskell.core.halamo.ProjectChangeMonitor$ResourceDeltaVisitor.visit(ProjectChangeMonitor.java:100)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:68)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:79)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:48)
+	at net.sf.eclipsefp.haskell.core.halamo.ProjectChangeMonitor.process(ProjectChangeMonitor.java:61)
+	at net.sf.eclipsefp.haskell.core.halamo.ProjectChangeMonitor.resourceChanged(ProjectChangeMonitor.java:46)
+	at net.sf.eclipsefp.haskell.core.halamo.WorkspaceChangeMonitor$DeltaVisitor.visit(WorkspaceChangeMonitor.java:46)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:68)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:79)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:48)
+	at net.sf.eclipsefp.haskell.core.halamo.WorkspaceChangeMonitor.resourceChanged(WorkspaceChangeMonitor.java:79)
+	at org.eclipse.core.internal.events.NotificationManager$2.run(NotificationManager.java:288)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:282)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:148)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:313)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1022)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:153)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:238)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SESSION 2020-10-13 16:55:15.244 -----------------------------------------------
+eclipse.buildId=M20080911-1700
+java.version=1.6.0_12
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=es_ES
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.ui 4 4 2020-10-13 16:55:21.154
+!MESSAGE Could not create view: 'org.eclipse.ui.internal.introview'.
+
+!ENTRY org.eclipse.ui 4 0 2020-10-13 16:55:23.044
+!MESSAGE Problems occurred restoring workbench.
+!SUBENTRY 1 org.eclipse.ui 0 0 2020-10-13 16:55:23.044
+!MESSAGE 
+!SUBENTRY 1 org.eclipse.core.runtime 0 0 2020-10-13 16:55:23.044
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.runtime 0 0 2020-10-13 16:55:23.044
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.runtime 0 0 2020-10-13 16:55:23.044
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.ui 4 0 2020-10-13 16:55:23.044
+!MESSAGE Unable to restore perspective: Workspace - Haskell.
+!SUBENTRY 2 org.eclipse.ui 0 0 2020-10-13 16:55:23.044
+!MESSAGE Problems occurred restoring perspective.
+!SUBENTRY 3 org.eclipse.ui 0 0 2020-10-13 16:55:23.044
+!MESSAGE 
+!SUBENTRY 2 org.eclipse.ui 0 0 2020-10-13 16:55:23.044
+!MESSAGE 
+!SUBENTRY 2 org.eclipse.ui 0 0 2020-10-13 16:55:23.044
+!MESSAGE 
+!SUBENTRY 2 org.eclipse.ui 0 0 2020-10-13 16:55:23.044
+!MESSAGE 
+!SUBENTRY 2 org.eclipse.ui 0 0 2020-10-13 16:55:23.044
+!MESSAGE 
+!SUBENTRY 2 org.eclipse.ui 0 0 2020-10-13 16:55:23.044
+!MESSAGE 
+!SUBENTRY 2 org.eclipse.ui 0 0 2020-10-13 16:55:23.044
+!MESSAGE 
+!SUBENTRY 2 org.eclipse.ui 0 0 2020-10-13 16:55:23.044
+!MESSAGE 
+!SUBENTRY 2 org.eclipse.ui 0 0 2020-10-13 16:55:23.044
+!MESSAGE 
+!SUBENTRY 2 org.eclipse.ui 4 0 2020-10-13 16:55:23.044
+!MESSAGE Could not find view: org.eclipse.ui.internal.introview
+!SUBENTRY 1 org.eclipse.core.runtime 0 0 2020-10-13 16:55:23.044
+!MESSAGE OK
+
+!ENTRY net.sf.eclipsefp.haskell.core 4 0 2020-10-13 18:27:15.572
+!MESSAGE Could not process resource changes in the Haskell language model.
+Project: PrimerosCodigos
+!STACK 1
+org.eclipse.core.runtime.CoreException: Scanning error on EjerciciosTema3.hs
+	at net.sf.eclipsefp.haskell.core.jparser.JavaParserBridge.raiseCoreException(JavaParserBridge.java:92)
+	at net.sf.eclipsefp.haskell.core.jparser.JavaParserBridge.parse(JavaParserBridge.java:63)
+	at net.sf.eclipsefp.haskell.core.jparser.JavaParserBridge.parse(JavaParserBridge.java:49)
+	at net.sf.eclipsefp.haskell.core.jparser.JavaParserBridge.parse(JavaParserBridge.java:37)
+	at net.sf.eclipsefp.haskell.core.halamo.ProjectChangeMonitor$ResourceDeltaVisitor.visit(ProjectChangeMonitor.java:100)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:68)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:79)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:48)
+	at net.sf.eclipsefp.haskell.core.halamo.ProjectChangeMonitor.process(ProjectChangeMonitor.java:61)
+	at net.sf.eclipsefp.haskell.core.halamo.ProjectChangeMonitor.resourceChanged(ProjectChangeMonitor.java:46)
+	at net.sf.eclipsefp.haskell.core.halamo.WorkspaceChangeMonitor$DeltaVisitor.visit(WorkspaceChangeMonitor.java:46)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:68)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:79)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:48)
+	at net.sf.eclipsefp.haskell.core.halamo.WorkspaceChangeMonitor.resourceChanged(WorkspaceChangeMonitor.java:79)
+	at org.eclipse.core.internal.events.NotificationManager$2.run(NotificationManager.java:288)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:282)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:148)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:313)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1022)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1809)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:116)
+	at org.eclipse.ui.internal.editors.text.WorkspaceOperationRunner.run(WorkspaceOperationRunner.java:73)
+	at org.eclipse.ui.internal.editors.text.WorkspaceOperationRunner.run(WorkspaceOperationRunner.java:63)
+	at org.eclipse.ui.texteditor.AbstractDocumentProvider.executeOperation(AbstractDocumentProvider.java:549)
+	at org.eclipse.ui.texteditor.AbstractDocumentProvider.saveDocument(AbstractDocumentProvider.java:627)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.performSave(AbstractTextEditor.java:4791)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.doSave(AbstractTextEditor.java:4580)
+	at net.sf.eclipsefp.haskell.ui.editor.HaskellEditor.doSave(HaskellEditor.java:181)
+	at org.eclipse.ui.texteditor.AbstractTextEditor$TextEditorSavable.doSave(AbstractTextEditor.java:6887)
+	at org.eclipse.ui.Saveable.doSave(Saveable.java:212)
+	at org.eclipse.ui.internal.SaveableHelper.doSaveModel(SaveableHelper.java:339)
+	at org.eclipse.ui.internal.SaveableHelper$2.run(SaveableHelper.java:185)
+	at org.eclipse.ui.internal.SaveableHelper$4.run(SaveableHelper.java:266)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:458)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:366)
+	at org.eclipse.jface.window.ApplicationWindow$1.run(ApplicationWindow.java:758)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.jface.window.ApplicationWindow.run(ApplicationWindow.java:755)
+	at org.eclipse.ui.internal.WorkbenchWindow.run(WorkbenchWindow.java:2487)
+	at org.eclipse.ui.internal.SaveableHelper.runProgressMonitorOperation(SaveableHelper.java:274)
+	at org.eclipse.ui.internal.SaveableHelper.runProgressMonitorOperation(SaveableHelper.java:253)
+	at org.eclipse.ui.internal.SaveableHelper.saveModels(SaveableHelper.java:196)
+	at org.eclipse.ui.internal.SaveableHelper.savePart(SaveableHelper.java:136)
+	at org.eclipse.ui.internal.EditorManager.savePart(EditorManager.java:1350)
+	at org.eclipse.ui.internal.WorkbenchPage.savePart(WorkbenchPage.java:3291)
+	at org.eclipse.ui.internal.WorkbenchPage.saveEditor(WorkbenchPage.java:3304)
+	at org.eclipse.ui.internal.SaveAction.run(SaveAction.java:74)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:498)
+	at org.eclipse.ui.commands.ActionHandler.execute(ActionHandler.java:185)
+	at org.eclipse.ui.internal.handlers.LegacyHandlerWrapper.execute(LegacyHandlerWrapper.java:109)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:476)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:508)
+	at org.eclipse.ui.internal.handlers.HandlerService.executeCommand(HandlerService.java:169)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.executeCommand(WorkbenchKeyboard.java:472)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.press(WorkbenchKeyboard.java:824)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.processKeyEvent(WorkbenchKeyboard.java:882)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.filterKeySequenceBindings(WorkbenchKeyboard.java:571)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.access$3(WorkbenchKeyboard.java:512)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard$KeyDownFilter.handleEvent(WorkbenchKeyboard.java:127)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.filterEvent(Display.java:1184)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1002)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1027)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1012)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1040)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1036)
+	at org.eclipse.swt.widgets.Widget.wmChar(Widget.java:1352)
+	at org.eclipse.swt.widgets.Control.WM_CHAR(Control.java:3894)
+	at org.eclipse.swt.widgets.Canvas.WM_CHAR(Canvas.java:341)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:3787)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:337)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4528)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2371)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3420)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2382)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2346)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2198)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:493)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:288)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:488)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:193)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:386)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:549)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:504)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1236)
+Caused by: line 28:17: expecting ''', found 'o'
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellLexer.nextToken(HaskellLexer.java:236)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.nextToken(LookaheadTokenStream.java:21)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.lookAhead(LookaheadTokenStream.java:43)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.peekToken(LookaheadTokenStream.java:35)
+	at net.sf.eclipsefp.haskell.core.jparser.TokenStreamProcessor.peekToken(TokenStreamProcessor.java:41)
+	at net.sf.eclipsefp.haskell.core.jparser.QualifiedIdentifierFilter.insertTokensAsNeeded(QualifiedIdentifierFilter.java:34)
+	at net.sf.eclipsefp.haskell.core.jparser.TokenStreamProcessor.nextToken(TokenStreamProcessor.java:20)
+	at antlr.TokenStreamBasicFilter.nextToken(TokenStreamBasicFilter.java:40)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.lookAhead(LookaheadTokenStream.java:43)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.peekToken(LookaheadTokenStream.java:35)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.peekToken(LookaheadTokenStream.java:28)
+	at net.sf.eclipsefp.haskell.core.jparser.TokenStreamProcessor.peekToken(TokenStreamProcessor.java:37)
+	at net.sf.eclipsefp.haskell.core.jparser.PreprocessedTokenStream.insertTokensAsNeeded(PreprocessedTokenStream.java:26)
+	at net.sf.eclipsefp.haskell.core.jparser.TokenStreamProcessor.nextToken(TokenStreamProcessor.java:20)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.lookAhead(LookaheadTokenStream.java:43)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.peekToken(LookaheadTokenStream.java:35)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.peekToken(LookaheadTokenStream.java:28)
+	at net.sf.eclipsefp.haskell.core.jparser.TokenStreamProcessor.peekToken(TokenStreamProcessor.java:37)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellFormatter.insertTokensAsNeeded(HaskellFormatter.java:23)
+	at net.sf.eclipsefp.haskell.core.jparser.TokenStreamProcessor.nextToken(TokenStreamProcessor.java:20)
+	at antlr.TokenBuffer.fill(TokenBuffer.java:69)
+	at antlr.TokenBuffer.LA(TokenBuffer.java:80)
+	at antlr.LLkParser.LA(LLkParser.java:52)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.declrhs(HaskellParser.java:2054)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.valdef(HaskellParser.java:2817)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.decl(HaskellParser.java:1989)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.stdtopdecl(HaskellParser.java:1522)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.topdecl(HaskellParser.java:1449)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.topdecls(HaskellParser.java:954)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.body(HaskellParser.java:318)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.module(HaskellParser.java:195)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.parseModule(HaskellParser.java:75)
+	at net.sf.eclipsefp.haskell.core.jparser.JavaParserBridge.parse(JavaParserBridge.java:58)
+	... 95 more
+!SUBENTRY 1 net.sf.eclipsefp.haskell.core.jparser 4 -1 2020-10-13 18:27:15.573
+!MESSAGE Scanning error on EjerciciosTema3.hs
+!STACK 0
+line 28:17: expecting ''', found 'o'
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellLexer.nextToken(HaskellLexer.java:236)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.nextToken(LookaheadTokenStream.java:21)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.lookAhead(LookaheadTokenStream.java:43)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.peekToken(LookaheadTokenStream.java:35)
+	at net.sf.eclipsefp.haskell.core.jparser.TokenStreamProcessor.peekToken(TokenStreamProcessor.java:41)
+	at net.sf.eclipsefp.haskell.core.jparser.QualifiedIdentifierFilter.insertTokensAsNeeded(QualifiedIdentifierFilter.java:34)
+	at net.sf.eclipsefp.haskell.core.jparser.TokenStreamProcessor.nextToken(TokenStreamProcessor.java:20)
+	at antlr.TokenStreamBasicFilter.nextToken(TokenStreamBasicFilter.java:40)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.lookAhead(LookaheadTokenStream.java:43)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.peekToken(LookaheadTokenStream.java:35)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.peekToken(LookaheadTokenStream.java:28)
+	at net.sf.eclipsefp.haskell.core.jparser.TokenStreamProcessor.peekToken(TokenStreamProcessor.java:37)
+	at net.sf.eclipsefp.haskell.core.jparser.PreprocessedTokenStream.insertTokensAsNeeded(PreprocessedTokenStream.java:26)
+	at net.sf.eclipsefp.haskell.core.jparser.TokenStreamProcessor.nextToken(TokenStreamProcessor.java:20)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.lookAhead(LookaheadTokenStream.java:43)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.peekToken(LookaheadTokenStream.java:35)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.peekToken(LookaheadTokenStream.java:28)
+	at net.sf.eclipsefp.haskell.core.jparser.TokenStreamProcessor.peekToken(TokenStreamProcessor.java:37)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellFormatter.insertTokensAsNeeded(HaskellFormatter.java:23)
+	at net.sf.eclipsefp.haskell.core.jparser.TokenStreamProcessor.nextToken(TokenStreamProcessor.java:20)
+	at antlr.TokenBuffer.fill(TokenBuffer.java:69)
+	at antlr.TokenBuffer.LA(TokenBuffer.java:80)
+	at antlr.LLkParser.LA(LLkParser.java:52)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.declrhs(HaskellParser.java:2054)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.valdef(HaskellParser.java:2817)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.decl(HaskellParser.java:1989)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.stdtopdecl(HaskellParser.java:1522)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.topdecl(HaskellParser.java:1449)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.topdecls(HaskellParser.java:954)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.body(HaskellParser.java:318)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.module(HaskellParser.java:195)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.parseModule(HaskellParser.java:75)
+	at net.sf.eclipsefp.haskell.core.jparser.JavaParserBridge.parse(JavaParserBridge.java:58)
+	at net.sf.eclipsefp.haskell.core.jparser.JavaParserBridge.parse(JavaParserBridge.java:49)
+	at net.sf.eclipsefp.haskell.core.jparser.JavaParserBridge.parse(JavaParserBridge.java:37)
+	at net.sf.eclipsefp.haskell.core.halamo.ProjectChangeMonitor$ResourceDeltaVisitor.visit(ProjectChangeMonitor.java:100)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:68)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:79)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:48)
+	at net.sf.eclipsefp.haskell.core.halamo.ProjectChangeMonitor.process(ProjectChangeMonitor.java:61)
+	at net.sf.eclipsefp.haskell.core.halamo.ProjectChangeMonitor.resourceChanged(ProjectChangeMonitor.java:46)
+	at net.sf.eclipsefp.haskell.core.halamo.WorkspaceChangeMonitor$DeltaVisitor.visit(WorkspaceChangeMonitor.java:46)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:68)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:79)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:48)
+	at net.sf.eclipsefp.haskell.core.halamo.WorkspaceChangeMonitor.resourceChanged(WorkspaceChangeMonitor.java:79)
+	at org.eclipse.core.internal.events.NotificationManager$2.run(NotificationManager.java:288)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:282)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:148)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:313)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1022)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1809)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:116)
+	at org.eclipse.ui.internal.editors.text.WorkspaceOperationRunner.run(WorkspaceOperationRunner.java:73)
+	at org.eclipse.ui.internal.editors.text.WorkspaceOperationRunner.run(WorkspaceOperationRunner.java:63)
+	at org.eclipse.ui.texteditor.AbstractDocumentProvider.executeOperation(AbstractDocumentProvider.java:549)
+	at org.eclipse.ui.texteditor.AbstractDocumentProvider.saveDocument(AbstractDocumentProvider.java:627)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.performSave(AbstractTextEditor.java:4791)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.doSave(AbstractTextEditor.java:4580)
+	at net.sf.eclipsefp.haskell.ui.editor.HaskellEditor.doSave(HaskellEditor.java:181)
+	at org.eclipse.ui.texteditor.AbstractTextEditor$TextEditorSavable.doSave(AbstractTextEditor.java:6887)
+	at org.eclipse.ui.Saveable.doSave(Saveable.java:212)
+	at org.eclipse.ui.internal.SaveableHelper.doSaveModel(SaveableHelper.java:339)
+	at org.eclipse.ui.internal.SaveableHelper$2.run(SaveableHelper.java:185)
+	at org.eclipse.ui.internal.SaveableHelper$4.run(SaveableHelper.java:266)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:458)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:366)
+	at org.eclipse.jface.window.ApplicationWindow$1.run(ApplicationWindow.java:758)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.jface.window.ApplicationWindow.run(ApplicationWindow.java:755)
+	at org.eclipse.ui.internal.WorkbenchWindow.run(WorkbenchWindow.java:2487)
+	at org.eclipse.ui.internal.SaveableHelper.runProgressMonitorOperation(SaveableHelper.java:274)
+	at org.eclipse.ui.internal.SaveableHelper.runProgressMonitorOperation(SaveableHelper.java:253)
+	at org.eclipse.ui.internal.SaveableHelper.saveModels(SaveableHelper.java:196)
+	at org.eclipse.ui.internal.SaveableHelper.savePart(SaveableHelper.java:136)
+	at org.eclipse.ui.internal.EditorManager.savePart(EditorManager.java:1350)
+	at org.eclipse.ui.internal.WorkbenchPage.savePart(WorkbenchPage.java:3291)
+	at org.eclipse.ui.internal.WorkbenchPage.saveEditor(WorkbenchPage.java:3304)
+	at org.eclipse.ui.internal.SaveAction.run(SaveAction.java:74)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:498)
+	at org.eclipse.ui.commands.ActionHandler.execute(ActionHandler.java:185)
+	at org.eclipse.ui.internal.handlers.LegacyHandlerWrapper.execute(LegacyHandlerWrapper.java:109)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:476)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:508)
+	at org.eclipse.ui.internal.handlers.HandlerService.executeCommand(HandlerService.java:169)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.executeCommand(WorkbenchKeyboard.java:472)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.press(WorkbenchKeyboard.java:824)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.processKeyEvent(WorkbenchKeyboard.java:882)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.filterKeySequenceBindings(WorkbenchKeyboard.java:571)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.access$3(WorkbenchKeyboard.java:512)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard$KeyDownFilter.handleEvent(WorkbenchKeyboard.java:127)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.filterEvent(Display.java:1184)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1002)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1027)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1012)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1040)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1036)
+	at org.eclipse.swt.widgets.Widget.wmChar(Widget.java:1352)
+	at org.eclipse.swt.widgets.Control.WM_CHAR(Control.java:3894)
+	at org.eclipse.swt.widgets.Canvas.WM_CHAR(Canvas.java:341)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:3787)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:337)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4528)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2371)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3420)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2382)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2346)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2198)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:493)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:288)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:488)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:193)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:386)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:549)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:504)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1236)
+
+!ENTRY net.sf.eclipsefp.haskell.core 4 0 2020-10-13 18:27:15.775
+!MESSAGE Could not process resource changes in the Haskell language model.
+Project: PrimerosCodigos
+!STACK 1
+org.eclipse.core.runtime.CoreException: Scanning error on EjerciciosTema3.hs
+	at net.sf.eclipsefp.haskell.core.jparser.JavaParserBridge.raiseCoreException(JavaParserBridge.java:92)
+	at net.sf.eclipsefp.haskell.core.jparser.JavaParserBridge.parse(JavaParserBridge.java:63)
+	at net.sf.eclipsefp.haskell.core.jparser.JavaParserBridge.parse(JavaParserBridge.java:49)
+	at net.sf.eclipsefp.haskell.core.jparser.JavaParserBridge.parse(JavaParserBridge.java:37)
+	at net.sf.eclipsefp.haskell.core.halamo.ProjectChangeMonitor$ResourceDeltaVisitor.visit(ProjectChangeMonitor.java:100)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:68)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:79)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:48)
+	at net.sf.eclipsefp.haskell.core.halamo.ProjectChangeMonitor.process(ProjectChangeMonitor.java:61)
+	at net.sf.eclipsefp.haskell.core.halamo.ProjectChangeMonitor.resourceChanged(ProjectChangeMonitor.java:46)
+	at net.sf.eclipsefp.haskell.core.halamo.WorkspaceChangeMonitor$DeltaVisitor.visit(WorkspaceChangeMonitor.java:46)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:68)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:79)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:48)
+	at net.sf.eclipsefp.haskell.core.halamo.WorkspaceChangeMonitor.resourceChanged(WorkspaceChangeMonitor.java:79)
+	at org.eclipse.core.internal.events.NotificationManager$2.run(NotificationManager.java:288)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:282)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:148)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:313)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1022)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:153)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:238)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: line 28:17: expecting ''', found 'o'
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellLexer.nextToken(HaskellLexer.java:236)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.nextToken(LookaheadTokenStream.java:21)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.lookAhead(LookaheadTokenStream.java:43)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.peekToken(LookaheadTokenStream.java:35)
+	at net.sf.eclipsefp.haskell.core.jparser.TokenStreamProcessor.peekToken(TokenStreamProcessor.java:41)
+	at net.sf.eclipsefp.haskell.core.jparser.QualifiedIdentifierFilter.insertTokensAsNeeded(QualifiedIdentifierFilter.java:34)
+	at net.sf.eclipsefp.haskell.core.jparser.TokenStreamProcessor.nextToken(TokenStreamProcessor.java:20)
+	at antlr.TokenStreamBasicFilter.nextToken(TokenStreamBasicFilter.java:40)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.lookAhead(LookaheadTokenStream.java:43)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.peekToken(LookaheadTokenStream.java:35)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.peekToken(LookaheadTokenStream.java:28)
+	at net.sf.eclipsefp.haskell.core.jparser.TokenStreamProcessor.peekToken(TokenStreamProcessor.java:37)
+	at net.sf.eclipsefp.haskell.core.jparser.PreprocessedTokenStream.insertTokensAsNeeded(PreprocessedTokenStream.java:26)
+	at net.sf.eclipsefp.haskell.core.jparser.TokenStreamProcessor.nextToken(TokenStreamProcessor.java:20)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.lookAhead(LookaheadTokenStream.java:43)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.peekToken(LookaheadTokenStream.java:35)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.peekToken(LookaheadTokenStream.java:28)
+	at net.sf.eclipsefp.haskell.core.jparser.TokenStreamProcessor.peekToken(TokenStreamProcessor.java:37)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellFormatter.insertTokensAsNeeded(HaskellFormatter.java:23)
+	at net.sf.eclipsefp.haskell.core.jparser.TokenStreamProcessor.nextToken(TokenStreamProcessor.java:20)
+	at antlr.TokenBuffer.fill(TokenBuffer.java:69)
+	at antlr.TokenBuffer.LA(TokenBuffer.java:80)
+	at antlr.LLkParser.LA(LLkParser.java:52)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.declrhs(HaskellParser.java:2054)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.valdef(HaskellParser.java:2817)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.decl(HaskellParser.java:1989)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.stdtopdecl(HaskellParser.java:1522)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.topdecl(HaskellParser.java:1449)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.topdecls(HaskellParser.java:954)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.body(HaskellParser.java:318)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.module(HaskellParser.java:195)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.parseModule(HaskellParser.java:75)
+	at net.sf.eclipsefp.haskell.core.jparser.JavaParserBridge.parse(JavaParserBridge.java:58)
+	... 22 more
+!SUBENTRY 1 net.sf.eclipsefp.haskell.core.jparser 4 -1 2020-10-13 18:27:15.776
+!MESSAGE Scanning error on EjerciciosTema3.hs
+!STACK 0
+line 28:17: expecting ''', found 'o'
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellLexer.nextToken(HaskellLexer.java:236)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.nextToken(LookaheadTokenStream.java:21)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.lookAhead(LookaheadTokenStream.java:43)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.peekToken(LookaheadTokenStream.java:35)
+	at net.sf.eclipsefp.haskell.core.jparser.TokenStreamProcessor.peekToken(TokenStreamProcessor.java:41)
+	at net.sf.eclipsefp.haskell.core.jparser.QualifiedIdentifierFilter.insertTokensAsNeeded(QualifiedIdentifierFilter.java:34)
+	at net.sf.eclipsefp.haskell.core.jparser.TokenStreamProcessor.nextToken(TokenStreamProcessor.java:20)
+	at antlr.TokenStreamBasicFilter.nextToken(TokenStreamBasicFilter.java:40)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.lookAhead(LookaheadTokenStream.java:43)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.peekToken(LookaheadTokenStream.java:35)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.peekToken(LookaheadTokenStream.java:28)
+	at net.sf.eclipsefp.haskell.core.jparser.TokenStreamProcessor.peekToken(TokenStreamProcessor.java:37)
+	at net.sf.eclipsefp.haskell.core.jparser.PreprocessedTokenStream.insertTokensAsNeeded(PreprocessedTokenStream.java:26)
+	at net.sf.eclipsefp.haskell.core.jparser.TokenStreamProcessor.nextToken(TokenStreamProcessor.java:20)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.lookAhead(LookaheadTokenStream.java:43)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.peekToken(LookaheadTokenStream.java:35)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.peekToken(LookaheadTokenStream.java:28)
+	at net.sf.eclipsefp.haskell.core.jparser.TokenStreamProcessor.peekToken(TokenStreamProcessor.java:37)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellFormatter.insertTokensAsNeeded(HaskellFormatter.java:23)
+	at net.sf.eclipsefp.haskell.core.jparser.TokenStreamProcessor.nextToken(TokenStreamProcessor.java:20)
+	at antlr.TokenBuffer.fill(TokenBuffer.java:69)
+	at antlr.TokenBuffer.LA(TokenBuffer.java:80)
+	at antlr.LLkParser.LA(LLkParser.java:52)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.declrhs(HaskellParser.java:2054)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.valdef(HaskellParser.java:2817)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.decl(HaskellParser.java:1989)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.stdtopdecl(HaskellParser.java:1522)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.topdecl(HaskellParser.java:1449)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.topdecls(HaskellParser.java:954)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.body(HaskellParser.java:318)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.module(HaskellParser.java:195)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.parseModule(HaskellParser.java:75)
+	at net.sf.eclipsefp.haskell.core.jparser.JavaParserBridge.parse(JavaParserBridge.java:58)
+	at net.sf.eclipsefp.haskell.core.jparser.JavaParserBridge.parse(JavaParserBridge.java:49)
+	at net.sf.eclipsefp.haskell.core.jparser.JavaParserBridge.parse(JavaParserBridge.java:37)
+	at net.sf.eclipsefp.haskell.core.halamo.ProjectChangeMonitor$ResourceDeltaVisitor.visit(ProjectChangeMonitor.java:100)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:68)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:79)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:48)
+	at net.sf.eclipsefp.haskell.core.halamo.ProjectChangeMonitor.process(ProjectChangeMonitor.java:61)
+	at net.sf.eclipsefp.haskell.core.halamo.ProjectChangeMonitor.resourceChanged(ProjectChangeMonitor.java:46)
+	at net.sf.eclipsefp.haskell.core.halamo.WorkspaceChangeMonitor$DeltaVisitor.visit(WorkspaceChangeMonitor.java:46)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:68)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:79)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:48)
+	at net.sf.eclipsefp.haskell.core.halamo.WorkspaceChangeMonitor.resourceChanged(WorkspaceChangeMonitor.java:79)
+	at org.eclipse.core.internal.events.NotificationManager$2.run(NotificationManager.java:288)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:282)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:148)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:313)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1022)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:153)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:238)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SESSION 2020-10-15 10:44:56.281 -----------------------------------------------
+eclipse.buildId=M20080911-1700
+java.version=1.6.0_12
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=es_ES
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.ui 4 4 2020-10-15 10:45:54.864
+!MESSAGE Could not create view: 'org.eclipse.ui.internal.introview'.
+
+!ENTRY org.eclipse.ui 4 0 2020-10-15 10:45:57.373
+!MESSAGE Problems occurred restoring workbench.
+!SUBENTRY 1 org.eclipse.ui 0 0 2020-10-15 10:45:57.373
+!MESSAGE 
+!SUBENTRY 1 org.eclipse.core.runtime 0 0 2020-10-15 10:45:57.373
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.runtime 0 0 2020-10-15 10:45:57.373
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.runtime 0 0 2020-10-15 10:45:57.373
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.ui 4 0 2020-10-15 10:45:57.373
+!MESSAGE Unable to restore perspective: Workspace - Haskell.
+!SUBENTRY 2 org.eclipse.ui 0 0 2020-10-15 10:45:57.373
+!MESSAGE Problems occurred restoring perspective.
+!SUBENTRY 3 org.eclipse.ui 0 0 2020-10-15 10:45:57.373
+!MESSAGE 
+!SUBENTRY 2 org.eclipse.ui 0 0 2020-10-15 10:45:57.373
+!MESSAGE 
+!SUBENTRY 2 org.eclipse.ui 0 0 2020-10-15 10:45:57.373
+!MESSAGE 
+!SUBENTRY 2 org.eclipse.ui 0 0 2020-10-15 10:45:57.373
+!MESSAGE 
+!SUBENTRY 2 org.eclipse.ui 0 0 2020-10-15 10:45:57.373
+!MESSAGE 
+!SUBENTRY 2 org.eclipse.ui 0 0 2020-10-15 10:45:57.373
+!MESSAGE 
+!SUBENTRY 2 org.eclipse.ui 0 0 2020-10-15 10:45:57.373
+!MESSAGE 
+!SUBENTRY 2 org.eclipse.ui 0 0 2020-10-15 10:45:57.373
+!MESSAGE 
+!SUBENTRY 2 org.eclipse.ui 0 0 2020-10-15 10:45:57.373
+!MESSAGE 
+!SUBENTRY 2 org.eclipse.ui 4 0 2020-10-15 10:45:57.373
+!MESSAGE Could not find view: org.eclipse.ui.internal.introview
+!SUBENTRY 1 org.eclipse.core.runtime 0 0 2020-10-15 10:45:57.373
+!MESSAGE OK
+
+!ENTRY net.sf.eclipsefp.haskell.core 4 0 2020-10-15 11:57:34.404
+!MESSAGE Could not process resource changes in the Haskell language model.
+Project: PrimerosCodigos
+!STACK 1
+org.eclipse.core.runtime.CoreException: Scanning error on EjerciciosTema3.hs
+	at net.sf.eclipsefp.haskell.core.jparser.JavaParserBridge.raiseCoreException(JavaParserBridge.java:92)
+	at net.sf.eclipsefp.haskell.core.jparser.JavaParserBridge.parse(JavaParserBridge.java:63)
+	at net.sf.eclipsefp.haskell.core.jparser.JavaParserBridge.parse(JavaParserBridge.java:49)
+	at net.sf.eclipsefp.haskell.core.jparser.JavaParserBridge.parse(JavaParserBridge.java:37)
+	at net.sf.eclipsefp.haskell.core.halamo.ProjectChangeMonitor$ResourceDeltaVisitor.visit(ProjectChangeMonitor.java:100)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:68)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:79)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:48)
+	at net.sf.eclipsefp.haskell.core.halamo.ProjectChangeMonitor.process(ProjectChangeMonitor.java:61)
+	at net.sf.eclipsefp.haskell.core.halamo.ProjectChangeMonitor.resourceChanged(ProjectChangeMonitor.java:46)
+	at net.sf.eclipsefp.haskell.core.halamo.WorkspaceChangeMonitor$DeltaVisitor.visit(WorkspaceChangeMonitor.java:46)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:68)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:79)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:48)
+	at net.sf.eclipsefp.haskell.core.halamo.WorkspaceChangeMonitor.resourceChanged(WorkspaceChangeMonitor.java:79)
+	at org.eclipse.core.internal.events.NotificationManager$2.run(NotificationManager.java:288)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:282)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:148)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:313)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1022)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1809)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:116)
+	at org.eclipse.ui.internal.editors.text.WorkspaceOperationRunner.run(WorkspaceOperationRunner.java:73)
+	at org.eclipse.ui.internal.editors.text.WorkspaceOperationRunner.run(WorkspaceOperationRunner.java:63)
+	at org.eclipse.ui.texteditor.AbstractDocumentProvider.executeOperation(AbstractDocumentProvider.java:549)
+	at org.eclipse.ui.texteditor.AbstractDocumentProvider.saveDocument(AbstractDocumentProvider.java:627)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.performSave(AbstractTextEditor.java:4791)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.doSave(AbstractTextEditor.java:4580)
+	at net.sf.eclipsefp.haskell.ui.editor.HaskellEditor.doSave(HaskellEditor.java:181)
+	at org.eclipse.ui.texteditor.AbstractTextEditor$TextEditorSavable.doSave(AbstractTextEditor.java:6887)
+	at org.eclipse.ui.Saveable.doSave(Saveable.java:212)
+	at org.eclipse.ui.internal.SaveableHelper.doSaveModel(SaveableHelper.java:339)
+	at org.eclipse.ui.internal.SaveableHelper$2.run(SaveableHelper.java:185)
+	at org.eclipse.ui.internal.SaveableHelper$4.run(SaveableHelper.java:266)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:458)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:366)
+	at org.eclipse.jface.window.ApplicationWindow$1.run(ApplicationWindow.java:758)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.jface.window.ApplicationWindow.run(ApplicationWindow.java:755)
+	at org.eclipse.ui.internal.WorkbenchWindow.run(WorkbenchWindow.java:2487)
+	at org.eclipse.ui.internal.SaveableHelper.runProgressMonitorOperation(SaveableHelper.java:274)
+	at org.eclipse.ui.internal.SaveableHelper.runProgressMonitorOperation(SaveableHelper.java:253)
+	at org.eclipse.ui.internal.SaveableHelper.saveModels(SaveableHelper.java:196)
+	at org.eclipse.ui.internal.SaveableHelper.savePart(SaveableHelper.java:136)
+	at org.eclipse.ui.internal.EditorManager.savePart(EditorManager.java:1350)
+	at org.eclipse.ui.internal.WorkbenchPage.savePart(WorkbenchPage.java:3291)
+	at org.eclipse.ui.internal.WorkbenchPage.saveEditor(WorkbenchPage.java:3304)
+	at org.eclipse.ui.internal.SaveAction.run(SaveAction.java:74)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:498)
+	at org.eclipse.ui.commands.ActionHandler.execute(ActionHandler.java:185)
+	at org.eclipse.ui.internal.handlers.LegacyHandlerWrapper.execute(LegacyHandlerWrapper.java:109)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:476)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:508)
+	at org.eclipse.ui.internal.handlers.HandlerService.executeCommand(HandlerService.java:169)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.executeCommand(WorkbenchKeyboard.java:472)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.press(WorkbenchKeyboard.java:824)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.processKeyEvent(WorkbenchKeyboard.java:882)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.filterKeySequenceBindings(WorkbenchKeyboard.java:571)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.access$3(WorkbenchKeyboard.java:512)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard$KeyDownFilter.handleEvent(WorkbenchKeyboard.java:127)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.filterEvent(Display.java:1184)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1002)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1027)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1012)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1040)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1036)
+	at org.eclipse.swt.widgets.Widget.wmChar(Widget.java:1352)
+	at org.eclipse.swt.widgets.Control.WM_CHAR(Control.java:3894)
+	at org.eclipse.swt.widgets.Canvas.WM_CHAR(Canvas.java:341)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:3787)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:337)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4528)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2371)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3420)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2382)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2346)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2198)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:493)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:288)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:488)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:193)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:386)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:549)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:504)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1236)
+Caused by: line 66:66: expecting ''', found 'a'
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellLexer.nextToken(HaskellLexer.java:236)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.nextToken(LookaheadTokenStream.java:21)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.lookAhead(LookaheadTokenStream.java:43)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.peekToken(LookaheadTokenStream.java:35)
+	at net.sf.eclipsefp.haskell.core.jparser.TokenStreamProcessor.peekToken(TokenStreamProcessor.java:41)
+	at net.sf.eclipsefp.haskell.core.jparser.QualifiedIdentifierFilter.insertTokensAsNeeded(QualifiedIdentifierFilter.java:34)
+	at net.sf.eclipsefp.haskell.core.jparser.TokenStreamProcessor.nextToken(TokenStreamProcessor.java:20)
+	at antlr.TokenStreamBasicFilter.nextToken(TokenStreamBasicFilter.java:40)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.lookAhead(LookaheadTokenStream.java:43)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.peekToken(LookaheadTokenStream.java:35)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.peekToken(LookaheadTokenStream.java:28)
+	at net.sf.eclipsefp.haskell.core.jparser.TokenStreamProcessor.peekToken(TokenStreamProcessor.java:37)
+	at net.sf.eclipsefp.haskell.core.jparser.PreprocessedTokenStream.insertTokensAsNeeded(PreprocessedTokenStream.java:26)
+	at net.sf.eclipsefp.haskell.core.jparser.TokenStreamProcessor.nextToken(TokenStreamProcessor.java:20)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.lookAhead(LookaheadTokenStream.java:43)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.peekToken(LookaheadTokenStream.java:35)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.peekToken(LookaheadTokenStream.java:28)
+	at net.sf.eclipsefp.haskell.core.jparser.TokenStreamProcessor.peekToken(TokenStreamProcessor.java:37)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellFormatter.insertTokensAsNeeded(HaskellFormatter.java:23)
+	at net.sf.eclipsefp.haskell.core.jparser.TokenStreamProcessor.nextToken(TokenStreamProcessor.java:20)
+	at antlr.TokenBuffer.fill(TokenBuffer.java:69)
+	at antlr.TokenBuffer.LA(TokenBuffer.java:80)
+	at antlr.LLkParser.LA(LLkParser.java:52)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.declrhs(HaskellParser.java:2054)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.valdef(HaskellParser.java:2817)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.decl(HaskellParser.java:1989)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.stdtopdecl(HaskellParser.java:1522)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.topdecl(HaskellParser.java:1449)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.topdecls(HaskellParser.java:954)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.body(HaskellParser.java:303)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.module(HaskellParser.java:195)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.parseModule(HaskellParser.java:75)
+	at net.sf.eclipsefp.haskell.core.jparser.JavaParserBridge.parse(JavaParserBridge.java:58)
+	... 95 more
+!SUBENTRY 1 net.sf.eclipsefp.haskell.core.jparser 4 -1 2020-10-15 11:57:34.405
+!MESSAGE Scanning error on EjerciciosTema3.hs
+!STACK 0
+line 66:66: expecting ''', found 'a'
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellLexer.nextToken(HaskellLexer.java:236)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.nextToken(LookaheadTokenStream.java:21)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.lookAhead(LookaheadTokenStream.java:43)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.peekToken(LookaheadTokenStream.java:35)
+	at net.sf.eclipsefp.haskell.core.jparser.TokenStreamProcessor.peekToken(TokenStreamProcessor.java:41)
+	at net.sf.eclipsefp.haskell.core.jparser.QualifiedIdentifierFilter.insertTokensAsNeeded(QualifiedIdentifierFilter.java:34)
+	at net.sf.eclipsefp.haskell.core.jparser.TokenStreamProcessor.nextToken(TokenStreamProcessor.java:20)
+	at antlr.TokenStreamBasicFilter.nextToken(TokenStreamBasicFilter.java:40)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.lookAhead(LookaheadTokenStream.java:43)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.peekToken(LookaheadTokenStream.java:35)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.peekToken(LookaheadTokenStream.java:28)
+	at net.sf.eclipsefp.haskell.core.jparser.TokenStreamProcessor.peekToken(TokenStreamProcessor.java:37)
+	at net.sf.eclipsefp.haskell.core.jparser.PreprocessedTokenStream.insertTokensAsNeeded(PreprocessedTokenStream.java:26)
+	at net.sf.eclipsefp.haskell.core.jparser.TokenStreamProcessor.nextToken(TokenStreamProcessor.java:20)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.lookAhead(LookaheadTokenStream.java:43)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.peekToken(LookaheadTokenStream.java:35)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.peekToken(LookaheadTokenStream.java:28)
+	at net.sf.eclipsefp.haskell.core.jparser.TokenStreamProcessor.peekToken(TokenStreamProcessor.java:37)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellFormatter.insertTokensAsNeeded(HaskellFormatter.java:23)
+	at net.sf.eclipsefp.haskell.core.jparser.TokenStreamProcessor.nextToken(TokenStreamProcessor.java:20)
+	at antlr.TokenBuffer.fill(TokenBuffer.java:69)
+	at antlr.TokenBuffer.LA(TokenBuffer.java:80)
+	at antlr.LLkParser.LA(LLkParser.java:52)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.declrhs(HaskellParser.java:2054)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.valdef(HaskellParser.java:2817)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.decl(HaskellParser.java:1989)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.stdtopdecl(HaskellParser.java:1522)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.topdecl(HaskellParser.java:1449)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.topdecls(HaskellParser.java:954)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.body(HaskellParser.java:303)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.module(HaskellParser.java:195)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.parseModule(HaskellParser.java:75)
+	at net.sf.eclipsefp.haskell.core.jparser.JavaParserBridge.parse(JavaParserBridge.java:58)
+	at net.sf.eclipsefp.haskell.core.jparser.JavaParserBridge.parse(JavaParserBridge.java:49)
+	at net.sf.eclipsefp.haskell.core.jparser.JavaParserBridge.parse(JavaParserBridge.java:37)
+	at net.sf.eclipsefp.haskell.core.halamo.ProjectChangeMonitor$ResourceDeltaVisitor.visit(ProjectChangeMonitor.java:100)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:68)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:79)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:48)
+	at net.sf.eclipsefp.haskell.core.halamo.ProjectChangeMonitor.process(ProjectChangeMonitor.java:61)
+	at net.sf.eclipsefp.haskell.core.halamo.ProjectChangeMonitor.resourceChanged(ProjectChangeMonitor.java:46)
+	at net.sf.eclipsefp.haskell.core.halamo.WorkspaceChangeMonitor$DeltaVisitor.visit(WorkspaceChangeMonitor.java:46)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:68)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:79)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:48)
+	at net.sf.eclipsefp.haskell.core.halamo.WorkspaceChangeMonitor.resourceChanged(WorkspaceChangeMonitor.java:79)
+	at org.eclipse.core.internal.events.NotificationManager$2.run(NotificationManager.java:288)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:282)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:148)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:313)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1022)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1809)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:116)
+	at org.eclipse.ui.internal.editors.text.WorkspaceOperationRunner.run(WorkspaceOperationRunner.java:73)
+	at org.eclipse.ui.internal.editors.text.WorkspaceOperationRunner.run(WorkspaceOperationRunner.java:63)
+	at org.eclipse.ui.texteditor.AbstractDocumentProvider.executeOperation(AbstractDocumentProvider.java:549)
+	at org.eclipse.ui.texteditor.AbstractDocumentProvider.saveDocument(AbstractDocumentProvider.java:627)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.performSave(AbstractTextEditor.java:4791)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.doSave(AbstractTextEditor.java:4580)
+	at net.sf.eclipsefp.haskell.ui.editor.HaskellEditor.doSave(HaskellEditor.java:181)
+	at org.eclipse.ui.texteditor.AbstractTextEditor$TextEditorSavable.doSave(AbstractTextEditor.java:6887)
+	at org.eclipse.ui.Saveable.doSave(Saveable.java:212)
+	at org.eclipse.ui.internal.SaveableHelper.doSaveModel(SaveableHelper.java:339)
+	at org.eclipse.ui.internal.SaveableHelper$2.run(SaveableHelper.java:185)
+	at org.eclipse.ui.internal.SaveableHelper$4.run(SaveableHelper.java:266)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:458)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:366)
+	at org.eclipse.jface.window.ApplicationWindow$1.run(ApplicationWindow.java:758)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.jface.window.ApplicationWindow.run(ApplicationWindow.java:755)
+	at org.eclipse.ui.internal.WorkbenchWindow.run(WorkbenchWindow.java:2487)
+	at org.eclipse.ui.internal.SaveableHelper.runProgressMonitorOperation(SaveableHelper.java:274)
+	at org.eclipse.ui.internal.SaveableHelper.runProgressMonitorOperation(SaveableHelper.java:253)
+	at org.eclipse.ui.internal.SaveableHelper.saveModels(SaveableHelper.java:196)
+	at org.eclipse.ui.internal.SaveableHelper.savePart(SaveableHelper.java:136)
+	at org.eclipse.ui.internal.EditorManager.savePart(EditorManager.java:1350)
+	at org.eclipse.ui.internal.WorkbenchPage.savePart(WorkbenchPage.java:3291)
+	at org.eclipse.ui.internal.WorkbenchPage.saveEditor(WorkbenchPage.java:3304)
+	at org.eclipse.ui.internal.SaveAction.run(SaveAction.java:74)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:498)
+	at org.eclipse.ui.commands.ActionHandler.execute(ActionHandler.java:185)
+	at org.eclipse.ui.internal.handlers.LegacyHandlerWrapper.execute(LegacyHandlerWrapper.java:109)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:476)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:508)
+	at org.eclipse.ui.internal.handlers.HandlerService.executeCommand(HandlerService.java:169)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.executeCommand(WorkbenchKeyboard.java:472)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.press(WorkbenchKeyboard.java:824)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.processKeyEvent(WorkbenchKeyboard.java:882)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.filterKeySequenceBindings(WorkbenchKeyboard.java:571)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.access$3(WorkbenchKeyboard.java:512)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard$KeyDownFilter.handleEvent(WorkbenchKeyboard.java:127)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.filterEvent(Display.java:1184)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1002)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1027)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1012)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1040)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1036)
+	at org.eclipse.swt.widgets.Widget.wmChar(Widget.java:1352)
+	at org.eclipse.swt.widgets.Control.WM_CHAR(Control.java:3894)
+	at org.eclipse.swt.widgets.Canvas.WM_CHAR(Canvas.java:341)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:3787)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:337)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4528)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2371)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3420)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2382)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2346)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2198)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:493)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:288)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:488)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:193)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:386)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:549)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:504)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1236)
+
+!ENTRY net.sf.eclipsefp.haskell.core 4 0 2020-10-15 11:57:34.589
+!MESSAGE Could not process resource changes in the Haskell language model.
+Project: PrimerosCodigos
+!STACK 1
+org.eclipse.core.runtime.CoreException: Scanning error on EjerciciosTema3.hs
+	at net.sf.eclipsefp.haskell.core.jparser.JavaParserBridge.raiseCoreException(JavaParserBridge.java:92)
+	at net.sf.eclipsefp.haskell.core.jparser.JavaParserBridge.parse(JavaParserBridge.java:63)
+	at net.sf.eclipsefp.haskell.core.jparser.JavaParserBridge.parse(JavaParserBridge.java:49)
+	at net.sf.eclipsefp.haskell.core.jparser.JavaParserBridge.parse(JavaParserBridge.java:37)
+	at net.sf.eclipsefp.haskell.core.halamo.ProjectChangeMonitor$ResourceDeltaVisitor.visit(ProjectChangeMonitor.java:100)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:68)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:79)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:48)
+	at net.sf.eclipsefp.haskell.core.halamo.ProjectChangeMonitor.process(ProjectChangeMonitor.java:61)
+	at net.sf.eclipsefp.haskell.core.halamo.ProjectChangeMonitor.resourceChanged(ProjectChangeMonitor.java:46)
+	at net.sf.eclipsefp.haskell.core.halamo.WorkspaceChangeMonitor$DeltaVisitor.visit(WorkspaceChangeMonitor.java:46)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:68)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:79)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:48)
+	at net.sf.eclipsefp.haskell.core.halamo.WorkspaceChangeMonitor.resourceChanged(WorkspaceChangeMonitor.java:79)
+	at org.eclipse.core.internal.events.NotificationManager$2.run(NotificationManager.java:288)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:282)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:148)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:313)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1022)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:153)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:238)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: line 66:66: expecting ''', found 'a'
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellLexer.nextToken(HaskellLexer.java:236)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.nextToken(LookaheadTokenStream.java:21)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.lookAhead(LookaheadTokenStream.java:43)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.peekToken(LookaheadTokenStream.java:35)
+	at net.sf.eclipsefp.haskell.core.jparser.TokenStreamProcessor.peekToken(TokenStreamProcessor.java:41)
+	at net.sf.eclipsefp.haskell.core.jparser.QualifiedIdentifierFilter.insertTokensAsNeeded(QualifiedIdentifierFilter.java:34)
+	at net.sf.eclipsefp.haskell.core.jparser.TokenStreamProcessor.nextToken(TokenStreamProcessor.java:20)
+	at antlr.TokenStreamBasicFilter.nextToken(TokenStreamBasicFilter.java:40)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.lookAhead(LookaheadTokenStream.java:43)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.peekToken(LookaheadTokenStream.java:35)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.peekToken(LookaheadTokenStream.java:28)
+	at net.sf.eclipsefp.haskell.core.jparser.TokenStreamProcessor.peekToken(TokenStreamProcessor.java:37)
+	at net.sf.eclipsefp.haskell.core.jparser.PreprocessedTokenStream.insertTokensAsNeeded(PreprocessedTokenStream.java:26)
+	at net.sf.eclipsefp.haskell.core.jparser.TokenStreamProcessor.nextToken(TokenStreamProcessor.java:20)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.lookAhead(LookaheadTokenStream.java:43)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.peekToken(LookaheadTokenStream.java:35)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.peekToken(LookaheadTokenStream.java:28)
+	at net.sf.eclipsefp.haskell.core.jparser.TokenStreamProcessor.peekToken(TokenStreamProcessor.java:37)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellFormatter.insertTokensAsNeeded(HaskellFormatter.java:23)
+	at net.sf.eclipsefp.haskell.core.jparser.TokenStreamProcessor.nextToken(TokenStreamProcessor.java:20)
+	at antlr.TokenBuffer.fill(TokenBuffer.java:69)
+	at antlr.TokenBuffer.LA(TokenBuffer.java:80)
+	at antlr.LLkParser.LA(LLkParser.java:52)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.declrhs(HaskellParser.java:2054)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.valdef(HaskellParser.java:2817)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.decl(HaskellParser.java:1989)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.stdtopdecl(HaskellParser.java:1522)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.topdecl(HaskellParser.java:1449)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.topdecls(HaskellParser.java:954)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.body(HaskellParser.java:303)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.module(HaskellParser.java:195)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.parseModule(HaskellParser.java:75)
+	at net.sf.eclipsefp.haskell.core.jparser.JavaParserBridge.parse(JavaParserBridge.java:58)
+	... 22 more
+!SUBENTRY 1 net.sf.eclipsefp.haskell.core.jparser 4 -1 2020-10-15 11:57:34.590
+!MESSAGE Scanning error on EjerciciosTema3.hs
+!STACK 0
+line 66:66: expecting ''', found 'a'
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellLexer.nextToken(HaskellLexer.java:236)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.nextToken(LookaheadTokenStream.java:21)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.lookAhead(LookaheadTokenStream.java:43)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.peekToken(LookaheadTokenStream.java:35)
+	at net.sf.eclipsefp.haskell.core.jparser.TokenStreamProcessor.peekToken(TokenStreamProcessor.java:41)
+	at net.sf.eclipsefp.haskell.core.jparser.QualifiedIdentifierFilter.insertTokensAsNeeded(QualifiedIdentifierFilter.java:34)
+	at net.sf.eclipsefp.haskell.core.jparser.TokenStreamProcessor.nextToken(TokenStreamProcessor.java:20)
+	at antlr.TokenStreamBasicFilter.nextToken(TokenStreamBasicFilter.java:40)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.lookAhead(LookaheadTokenStream.java:43)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.peekToken(LookaheadTokenStream.java:35)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.peekToken(LookaheadTokenStream.java:28)
+	at net.sf.eclipsefp.haskell.core.jparser.TokenStreamProcessor.peekToken(TokenStreamProcessor.java:37)
+	at net.sf.eclipsefp.haskell.core.jparser.PreprocessedTokenStream.insertTokensAsNeeded(PreprocessedTokenStream.java:26)
+	at net.sf.eclipsefp.haskell.core.jparser.TokenStreamProcessor.nextToken(TokenStreamProcessor.java:20)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.lookAhead(LookaheadTokenStream.java:43)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.peekToken(LookaheadTokenStream.java:35)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.peekToken(LookaheadTokenStream.java:28)
+	at net.sf.eclipsefp.haskell.core.jparser.TokenStreamProcessor.peekToken(TokenStreamProcessor.java:37)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellFormatter.insertTokensAsNeeded(HaskellFormatter.java:23)
+	at net.sf.eclipsefp.haskell.core.jparser.TokenStreamProcessor.nextToken(TokenStreamProcessor.java:20)
+	at antlr.TokenBuffer.fill(TokenBuffer.java:69)
+	at antlr.TokenBuffer.LA(TokenBuffer.java:80)
+	at antlr.LLkParser.LA(LLkParser.java:52)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.declrhs(HaskellParser.java:2054)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.valdef(HaskellParser.java:2817)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.decl(HaskellParser.java:1989)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.stdtopdecl(HaskellParser.java:1522)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.topdecl(HaskellParser.java:1449)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.topdecls(HaskellParser.java:954)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.body(HaskellParser.java:303)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.module(HaskellParser.java:195)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.parseModule(HaskellParser.java:75)
+	at net.sf.eclipsefp.haskell.core.jparser.JavaParserBridge.parse(JavaParserBridge.java:58)
+	at net.sf.eclipsefp.haskell.core.jparser.JavaParserBridge.parse(JavaParserBridge.java:49)
+	at net.sf.eclipsefp.haskell.core.jparser.JavaParserBridge.parse(JavaParserBridge.java:37)
+	at net.sf.eclipsefp.haskell.core.halamo.ProjectChangeMonitor$ResourceDeltaVisitor.visit(ProjectChangeMonitor.java:100)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:68)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:79)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:48)
+	at net.sf.eclipsefp.haskell.core.halamo.ProjectChangeMonitor.process(ProjectChangeMonitor.java:61)
+	at net.sf.eclipsefp.haskell.core.halamo.ProjectChangeMonitor.resourceChanged(ProjectChangeMonitor.java:46)
+	at net.sf.eclipsefp.haskell.core.halamo.WorkspaceChangeMonitor$DeltaVisitor.visit(WorkspaceChangeMonitor.java:46)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:68)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:79)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:48)
+	at net.sf.eclipsefp.haskell.core.halamo.WorkspaceChangeMonitor.resourceChanged(WorkspaceChangeMonitor.java:79)
+	at org.eclipse.core.internal.events.NotificationManager$2.run(NotificationManager.java:288)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:282)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:148)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:313)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1022)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:153)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:238)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY net.sf.eclipsefp.haskell.core 4 0 2020-10-15 15:33:44.946
+!MESSAGE Could not process resource changes in the Haskell language model.
+Project: PrimerosCodigos
+!STACK 1
+org.eclipse.core.runtime.CoreException: Scanning error on EjerciciosRecursividad.hs
+	at net.sf.eclipsefp.haskell.core.jparser.JavaParserBridge.raiseCoreException(JavaParserBridge.java:92)
+	at net.sf.eclipsefp.haskell.core.jparser.JavaParserBridge.parse(JavaParserBridge.java:63)
+	at net.sf.eclipsefp.haskell.core.jparser.JavaParserBridge.parse(JavaParserBridge.java:49)
+	at net.sf.eclipsefp.haskell.core.jparser.JavaParserBridge.parse(JavaParserBridge.java:37)
+	at net.sf.eclipsefp.haskell.core.halamo.ProjectChangeMonitor$ResourceDeltaVisitor.visit(ProjectChangeMonitor.java:100)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:68)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:79)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:48)
+	at net.sf.eclipsefp.haskell.core.halamo.ProjectChangeMonitor.process(ProjectChangeMonitor.java:61)
+	at net.sf.eclipsefp.haskell.core.halamo.ProjectChangeMonitor.resourceChanged(ProjectChangeMonitor.java:46)
+	at net.sf.eclipsefp.haskell.core.halamo.WorkspaceChangeMonitor$DeltaVisitor.visit(WorkspaceChangeMonitor.java:46)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:68)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:79)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:48)
+	at net.sf.eclipsefp.haskell.core.halamo.WorkspaceChangeMonitor.resourceChanged(WorkspaceChangeMonitor.java:79)
+	at org.eclipse.core.internal.events.NotificationManager$2.run(NotificationManager.java:288)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:282)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:148)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:313)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1022)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1809)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:116)
+	at org.eclipse.ui.internal.editors.text.WorkspaceOperationRunner.run(WorkspaceOperationRunner.java:73)
+	at org.eclipse.ui.internal.editors.text.WorkspaceOperationRunner.run(WorkspaceOperationRunner.java:63)
+	at org.eclipse.ui.texteditor.AbstractDocumentProvider.executeOperation(AbstractDocumentProvider.java:549)
+	at org.eclipse.ui.texteditor.AbstractDocumentProvider.saveDocument(AbstractDocumentProvider.java:627)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.performSave(AbstractTextEditor.java:4791)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.doSave(AbstractTextEditor.java:4580)
+	at net.sf.eclipsefp.haskell.ui.editor.HaskellEditor.doSave(HaskellEditor.java:181)
+	at org.eclipse.ui.texteditor.AbstractTextEditor$TextEditorSavable.doSave(AbstractTextEditor.java:6887)
+	at org.eclipse.ui.Saveable.doSave(Saveable.java:212)
+	at org.eclipse.ui.internal.SaveableHelper.doSaveModel(SaveableHelper.java:339)
+	at org.eclipse.ui.internal.SaveableHelper$2.run(SaveableHelper.java:185)
+	at org.eclipse.ui.internal.SaveableHelper$4.run(SaveableHelper.java:266)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:458)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:366)
+	at org.eclipse.jface.window.ApplicationWindow$1.run(ApplicationWindow.java:758)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.jface.window.ApplicationWindow.run(ApplicationWindow.java:755)
+	at org.eclipse.ui.internal.WorkbenchWindow.run(WorkbenchWindow.java:2487)
+	at org.eclipse.ui.internal.SaveableHelper.runProgressMonitorOperation(SaveableHelper.java:274)
+	at org.eclipse.ui.internal.SaveableHelper.runProgressMonitorOperation(SaveableHelper.java:253)
+	at org.eclipse.ui.internal.SaveableHelper.saveModels(SaveableHelper.java:196)
+	at org.eclipse.ui.internal.SaveableHelper.savePart(SaveableHelper.java:136)
+	at org.eclipse.ui.internal.EditorManager.savePart(EditorManager.java:1350)
+	at org.eclipse.ui.internal.WorkbenchPage.savePart(WorkbenchPage.java:3291)
+	at org.eclipse.ui.internal.WorkbenchPage.saveEditor(WorkbenchPage.java:3304)
+	at org.eclipse.ui.internal.SaveAction.run(SaveAction.java:74)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:498)
+	at org.eclipse.ui.commands.ActionHandler.execute(ActionHandler.java:185)
+	at org.eclipse.ui.internal.handlers.LegacyHandlerWrapper.execute(LegacyHandlerWrapper.java:109)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:476)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:508)
+	at org.eclipse.ui.internal.handlers.HandlerService.executeCommand(HandlerService.java:169)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.executeCommand(WorkbenchKeyboard.java:472)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.press(WorkbenchKeyboard.java:824)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.processKeyEvent(WorkbenchKeyboard.java:882)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.filterKeySequenceBindings(WorkbenchKeyboard.java:571)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.access$3(WorkbenchKeyboard.java:512)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard$KeyDownFilter.handleEvent(WorkbenchKeyboard.java:127)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.filterEvent(Display.java:1184)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1002)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1027)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1012)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1040)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1036)
+	at org.eclipse.swt.widgets.Widget.wmChar(Widget.java:1352)
+	at org.eclipse.swt.widgets.Control.WM_CHAR(Control.java:3894)
+	at org.eclipse.swt.widgets.Canvas.WM_CHAR(Canvas.java:341)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:3787)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:337)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4528)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2371)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3420)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2382)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2346)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2198)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:493)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:288)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:488)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:193)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:386)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:549)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:504)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1236)
+Caused by: line 7:37: expecting ''', found 'i'
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellLexer.nextToken(HaskellLexer.java:236)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.nextToken(LookaheadTokenStream.java:21)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.lookAhead(LookaheadTokenStream.java:43)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.peekToken(LookaheadTokenStream.java:35)
+	at net.sf.eclipsefp.haskell.core.jparser.TokenStreamProcessor.peekToken(TokenStreamProcessor.java:41)
+	at net.sf.eclipsefp.haskell.core.jparser.QualifiedIdentifierFilter.insertTokensAsNeeded(QualifiedIdentifierFilter.java:34)
+	at net.sf.eclipsefp.haskell.core.jparser.TokenStreamProcessor.nextToken(TokenStreamProcessor.java:20)
+	at antlr.TokenStreamBasicFilter.nextToken(TokenStreamBasicFilter.java:40)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.lookAhead(LookaheadTokenStream.java:43)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.peekToken(LookaheadTokenStream.java:35)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.peekToken(LookaheadTokenStream.java:28)
+	at net.sf.eclipsefp.haskell.core.jparser.TokenStreamProcessor.peekToken(TokenStreamProcessor.java:37)
+	at net.sf.eclipsefp.haskell.core.jparser.PreprocessedTokenStream.insertTokensAsNeeded(PreprocessedTokenStream.java:26)
+	at net.sf.eclipsefp.haskell.core.jparser.TokenStreamProcessor.nextToken(TokenStreamProcessor.java:20)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.lookAhead(LookaheadTokenStream.java:43)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.peekToken(LookaheadTokenStream.java:35)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.peekToken(LookaheadTokenStream.java:28)
+	at net.sf.eclipsefp.haskell.core.jparser.TokenStreamProcessor.peekToken(TokenStreamProcessor.java:37)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellFormatter.insertTokensAsNeeded(HaskellFormatter.java:23)
+	at net.sf.eclipsefp.haskell.core.jparser.TokenStreamProcessor.nextToken(TokenStreamProcessor.java:20)
+	at antlr.TokenBuffer.fill(TokenBuffer.java:69)
+	at antlr.TokenBuffer.LA(TokenBuffer.java:80)
+	at antlr.LLkParser.LA(LLkParser.java:52)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.funlhs(HaskellParser.java:2776)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.decl(HaskellParser.java:1978)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.stdtopdecl(HaskellParser.java:1522)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.topdecl(HaskellParser.java:1449)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.topdecls(HaskellParser.java:954)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.body(HaskellParser.java:303)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.module(HaskellParser.java:195)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.parseModule(HaskellParser.java:75)
+	at net.sf.eclipsefp.haskell.core.jparser.JavaParserBridge.parse(JavaParserBridge.java:58)
+	... 95 more
+!SUBENTRY 1 net.sf.eclipsefp.haskell.core.jparser 4 -1 2020-10-15 15:33:44.946
+!MESSAGE Scanning error on EjerciciosRecursividad.hs
+!STACK 0
+line 7:37: expecting ''', found 'i'
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellLexer.nextToken(HaskellLexer.java:236)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.nextToken(LookaheadTokenStream.java:21)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.lookAhead(LookaheadTokenStream.java:43)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.peekToken(LookaheadTokenStream.java:35)
+	at net.sf.eclipsefp.haskell.core.jparser.TokenStreamProcessor.peekToken(TokenStreamProcessor.java:41)
+	at net.sf.eclipsefp.haskell.core.jparser.QualifiedIdentifierFilter.insertTokensAsNeeded(QualifiedIdentifierFilter.java:34)
+	at net.sf.eclipsefp.haskell.core.jparser.TokenStreamProcessor.nextToken(TokenStreamProcessor.java:20)
+	at antlr.TokenStreamBasicFilter.nextToken(TokenStreamBasicFilter.java:40)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.lookAhead(LookaheadTokenStream.java:43)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.peekToken(LookaheadTokenStream.java:35)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.peekToken(LookaheadTokenStream.java:28)
+	at net.sf.eclipsefp.haskell.core.jparser.TokenStreamProcessor.peekToken(TokenStreamProcessor.java:37)
+	at net.sf.eclipsefp.haskell.core.jparser.PreprocessedTokenStream.insertTokensAsNeeded(PreprocessedTokenStream.java:26)
+	at net.sf.eclipsefp.haskell.core.jparser.TokenStreamProcessor.nextToken(TokenStreamProcessor.java:20)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.lookAhead(LookaheadTokenStream.java:43)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.peekToken(LookaheadTokenStream.java:35)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.peekToken(LookaheadTokenStream.java:28)
+	at net.sf.eclipsefp.haskell.core.jparser.TokenStreamProcessor.peekToken(TokenStreamProcessor.java:37)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellFormatter.insertTokensAsNeeded(HaskellFormatter.java:23)
+	at net.sf.eclipsefp.haskell.core.jparser.TokenStreamProcessor.nextToken(TokenStreamProcessor.java:20)
+	at antlr.TokenBuffer.fill(TokenBuffer.java:69)
+	at antlr.TokenBuffer.LA(TokenBuffer.java:80)
+	at antlr.LLkParser.LA(LLkParser.java:52)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.funlhs(HaskellParser.java:2776)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.decl(HaskellParser.java:1978)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.stdtopdecl(HaskellParser.java:1522)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.topdecl(HaskellParser.java:1449)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.topdecls(HaskellParser.java:954)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.body(HaskellParser.java:303)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.module(HaskellParser.java:195)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.parseModule(HaskellParser.java:75)
+	at net.sf.eclipsefp.haskell.core.jparser.JavaParserBridge.parse(JavaParserBridge.java:58)
+	at net.sf.eclipsefp.haskell.core.jparser.JavaParserBridge.parse(JavaParserBridge.java:49)
+	at net.sf.eclipsefp.haskell.core.jparser.JavaParserBridge.parse(JavaParserBridge.java:37)
+	at net.sf.eclipsefp.haskell.core.halamo.ProjectChangeMonitor$ResourceDeltaVisitor.visit(ProjectChangeMonitor.java:100)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:68)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:79)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:48)
+	at net.sf.eclipsefp.haskell.core.halamo.ProjectChangeMonitor.process(ProjectChangeMonitor.java:61)
+	at net.sf.eclipsefp.haskell.core.halamo.ProjectChangeMonitor.resourceChanged(ProjectChangeMonitor.java:46)
+	at net.sf.eclipsefp.haskell.core.halamo.WorkspaceChangeMonitor$DeltaVisitor.visit(WorkspaceChangeMonitor.java:46)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:68)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:79)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:48)
+	at net.sf.eclipsefp.haskell.core.halamo.WorkspaceChangeMonitor.resourceChanged(WorkspaceChangeMonitor.java:79)
+	at org.eclipse.core.internal.events.NotificationManager$2.run(NotificationManager.java:288)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:282)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:148)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:313)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1022)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1809)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:116)
+	at org.eclipse.ui.internal.editors.text.WorkspaceOperationRunner.run(WorkspaceOperationRunner.java:73)
+	at org.eclipse.ui.internal.editors.text.WorkspaceOperationRunner.run(WorkspaceOperationRunner.java:63)
+	at org.eclipse.ui.texteditor.AbstractDocumentProvider.executeOperation(AbstractDocumentProvider.java:549)
+	at org.eclipse.ui.texteditor.AbstractDocumentProvider.saveDocument(AbstractDocumentProvider.java:627)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.performSave(AbstractTextEditor.java:4791)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.doSave(AbstractTextEditor.java:4580)
+	at net.sf.eclipsefp.haskell.ui.editor.HaskellEditor.doSave(HaskellEditor.java:181)
+	at org.eclipse.ui.texteditor.AbstractTextEditor$TextEditorSavable.doSave(AbstractTextEditor.java:6887)
+	at org.eclipse.ui.Saveable.doSave(Saveable.java:212)
+	at org.eclipse.ui.internal.SaveableHelper.doSaveModel(SaveableHelper.java:339)
+	at org.eclipse.ui.internal.SaveableHelper$2.run(SaveableHelper.java:185)
+	at org.eclipse.ui.internal.SaveableHelper$4.run(SaveableHelper.java:266)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:458)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:366)
+	at org.eclipse.jface.window.ApplicationWindow$1.run(ApplicationWindow.java:758)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.jface.window.ApplicationWindow.run(ApplicationWindow.java:755)
+	at org.eclipse.ui.internal.WorkbenchWindow.run(WorkbenchWindow.java:2487)
+	at org.eclipse.ui.internal.SaveableHelper.runProgressMonitorOperation(SaveableHelper.java:274)
+	at org.eclipse.ui.internal.SaveableHelper.runProgressMonitorOperation(SaveableHelper.java:253)
+	at org.eclipse.ui.internal.SaveableHelper.saveModels(SaveableHelper.java:196)
+	at org.eclipse.ui.internal.SaveableHelper.savePart(SaveableHelper.java:136)
+	at org.eclipse.ui.internal.EditorManager.savePart(EditorManager.java:1350)
+	at org.eclipse.ui.internal.WorkbenchPage.savePart(WorkbenchPage.java:3291)
+	at org.eclipse.ui.internal.WorkbenchPage.saveEditor(WorkbenchPage.java:3304)
+	at org.eclipse.ui.internal.SaveAction.run(SaveAction.java:74)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:498)
+	at org.eclipse.ui.commands.ActionHandler.execute(ActionHandler.java:185)
+	at org.eclipse.ui.internal.handlers.LegacyHandlerWrapper.execute(LegacyHandlerWrapper.java:109)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:476)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:508)
+	at org.eclipse.ui.internal.handlers.HandlerService.executeCommand(HandlerService.java:169)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.executeCommand(WorkbenchKeyboard.java:472)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.press(WorkbenchKeyboard.java:824)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.processKeyEvent(WorkbenchKeyboard.java:882)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.filterKeySequenceBindings(WorkbenchKeyboard.java:571)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.access$3(WorkbenchKeyboard.java:512)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard$KeyDownFilter.handleEvent(WorkbenchKeyboard.java:127)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.filterEvent(Display.java:1184)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1002)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1027)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1012)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1040)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1036)
+	at org.eclipse.swt.widgets.Widget.wmChar(Widget.java:1352)
+	at org.eclipse.swt.widgets.Control.WM_CHAR(Control.java:3894)
+	at org.eclipse.swt.widgets.Canvas.WM_CHAR(Canvas.java:341)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:3787)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:337)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4528)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2371)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3420)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2382)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2346)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2198)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:493)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:288)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:488)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:193)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:386)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:549)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:504)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1236)
+
+!ENTRY net.sf.eclipsefp.haskell.core 4 0 2020-10-15 15:33:45.377
+!MESSAGE Could not process resource changes in the Haskell language model.
+Project: PrimerosCodigos
+!STACK 1
+org.eclipse.core.runtime.CoreException: Scanning error on EjerciciosRecursividad.hs
+	at net.sf.eclipsefp.haskell.core.jparser.JavaParserBridge.raiseCoreException(JavaParserBridge.java:92)
+	at net.sf.eclipsefp.haskell.core.jparser.JavaParserBridge.parse(JavaParserBridge.java:63)
+	at net.sf.eclipsefp.haskell.core.jparser.JavaParserBridge.parse(JavaParserBridge.java:49)
+	at net.sf.eclipsefp.haskell.core.jparser.JavaParserBridge.parse(JavaParserBridge.java:37)
+	at net.sf.eclipsefp.haskell.core.halamo.ProjectChangeMonitor$ResourceDeltaVisitor.visit(ProjectChangeMonitor.java:100)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:68)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:79)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:48)
+	at net.sf.eclipsefp.haskell.core.halamo.ProjectChangeMonitor.process(ProjectChangeMonitor.java:61)
+	at net.sf.eclipsefp.haskell.core.halamo.ProjectChangeMonitor.resourceChanged(ProjectChangeMonitor.java:46)
+	at net.sf.eclipsefp.haskell.core.halamo.WorkspaceChangeMonitor$DeltaVisitor.visit(WorkspaceChangeMonitor.java:46)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:68)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:79)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:48)
+	at net.sf.eclipsefp.haskell.core.halamo.WorkspaceChangeMonitor.resourceChanged(WorkspaceChangeMonitor.java:79)
+	at org.eclipse.core.internal.events.NotificationManager$2.run(NotificationManager.java:288)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:282)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:148)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:313)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1022)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:153)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:238)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: line 7:37: expecting ''', found 'i'
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellLexer.nextToken(HaskellLexer.java:236)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.nextToken(LookaheadTokenStream.java:21)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.lookAhead(LookaheadTokenStream.java:43)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.peekToken(LookaheadTokenStream.java:35)
+	at net.sf.eclipsefp.haskell.core.jparser.TokenStreamProcessor.peekToken(TokenStreamProcessor.java:41)
+	at net.sf.eclipsefp.haskell.core.jparser.QualifiedIdentifierFilter.insertTokensAsNeeded(QualifiedIdentifierFilter.java:34)
+	at net.sf.eclipsefp.haskell.core.jparser.TokenStreamProcessor.nextToken(TokenStreamProcessor.java:20)
+	at antlr.TokenStreamBasicFilter.nextToken(TokenStreamBasicFilter.java:40)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.lookAhead(LookaheadTokenStream.java:43)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.peekToken(LookaheadTokenStream.java:35)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.peekToken(LookaheadTokenStream.java:28)
+	at net.sf.eclipsefp.haskell.core.jparser.TokenStreamProcessor.peekToken(TokenStreamProcessor.java:37)
+	at net.sf.eclipsefp.haskell.core.jparser.PreprocessedTokenStream.insertTokensAsNeeded(PreprocessedTokenStream.java:26)
+	at net.sf.eclipsefp.haskell.core.jparser.TokenStreamProcessor.nextToken(TokenStreamProcessor.java:20)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.lookAhead(LookaheadTokenStream.java:43)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.peekToken(LookaheadTokenStream.java:35)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.peekToken(LookaheadTokenStream.java:28)
+	at net.sf.eclipsefp.haskell.core.jparser.TokenStreamProcessor.peekToken(TokenStreamProcessor.java:37)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellFormatter.insertTokensAsNeeded(HaskellFormatter.java:23)
+	at net.sf.eclipsefp.haskell.core.jparser.TokenStreamProcessor.nextToken(TokenStreamProcessor.java:20)
+	at antlr.TokenBuffer.fill(TokenBuffer.java:69)
+	at antlr.TokenBuffer.LA(TokenBuffer.java:80)
+	at antlr.LLkParser.LA(LLkParser.java:52)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.funlhs(HaskellParser.java:2776)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.decl(HaskellParser.java:1978)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.stdtopdecl(HaskellParser.java:1522)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.topdecl(HaskellParser.java:1449)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.topdecls(HaskellParser.java:954)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.body(HaskellParser.java:303)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.module(HaskellParser.java:195)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.parseModule(HaskellParser.java:75)
+	at net.sf.eclipsefp.haskell.core.jparser.JavaParserBridge.parse(JavaParserBridge.java:58)
+	... 22 more
+!SUBENTRY 1 net.sf.eclipsefp.haskell.core.jparser 4 -1 2020-10-15 15:33:45.377
+!MESSAGE Scanning error on EjerciciosRecursividad.hs
+!STACK 0
+line 7:37: expecting ''', found 'i'
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellLexer.nextToken(HaskellLexer.java:236)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.nextToken(LookaheadTokenStream.java:21)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.lookAhead(LookaheadTokenStream.java:43)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.peekToken(LookaheadTokenStream.java:35)
+	at net.sf.eclipsefp.haskell.core.jparser.TokenStreamProcessor.peekToken(TokenStreamProcessor.java:41)
+	at net.sf.eclipsefp.haskell.core.jparser.QualifiedIdentifierFilter.insertTokensAsNeeded(QualifiedIdentifierFilter.java:34)
+	at net.sf.eclipsefp.haskell.core.jparser.TokenStreamProcessor.nextToken(TokenStreamProcessor.java:20)
+	at antlr.TokenStreamBasicFilter.nextToken(TokenStreamBasicFilter.java:40)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.lookAhead(LookaheadTokenStream.java:43)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.peekToken(LookaheadTokenStream.java:35)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.peekToken(LookaheadTokenStream.java:28)
+	at net.sf.eclipsefp.haskell.core.jparser.TokenStreamProcessor.peekToken(TokenStreamProcessor.java:37)
+	at net.sf.eclipsefp.haskell.core.jparser.PreprocessedTokenStream.insertTokensAsNeeded(PreprocessedTokenStream.java:26)
+	at net.sf.eclipsefp.haskell.core.jparser.TokenStreamProcessor.nextToken(TokenStreamProcessor.java:20)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.lookAhead(LookaheadTokenStream.java:43)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.peekToken(LookaheadTokenStream.java:35)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.peekToken(LookaheadTokenStream.java:28)
+	at net.sf.eclipsefp.haskell.core.jparser.TokenStreamProcessor.peekToken(TokenStreamProcessor.java:37)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellFormatter.insertTokensAsNeeded(HaskellFormatter.java:23)
+	at net.sf.eclipsefp.haskell.core.jparser.TokenStreamProcessor.nextToken(TokenStreamProcessor.java:20)
+	at antlr.TokenBuffer.fill(TokenBuffer.java:69)
+	at antlr.TokenBuffer.LA(TokenBuffer.java:80)
+	at antlr.LLkParser.LA(LLkParser.java:52)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.funlhs(HaskellParser.java:2776)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.decl(HaskellParser.java:1978)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.stdtopdecl(HaskellParser.java:1522)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.topdecl(HaskellParser.java:1449)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.topdecls(HaskellParser.java:954)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.body(HaskellParser.java:303)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.module(HaskellParser.java:195)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.parseModule(HaskellParser.java:75)
+	at net.sf.eclipsefp.haskell.core.jparser.JavaParserBridge.parse(JavaParserBridge.java:58)
+	at net.sf.eclipsefp.haskell.core.jparser.JavaParserBridge.parse(JavaParserBridge.java:49)
+	at net.sf.eclipsefp.haskell.core.jparser.JavaParserBridge.parse(JavaParserBridge.java:37)
+	at net.sf.eclipsefp.haskell.core.halamo.ProjectChangeMonitor$ResourceDeltaVisitor.visit(ProjectChangeMonitor.java:100)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:68)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:79)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:48)
+	at net.sf.eclipsefp.haskell.core.halamo.ProjectChangeMonitor.process(ProjectChangeMonitor.java:61)
+	at net.sf.eclipsefp.haskell.core.halamo.ProjectChangeMonitor.resourceChanged(ProjectChangeMonitor.java:46)
+	at net.sf.eclipsefp.haskell.core.halamo.WorkspaceChangeMonitor$DeltaVisitor.visit(WorkspaceChangeMonitor.java:46)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:68)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:79)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:48)
+	at net.sf.eclipsefp.haskell.core.halamo.WorkspaceChangeMonitor.resourceChanged(WorkspaceChangeMonitor.java:79)
+	at org.eclipse.core.internal.events.NotificationManager$2.run(NotificationManager.java:288)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:282)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:148)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:313)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1022)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:153)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:238)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY net.sf.eclipsefp.haskell.core 4 0 2020-10-15 15:34:04.513
+!MESSAGE Could not process resource changes in the Haskell language model.
+Project: PrimerosCodigos
+!STACK 1
+org.eclipse.core.runtime.CoreException: Scanning error on EjerciciosRecursividad.hs
+	at net.sf.eclipsefp.haskell.core.jparser.JavaParserBridge.raiseCoreException(JavaParserBridge.java:92)
+	at net.sf.eclipsefp.haskell.core.jparser.JavaParserBridge.parse(JavaParserBridge.java:63)
+	at net.sf.eclipsefp.haskell.core.jparser.JavaParserBridge.parse(JavaParserBridge.java:49)
+	at net.sf.eclipsefp.haskell.core.jparser.JavaParserBridge.parse(JavaParserBridge.java:37)
+	at net.sf.eclipsefp.haskell.core.halamo.ProjectChangeMonitor$ResourceDeltaVisitor.visit(ProjectChangeMonitor.java:100)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:68)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:79)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:48)
+	at net.sf.eclipsefp.haskell.core.halamo.ProjectChangeMonitor.process(ProjectChangeMonitor.java:61)
+	at net.sf.eclipsefp.haskell.core.halamo.ProjectChangeMonitor.resourceChanged(ProjectChangeMonitor.java:46)
+	at net.sf.eclipsefp.haskell.core.halamo.WorkspaceChangeMonitor$DeltaVisitor.visit(WorkspaceChangeMonitor.java:46)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:68)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:79)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:48)
+	at net.sf.eclipsefp.haskell.core.halamo.WorkspaceChangeMonitor.resourceChanged(WorkspaceChangeMonitor.java:79)
+	at org.eclipse.core.internal.events.NotificationManager$2.run(NotificationManager.java:288)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:282)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:148)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:313)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1022)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1809)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:116)
+	at org.eclipse.ui.internal.editors.text.WorkspaceOperationRunner.run(WorkspaceOperationRunner.java:73)
+	at org.eclipse.ui.internal.editors.text.WorkspaceOperationRunner.run(WorkspaceOperationRunner.java:63)
+	at org.eclipse.ui.texteditor.AbstractDocumentProvider.executeOperation(AbstractDocumentProvider.java:549)
+	at org.eclipse.ui.texteditor.AbstractDocumentProvider.saveDocument(AbstractDocumentProvider.java:627)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.performSave(AbstractTextEditor.java:4791)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.doSave(AbstractTextEditor.java:4580)
+	at net.sf.eclipsefp.haskell.ui.editor.HaskellEditor.doSave(HaskellEditor.java:181)
+	at org.eclipse.ui.texteditor.AbstractTextEditor$TextEditorSavable.doSave(AbstractTextEditor.java:6887)
+	at org.eclipse.ui.Saveable.doSave(Saveable.java:212)
+	at org.eclipse.ui.internal.SaveableHelper.doSaveModel(SaveableHelper.java:339)
+	at org.eclipse.ui.internal.SaveableHelper$2.run(SaveableHelper.java:185)
+	at org.eclipse.ui.internal.SaveableHelper$4.run(SaveableHelper.java:266)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:458)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:366)
+	at org.eclipse.jface.window.ApplicationWindow$1.run(ApplicationWindow.java:758)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.jface.window.ApplicationWindow.run(ApplicationWindow.java:755)
+	at org.eclipse.ui.internal.WorkbenchWindow.run(WorkbenchWindow.java:2487)
+	at org.eclipse.ui.internal.SaveableHelper.runProgressMonitorOperation(SaveableHelper.java:274)
+	at org.eclipse.ui.internal.SaveableHelper.runProgressMonitorOperation(SaveableHelper.java:253)
+	at org.eclipse.ui.internal.SaveableHelper.saveModels(SaveableHelper.java:196)
+	at org.eclipse.ui.internal.SaveableHelper.savePart(SaveableHelper.java:136)
+	at org.eclipse.ui.internal.EditorManager.savePart(EditorManager.java:1350)
+	at org.eclipse.ui.internal.WorkbenchPage.savePart(WorkbenchPage.java:3291)
+	at org.eclipse.ui.internal.WorkbenchPage.saveEditor(WorkbenchPage.java:3304)
+	at org.eclipse.ui.internal.SaveAction.run(SaveAction.java:74)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:498)
+	at org.eclipse.ui.commands.ActionHandler.execute(ActionHandler.java:185)
+	at org.eclipse.ui.internal.handlers.LegacyHandlerWrapper.execute(LegacyHandlerWrapper.java:109)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:476)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:508)
+	at org.eclipse.ui.internal.handlers.HandlerService.executeCommand(HandlerService.java:169)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.executeCommand(WorkbenchKeyboard.java:472)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.press(WorkbenchKeyboard.java:824)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.processKeyEvent(WorkbenchKeyboard.java:882)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.filterKeySequenceBindings(WorkbenchKeyboard.java:571)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.access$3(WorkbenchKeyboard.java:512)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard$KeyDownFilter.handleEvent(WorkbenchKeyboard.java:127)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.filterEvent(Display.java:1184)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1002)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1027)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1012)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1040)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1036)
+	at org.eclipse.swt.widgets.Widget.wmChar(Widget.java:1352)
+	at org.eclipse.swt.widgets.Control.WM_CHAR(Control.java:3894)
+	at org.eclipse.swt.widgets.Canvas.WM_CHAR(Canvas.java:341)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:3787)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:337)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4528)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2371)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3420)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2382)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2346)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2198)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:493)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:288)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:488)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:193)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:386)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:549)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:504)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1236)
+Caused by: line 7:37: expecting ''', found 'i'
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellLexer.nextToken(HaskellLexer.java:236)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.nextToken(LookaheadTokenStream.java:21)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.lookAhead(LookaheadTokenStream.java:43)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.peekToken(LookaheadTokenStream.java:35)
+	at net.sf.eclipsefp.haskell.core.jparser.TokenStreamProcessor.peekToken(TokenStreamProcessor.java:41)
+	at net.sf.eclipsefp.haskell.core.jparser.QualifiedIdentifierFilter.insertTokensAsNeeded(QualifiedIdentifierFilter.java:34)
+	at net.sf.eclipsefp.haskell.core.jparser.TokenStreamProcessor.nextToken(TokenStreamProcessor.java:20)
+	at antlr.TokenStreamBasicFilter.nextToken(TokenStreamBasicFilter.java:40)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.lookAhead(LookaheadTokenStream.java:43)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.peekToken(LookaheadTokenStream.java:35)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.peekToken(LookaheadTokenStream.java:28)
+	at net.sf.eclipsefp.haskell.core.jparser.TokenStreamProcessor.peekToken(TokenStreamProcessor.java:37)
+	at net.sf.eclipsefp.haskell.core.jparser.PreprocessedTokenStream.insertTokensAsNeeded(PreprocessedTokenStream.java:26)
+	at net.sf.eclipsefp.haskell.core.jparser.TokenStreamProcessor.nextToken(TokenStreamProcessor.java:20)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.lookAhead(LookaheadTokenStream.java:43)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.peekToken(LookaheadTokenStream.java:35)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.peekToken(LookaheadTokenStream.java:28)
+	at net.sf.eclipsefp.haskell.core.jparser.TokenStreamProcessor.peekToken(TokenStreamProcessor.java:37)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellFormatter.insertTokensAsNeeded(HaskellFormatter.java:23)
+	at net.sf.eclipsefp.haskell.core.jparser.TokenStreamProcessor.nextToken(TokenStreamProcessor.java:20)
+	at antlr.TokenBuffer.fill(TokenBuffer.java:69)
+	at antlr.TokenBuffer.LA(TokenBuffer.java:80)
+	at antlr.LLkParser.LA(LLkParser.java:52)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.funlhs(HaskellParser.java:2776)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.decl(HaskellParser.java:1978)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.stdtopdecl(HaskellParser.java:1522)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.topdecl(HaskellParser.java:1449)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.topdecls(HaskellParser.java:954)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.body(HaskellParser.java:303)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.module(HaskellParser.java:195)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.parseModule(HaskellParser.java:75)
+	at net.sf.eclipsefp.haskell.core.jparser.JavaParserBridge.parse(JavaParserBridge.java:58)
+	... 95 more
+!SUBENTRY 1 net.sf.eclipsefp.haskell.core.jparser 4 -1 2020-10-15 15:34:04.513
+!MESSAGE Scanning error on EjerciciosRecursividad.hs
+!STACK 0
+line 7:37: expecting ''', found 'i'
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellLexer.nextToken(HaskellLexer.java:236)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.nextToken(LookaheadTokenStream.java:21)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.lookAhead(LookaheadTokenStream.java:43)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.peekToken(LookaheadTokenStream.java:35)
+	at net.sf.eclipsefp.haskell.core.jparser.TokenStreamProcessor.peekToken(TokenStreamProcessor.java:41)
+	at net.sf.eclipsefp.haskell.core.jparser.QualifiedIdentifierFilter.insertTokensAsNeeded(QualifiedIdentifierFilter.java:34)
+	at net.sf.eclipsefp.haskell.core.jparser.TokenStreamProcessor.nextToken(TokenStreamProcessor.java:20)
+	at antlr.TokenStreamBasicFilter.nextToken(TokenStreamBasicFilter.java:40)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.lookAhead(LookaheadTokenStream.java:43)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.peekToken(LookaheadTokenStream.java:35)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.peekToken(LookaheadTokenStream.java:28)
+	at net.sf.eclipsefp.haskell.core.jparser.TokenStreamProcessor.peekToken(TokenStreamProcessor.java:37)
+	at net.sf.eclipsefp.haskell.core.jparser.PreprocessedTokenStream.insertTokensAsNeeded(PreprocessedTokenStream.java:26)
+	at net.sf.eclipsefp.haskell.core.jparser.TokenStreamProcessor.nextToken(TokenStreamProcessor.java:20)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.lookAhead(LookaheadTokenStream.java:43)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.peekToken(LookaheadTokenStream.java:35)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.peekToken(LookaheadTokenStream.java:28)
+	at net.sf.eclipsefp.haskell.core.jparser.TokenStreamProcessor.peekToken(TokenStreamProcessor.java:37)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellFormatter.insertTokensAsNeeded(HaskellFormatter.java:23)
+	at net.sf.eclipsefp.haskell.core.jparser.TokenStreamProcessor.nextToken(TokenStreamProcessor.java:20)
+	at antlr.TokenBuffer.fill(TokenBuffer.java:69)
+	at antlr.TokenBuffer.LA(TokenBuffer.java:80)
+	at antlr.LLkParser.LA(LLkParser.java:52)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.funlhs(HaskellParser.java:2776)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.decl(HaskellParser.java:1978)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.stdtopdecl(HaskellParser.java:1522)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.topdecl(HaskellParser.java:1449)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.topdecls(HaskellParser.java:954)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.body(HaskellParser.java:303)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.module(HaskellParser.java:195)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.parseModule(HaskellParser.java:75)
+	at net.sf.eclipsefp.haskell.core.jparser.JavaParserBridge.parse(JavaParserBridge.java:58)
+	at net.sf.eclipsefp.haskell.core.jparser.JavaParserBridge.parse(JavaParserBridge.java:49)
+	at net.sf.eclipsefp.haskell.core.jparser.JavaParserBridge.parse(JavaParserBridge.java:37)
+	at net.sf.eclipsefp.haskell.core.halamo.ProjectChangeMonitor$ResourceDeltaVisitor.visit(ProjectChangeMonitor.java:100)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:68)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:79)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:48)
+	at net.sf.eclipsefp.haskell.core.halamo.ProjectChangeMonitor.process(ProjectChangeMonitor.java:61)
+	at net.sf.eclipsefp.haskell.core.halamo.ProjectChangeMonitor.resourceChanged(ProjectChangeMonitor.java:46)
+	at net.sf.eclipsefp.haskell.core.halamo.WorkspaceChangeMonitor$DeltaVisitor.visit(WorkspaceChangeMonitor.java:46)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:68)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:79)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:48)
+	at net.sf.eclipsefp.haskell.core.halamo.WorkspaceChangeMonitor.resourceChanged(WorkspaceChangeMonitor.java:79)
+	at org.eclipse.core.internal.events.NotificationManager$2.run(NotificationManager.java:288)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:282)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:148)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:313)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1022)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1809)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:116)
+	at org.eclipse.ui.internal.editors.text.WorkspaceOperationRunner.run(WorkspaceOperationRunner.java:73)
+	at org.eclipse.ui.internal.editors.text.WorkspaceOperationRunner.run(WorkspaceOperationRunner.java:63)
+	at org.eclipse.ui.texteditor.AbstractDocumentProvider.executeOperation(AbstractDocumentProvider.java:549)
+	at org.eclipse.ui.texteditor.AbstractDocumentProvider.saveDocument(AbstractDocumentProvider.java:627)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.performSave(AbstractTextEditor.java:4791)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.doSave(AbstractTextEditor.java:4580)
+	at net.sf.eclipsefp.haskell.ui.editor.HaskellEditor.doSave(HaskellEditor.java:181)
+	at org.eclipse.ui.texteditor.AbstractTextEditor$TextEditorSavable.doSave(AbstractTextEditor.java:6887)
+	at org.eclipse.ui.Saveable.doSave(Saveable.java:212)
+	at org.eclipse.ui.internal.SaveableHelper.doSaveModel(SaveableHelper.java:339)
+	at org.eclipse.ui.internal.SaveableHelper$2.run(SaveableHelper.java:185)
+	at org.eclipse.ui.internal.SaveableHelper$4.run(SaveableHelper.java:266)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:458)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:366)
+	at org.eclipse.jface.window.ApplicationWindow$1.run(ApplicationWindow.java:758)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.jface.window.ApplicationWindow.run(ApplicationWindow.java:755)
+	at org.eclipse.ui.internal.WorkbenchWindow.run(WorkbenchWindow.java:2487)
+	at org.eclipse.ui.internal.SaveableHelper.runProgressMonitorOperation(SaveableHelper.java:274)
+	at org.eclipse.ui.internal.SaveableHelper.runProgressMonitorOperation(SaveableHelper.java:253)
+	at org.eclipse.ui.internal.SaveableHelper.saveModels(SaveableHelper.java:196)
+	at org.eclipse.ui.internal.SaveableHelper.savePart(SaveableHelper.java:136)
+	at org.eclipse.ui.internal.EditorManager.savePart(EditorManager.java:1350)
+	at org.eclipse.ui.internal.WorkbenchPage.savePart(WorkbenchPage.java:3291)
+	at org.eclipse.ui.internal.WorkbenchPage.saveEditor(WorkbenchPage.java:3304)
+	at org.eclipse.ui.internal.SaveAction.run(SaveAction.java:74)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:498)
+	at org.eclipse.ui.commands.ActionHandler.execute(ActionHandler.java:185)
+	at org.eclipse.ui.internal.handlers.LegacyHandlerWrapper.execute(LegacyHandlerWrapper.java:109)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:476)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:508)
+	at org.eclipse.ui.internal.handlers.HandlerService.executeCommand(HandlerService.java:169)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.executeCommand(WorkbenchKeyboard.java:472)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.press(WorkbenchKeyboard.java:824)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.processKeyEvent(WorkbenchKeyboard.java:882)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.filterKeySequenceBindings(WorkbenchKeyboard.java:571)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.access$3(WorkbenchKeyboard.java:512)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard$KeyDownFilter.handleEvent(WorkbenchKeyboard.java:127)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.filterEvent(Display.java:1184)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1002)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1027)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1012)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1040)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1036)
+	at org.eclipse.swt.widgets.Widget.wmChar(Widget.java:1352)
+	at org.eclipse.swt.widgets.Control.WM_CHAR(Control.java:3894)
+	at org.eclipse.swt.widgets.Canvas.WM_CHAR(Canvas.java:341)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:3787)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:337)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4528)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2371)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3420)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2382)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2346)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2198)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:493)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:288)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:488)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:193)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:386)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:549)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:504)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1236)
+
+!ENTRY net.sf.eclipsefp.haskell.core 4 0 2020-10-15 15:34:04.684
+!MESSAGE Could not process resource changes in the Haskell language model.
+Project: PrimerosCodigos
+!STACK 1
+org.eclipse.core.runtime.CoreException: Scanning error on EjerciciosRecursividad.hs
+	at net.sf.eclipsefp.haskell.core.jparser.JavaParserBridge.raiseCoreException(JavaParserBridge.java:92)
+	at net.sf.eclipsefp.haskell.core.jparser.JavaParserBridge.parse(JavaParserBridge.java:63)
+	at net.sf.eclipsefp.haskell.core.jparser.JavaParserBridge.parse(JavaParserBridge.java:49)
+	at net.sf.eclipsefp.haskell.core.jparser.JavaParserBridge.parse(JavaParserBridge.java:37)
+	at net.sf.eclipsefp.haskell.core.halamo.ProjectChangeMonitor$ResourceDeltaVisitor.visit(ProjectChangeMonitor.java:100)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:68)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:79)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:48)
+	at net.sf.eclipsefp.haskell.core.halamo.ProjectChangeMonitor.process(ProjectChangeMonitor.java:61)
+	at net.sf.eclipsefp.haskell.core.halamo.ProjectChangeMonitor.resourceChanged(ProjectChangeMonitor.java:46)
+	at net.sf.eclipsefp.haskell.core.halamo.WorkspaceChangeMonitor$DeltaVisitor.visit(WorkspaceChangeMonitor.java:46)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:68)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:79)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:48)
+	at net.sf.eclipsefp.haskell.core.halamo.WorkspaceChangeMonitor.resourceChanged(WorkspaceChangeMonitor.java:79)
+	at org.eclipse.core.internal.events.NotificationManager$2.run(NotificationManager.java:288)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:282)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:148)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:313)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1022)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:153)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:238)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: line 7:37: expecting ''', found 'i'
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellLexer.nextToken(HaskellLexer.java:236)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.nextToken(LookaheadTokenStream.java:21)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.lookAhead(LookaheadTokenStream.java:43)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.peekToken(LookaheadTokenStream.java:35)
+	at net.sf.eclipsefp.haskell.core.jparser.TokenStreamProcessor.peekToken(TokenStreamProcessor.java:41)
+	at net.sf.eclipsefp.haskell.core.jparser.QualifiedIdentifierFilter.insertTokensAsNeeded(QualifiedIdentifierFilter.java:34)
+	at net.sf.eclipsefp.haskell.core.jparser.TokenStreamProcessor.nextToken(TokenStreamProcessor.java:20)
+	at antlr.TokenStreamBasicFilter.nextToken(TokenStreamBasicFilter.java:40)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.lookAhead(LookaheadTokenStream.java:43)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.peekToken(LookaheadTokenStream.java:35)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.peekToken(LookaheadTokenStream.java:28)
+	at net.sf.eclipsefp.haskell.core.jparser.TokenStreamProcessor.peekToken(TokenStreamProcessor.java:37)
+	at net.sf.eclipsefp.haskell.core.jparser.PreprocessedTokenStream.insertTokensAsNeeded(PreprocessedTokenStream.java:26)
+	at net.sf.eclipsefp.haskell.core.jparser.TokenStreamProcessor.nextToken(TokenStreamProcessor.java:20)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.lookAhead(LookaheadTokenStream.java:43)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.peekToken(LookaheadTokenStream.java:35)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.peekToken(LookaheadTokenStream.java:28)
+	at net.sf.eclipsefp.haskell.core.jparser.TokenStreamProcessor.peekToken(TokenStreamProcessor.java:37)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellFormatter.insertTokensAsNeeded(HaskellFormatter.java:23)
+	at net.sf.eclipsefp.haskell.core.jparser.TokenStreamProcessor.nextToken(TokenStreamProcessor.java:20)
+	at antlr.TokenBuffer.fill(TokenBuffer.java:69)
+	at antlr.TokenBuffer.LA(TokenBuffer.java:80)
+	at antlr.LLkParser.LA(LLkParser.java:52)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.funlhs(HaskellParser.java:2776)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.decl(HaskellParser.java:1978)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.stdtopdecl(HaskellParser.java:1522)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.topdecl(HaskellParser.java:1449)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.topdecls(HaskellParser.java:954)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.body(HaskellParser.java:303)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.module(HaskellParser.java:195)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.parseModule(HaskellParser.java:75)
+	at net.sf.eclipsefp.haskell.core.jparser.JavaParserBridge.parse(JavaParserBridge.java:58)
+	... 22 more
+!SUBENTRY 1 net.sf.eclipsefp.haskell.core.jparser 4 -1 2020-10-15 15:34:04.685
+!MESSAGE Scanning error on EjerciciosRecursividad.hs
+!STACK 0
+line 7:37: expecting ''', found 'i'
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellLexer.nextToken(HaskellLexer.java:236)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.nextToken(LookaheadTokenStream.java:21)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.lookAhead(LookaheadTokenStream.java:43)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.peekToken(LookaheadTokenStream.java:35)
+	at net.sf.eclipsefp.haskell.core.jparser.TokenStreamProcessor.peekToken(TokenStreamProcessor.java:41)
+	at net.sf.eclipsefp.haskell.core.jparser.QualifiedIdentifierFilter.insertTokensAsNeeded(QualifiedIdentifierFilter.java:34)
+	at net.sf.eclipsefp.haskell.core.jparser.TokenStreamProcessor.nextToken(TokenStreamProcessor.java:20)
+	at antlr.TokenStreamBasicFilter.nextToken(TokenStreamBasicFilter.java:40)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.lookAhead(LookaheadTokenStream.java:43)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.peekToken(LookaheadTokenStream.java:35)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.peekToken(LookaheadTokenStream.java:28)
+	at net.sf.eclipsefp.haskell.core.jparser.TokenStreamProcessor.peekToken(TokenStreamProcessor.java:37)
+	at net.sf.eclipsefp.haskell.core.jparser.PreprocessedTokenStream.insertTokensAsNeeded(PreprocessedTokenStream.java:26)
+	at net.sf.eclipsefp.haskell.core.jparser.TokenStreamProcessor.nextToken(TokenStreamProcessor.java:20)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.lookAhead(LookaheadTokenStream.java:43)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.peekToken(LookaheadTokenStream.java:35)
+	at net.sf.eclipsefp.haskell.core.jparser.LookaheadTokenStream.peekToken(LookaheadTokenStream.java:28)
+	at net.sf.eclipsefp.haskell.core.jparser.TokenStreamProcessor.peekToken(TokenStreamProcessor.java:37)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellFormatter.insertTokensAsNeeded(HaskellFormatter.java:23)
+	at net.sf.eclipsefp.haskell.core.jparser.TokenStreamProcessor.nextToken(TokenStreamProcessor.java:20)
+	at antlr.TokenBuffer.fill(TokenBuffer.java:69)
+	at antlr.TokenBuffer.LA(TokenBuffer.java:80)
+	at antlr.LLkParser.LA(LLkParser.java:52)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.funlhs(HaskellParser.java:2776)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.decl(HaskellParser.java:1978)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.stdtopdecl(HaskellParser.java:1522)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.topdecl(HaskellParser.java:1449)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.topdecls(HaskellParser.java:954)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.body(HaskellParser.java:303)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.module(HaskellParser.java:195)
+	at net.sf.eclipsefp.haskell.core.jparser.HaskellParser.parseModule(HaskellParser.java:75)
+	at net.sf.eclipsefp.haskell.core.jparser.JavaParserBridge.parse(JavaParserBridge.java:58)
+	at net.sf.eclipsefp.haskell.core.jparser.JavaParserBridge.parse(JavaParserBridge.java:49)
+	at net.sf.eclipsefp.haskell.core.jparser.JavaParserBridge.parse(JavaParserBridge.java:37)
+	at net.sf.eclipsefp.haskell.core.halamo.ProjectChangeMonitor$ResourceDeltaVisitor.visit(ProjectChangeMonitor.java:100)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:68)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:79)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:48)
+	at net.sf.eclipsefp.haskell.core.halamo.ProjectChangeMonitor.process(ProjectChangeMonitor.java:61)
+	at net.sf.eclipsefp.haskell.core.halamo.ProjectChangeMonitor.resourceChanged(ProjectChangeMonitor.java:46)
+	at net.sf.eclipsefp.haskell.core.halamo.WorkspaceChangeMonitor$DeltaVisitor.visit(WorkspaceChangeMonitor.java:46)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:68)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:79)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:48)
+	at net.sf.eclipsefp.haskell.core.halamo.WorkspaceChangeMonitor.resourceChanged(WorkspaceChangeMonitor.java:79)
+	at org.eclipse.core.internal.events.NotificationManager$2.run(NotificationManager.java:288)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:282)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:148)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:313)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1022)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:153)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:238)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SESSION 2020-10-19 18:01:04.750 -----------------------------------------------
+eclipse.buildId=M20080911-1700
+java.version=1.6.0_12
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=es_ES
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.ui 4 4 2020-10-19 18:01:13.044
+!MESSAGE Could not create view: 'org.eclipse.ui.internal.introview'.
+
+!ENTRY org.eclipse.ui 4 0 2020-10-19 18:01:15.038
+!MESSAGE Problems occurred restoring workbench.
+!SUBENTRY 1 org.eclipse.ui 0 0 2020-10-19 18:01:15.038
+!MESSAGE 
+!SUBENTRY 1 org.eclipse.core.runtime 0 0 2020-10-19 18:01:15.038
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.runtime 0 0 2020-10-19 18:01:15.038
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.runtime 0 0 2020-10-19 18:01:15.038
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.ui 4 0 2020-10-19 18:01:15.038
+!MESSAGE Unable to restore perspective: Workspace - Haskell.
+!SUBENTRY 2 org.eclipse.ui 0 0 2020-10-19 18:01:15.038
+!MESSAGE Problems occurred restoring perspective.
+!SUBENTRY 3 org.eclipse.ui 0 0 2020-10-19 18:01:15.038
+!MESSAGE 
+!SUBENTRY 2 org.eclipse.ui 0 0 2020-10-19 18:01:15.038
+!MESSAGE 
+!SUBENTRY 2 org.eclipse.ui 0 0 2020-10-19 18:01:15.038
+!MESSAGE 
+!SUBENTRY 2 org.eclipse.ui 0 0 2020-10-19 18:01:15.038
+!MESSAGE 
+!SUBENTRY 2 org.eclipse.ui 0 0 2020-10-19 18:01:15.038
+!MESSAGE 
+!SUBENTRY 2 org.eclipse.ui 0 0 2020-10-19 18:01:15.038
+!MESSAGE 
+!SUBENTRY 2 org.eclipse.ui 0 0 2020-10-19 18:01:15.038
+!MESSAGE 
+!SUBENTRY 2 org.eclipse.ui 0 0 2020-10-19 18:01:15.038
+!MESSAGE 
+!SUBENTRY 2 org.eclipse.ui 0 0 2020-10-19 18:01:15.038
+!MESSAGE 
+!SUBENTRY 2 org.eclipse.ui 4 0 2020-10-19 18:01:15.038
+!MESSAGE Could not find view: org.eclipse.ui.internal.introview
+!SUBENTRY 1 org.eclipse.core.runtime 0 0 2020-10-19 18:01:15.038
+!MESSAGE OK
+
+!ENTRY org.eclipse.epp.usagedata.recording 1 0 2020-10-19 18:03:03.649
+!MESSAGE Usage data upload to http://udc.eclipse.org/upload.php failed with error code 302.
+!SESSION 2020-10-19 20:30:03.187 -----------------------------------------------
+eclipse.buildId=M20080911-1700
+java.version=1.6.0_12
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=es_ES
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.ui 4 4 2020-10-19 20:30:07.836
+!MESSAGE Could not create view: 'org.eclipse.ui.internal.introview'.
+
+!ENTRY org.eclipse.ui 4 0 2020-10-19 20:30:09.334
+!MESSAGE Problems occurred restoring workbench.
+!SUBENTRY 1 org.eclipse.ui 0 0 2020-10-19 20:30:09.334
+!MESSAGE 
+!SUBENTRY 1 org.eclipse.core.runtime 0 0 2020-10-19 20:30:09.334
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.runtime 0 0 2020-10-19 20:30:09.334
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.runtime 0 0 2020-10-19 20:30:09.334
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.ui 4 0 2020-10-19 20:30:09.334
+!MESSAGE Unable to restore perspective: Workspace - Haskell.
+!SUBENTRY 2 org.eclipse.ui 0 0 2020-10-19 20:30:09.334
+!MESSAGE Problems occurred restoring perspective.
+!SUBENTRY 3 org.eclipse.ui 0 0 2020-10-19 20:30:09.334
+!MESSAGE 
+!SUBENTRY 2 org.eclipse.ui 0 0 2020-10-19 20:30:09.334
+!MESSAGE 
+!SUBENTRY 2 org.eclipse.ui 0 0 2020-10-19 20:30:09.334
+!MESSAGE 
+!SUBENTRY 2 org.eclipse.ui 0 0 2020-10-19 20:30:09.334
+!MESSAGE 
+!SUBENTRY 2 org.eclipse.ui 0 0 2020-10-19 20:30:09.334
+!MESSAGE 
+!SUBENTRY 2 org.eclipse.ui 0 0 2020-10-19 20:30:09.334
+!MESSAGE 
+!SUBENTRY 2 org.eclipse.ui 0 0 2020-10-19 20:30:09.334
+!MESSAGE 
+!SUBENTRY 2 org.eclipse.ui 0 0 2020-10-19 20:30:09.334
+!MESSAGE 
+!SUBENTRY 2 org.eclipse.ui 0 0 2020-10-19 20:30:09.334
+!MESSAGE 
+!SUBENTRY 2 org.eclipse.ui 4 0 2020-10-19 20:30:09.334
+!MESSAGE Could not find view: org.eclipse.ui.internal.introview
+!SUBENTRY 1 org.eclipse.core.runtime 0 0 2020-10-19 20:30:09.334
+!MESSAGE OK
+!SESSION 2020-10-19 21:54:35.539 -----------------------------------------------
+eclipse.buildId=M20080911-1700
+java.version=1.6.0_12
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=es_ES
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.ui 4 4 2020-10-19 21:54:38.667
+!MESSAGE Could not create view: 'org.eclipse.ui.internal.introview'.
+
+!ENTRY org.eclipse.ui 4 0 2020-10-19 21:54:39.681
+!MESSAGE Problems occurred restoring workbench.
+!SUBENTRY 1 org.eclipse.ui 0 0 2020-10-19 21:54:39.681
+!MESSAGE 
+!SUBENTRY 1 org.eclipse.core.runtime 0 0 2020-10-19 21:54:39.681
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.runtime 0 0 2020-10-19 21:54:39.681
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.runtime 0 0 2020-10-19 21:54:39.681
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.ui 4 0 2020-10-19 21:54:39.681
+!MESSAGE Unable to restore perspective: Workspace - Haskell.
+!SUBENTRY 2 org.eclipse.ui 0 0 2020-10-19 21:54:39.681
+!MESSAGE Problems occurred restoring perspective.
+!SUBENTRY 3 org.eclipse.ui 0 0 2020-10-19 21:54:39.681
+!MESSAGE 
+!SUBENTRY 2 org.eclipse.ui 0 0 2020-10-19 21:54:39.681
+!MESSAGE 
+!SUBENTRY 2 org.eclipse.ui 0 0 2020-10-19 21:54:39.681
+!MESSAGE 
+!SUBENTRY 2 org.eclipse.ui 0 0 2020-10-19 21:54:39.681
+!MESSAGE 
+!SUBENTRY 2 org.eclipse.ui 0 0 2020-10-19 21:54:39.681
+!MESSAGE 
+!SUBENTRY 2 org.eclipse.ui 0 0 2020-10-19 21:54:39.681
+!MESSAGE 
+!SUBENTRY 2 org.eclipse.ui 0 0 2020-10-19 21:54:39.681
+!MESSAGE 
+!SUBENTRY 2 org.eclipse.ui 0 0 2020-10-19 21:54:39.681
+!MESSAGE 
+!SUBENTRY 2 org.eclipse.ui 0 0 2020-10-19 21:54:39.681
+!MESSAGE 
+!SUBENTRY 2 org.eclipse.ui 4 0 2020-10-19 21:54:39.681
+!MESSAGE Could not find view: org.eclipse.ui.internal.introview
+!SUBENTRY 1 org.eclipse.core.runtime 0 0 2020-10-19 21:54:39.681
+!MESSAGE OK

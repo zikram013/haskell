@@ -1,0 +1,15 @@
+what,kind,bundleId,bundleVersion,description,time
+executed,command,org.eclipse.ui,3.4.1.M20080910-0800,org.eclipse.ui.edit.paste,1602606947364
+executed,command,org.eclipse.ui,3.4.1.M20080910-0800,org.eclipse.ui.edit.undo,1602606949148
+executed,command,org.eclipse.ui,3.4.1.M20080910-0800,org.eclipse.ui.edit.paste,1602606950538
+executed,command,org.eclipse.ui,3.4.1.M20080910-0800,org.eclipse.ui.file.save,1602606954530
+executed,command,org.eclipse.ui,3.4.1.M20080910-0800,org.eclipse.ui.file.save,1602606961834
+executed,command,org.eclipse.ui,3.4.1.M20080910-0800,org.eclipse.ui.file.save,1602607022838
+deactivated,workbench,org.eclipse.ui.workbench,3.4.1.M20080827-0800a,,1602607065928
+activated,workbench,org.eclipse.ui.workbench,3.4.1.M20080827-0800a,,1602607067030
+deactivated,workbench,org.eclipse.ui.workbench,3.4.1.M20080827-0800a,,1602607068404
+activated,workbench,org.eclipse.ui.workbench,3.4.1.M20080827-0800a,,1602607301469
+executed,command,org.eclipse.ui,3.4.1.M20080910-0800,org.eclipse.ui.file.save,1602607303938
+deactivated,workbench,org.eclipse.ui.workbench,3.4.1.M20080827-0800a,,1602607305239
+activated,workbench,org.eclipse.ui.workbench,3.4.1.M20080827-0800a,,1602607307180
+closed,workbench,org.eclipse.ui.workbench,3.4.1.M20080827-0800a,,1602607307617

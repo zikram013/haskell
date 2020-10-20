@@ -1,0 +1,9 @@
+what,kind,bundleId,bundleVersion,description,time
+started,bundle,org.eclipse.dltk.core,0.95.1.v20080920-R0951,org.eclipse.dltk.core,1603184832893
+started,bundle,org.eclipse.dltk.launching,0.95.1.v20080915-1703,org.eclipse.dltk.launching,1603184832893
+started,bundle,org.eclipse.dltk.ruby.ui,0.95.1.v20080903-1434,org.eclipse.dltk.ruby.ui,1603184832894
+started,bundle,org.eclipse.dltk.ui,0.95.1.v20080920-R0951,org.eclipse.dltk.ui,1603184832897
+started,bundle,es.gavab.IDEConfigurator,1.0.8.200902041501,es.gavab.IDEConfigurator,1603184832897
+deactivated,workbench,org.eclipse.ui.workbench,3.4.1.M20080827-0800a,,1603184834547
+deactivated,workbench,org.eclipse.ui.workbench,3.4.1.M20080827-0800a,,1603184894070
+closed,workbench,org.eclipse.ui.workbench,3.4.1.M20080827-0800a,,1603184895404

@@ -1,0 +1,13 @@
+what,kind,bundleId,bundleVersion,description,time
+executed,command,org.eclipse.ui,3.4.1.M20080910-0800,org.eclipse.ui.file.save,1602773638990
+executed,command,org.eclipse.ui,3.4.1.M20080910-0800,org.eclipse.ui.file.save,1602773643139
+executed,command,org.eclipse.ui,3.4.1.M20080910-0800,org.eclipse.ui.file.save,1602773681163
+deactivated,workbench,org.eclipse.ui.workbench,3.4.1.M20080827-0800a,,1602773704563
+activated,workbench,org.eclipse.ui.workbench,3.4.1.M20080827-0800a,,1602773705510
+deactivated,workbench,org.eclipse.ui.workbench,3.4.1.M20080827-0800a,,1602773706318
+activated,workbench,org.eclipse.ui.workbench,3.4.1.M20080827-0800a,,1602773722456
+executed,command,org.eclipse.ui,3.4.1.M20080910-0800,org.eclipse.ui.file.save,1602773733680
+executed,command,org.eclipse.ui,3.4.1.M20080910-0800,org.eclipse.ui.file.save,1602773741366
+deactivated,workbench,org.eclipse.ui.workbench,3.4.1.M20080827-0800a,,1602773749148
+activated,workbench,org.eclipse.ui.workbench,3.4.1.M20080827-0800a,,1602773750274
+closed,workbench,org.eclipse.ui.workbench,3.4.1.M20080827-0800a,,1602773750501
