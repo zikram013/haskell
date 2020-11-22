@@ -1,0 +1,56 @@
+
+module EjerciciosExamen where
+--La primera
+resultado::(Eq a)=>a->[(a,Int)]->Bool
+resultado _ []=False
+resultado e((x,idx):es)=if (e==x)then True else resultado e es
+
+primeraAparicion::(Eq a)=>[a]->[(a,Int)]
+primeraAparicion lista=foldl(\solution (e,idx)->if (resultado e solution)then solution else solution++[(e,idx)]) [](zip lista [1..])
+
+--Ejercicio examen tipo de datos, monomio y polinomios
+data Monomio=M(Int,Int)
+data Polinomio=P[Monomio]
+--a.Instancias a la show ambos tipos
+instance Show Monomio where
+	show(M(a,b))=(show a)++"x^"++(show b)
+instance Show Polinomio where
+	show (P(m:ms))=show m ++(if ms ==[]then "" else "+" ++ show (P ms))
+	
+--b.Instanciar la clase eq
+instance Eq Monomio where
+	(M(a1,b1))==(M(a2,b2))= (a1==a2)&&(b1==b2)
+	
+instance Eq Polinomio where
+	(P[])==(P[])=True
+	(P[])==(P _)=False
+	(P _)==(P[])=False
+	(P(m1:ms1))==(P(m2:ms2)) = (m1==m2)&&(ms1==ms2)
+
+--c.Instanciar a la clase ord
+instance Ord Monomio where
+	compare (M(a1,b1)) (M(a2,b2))=if ((compare b1 b2)==EQ)then compare a1 a2 else compare b1 b2
+	
+instance Ord Polinomio where
+	compare (P[])(P[])=EQ
+	compare (P [])(P _)= LT
+	compare (P _) (P [])= GT
+	compare (P(m1:ms1))(P(m2:ms2))= if compare m1 m2 == EQ then compare ms1 ms2 else compare m1 m2
+
+--d. Implementar la funcion evaluaPolinomio, que recibira un valor entero y un polinomio y nos devolvera su resultado
+evaluarPolinomio:: Int->Polinomio->Int
+evaluarPolinomio x (P[])=0
+evaluarPolinomio x(P(M(a,b):ps))=(a*(x^b))+(evaluarPolinomio x(P ps))
+
+--e. Implementar la funcion insertarMonomio que recibe un monomio y un polinimio y lo insertara en el mismo
+insertarMonomio::Monomio->Polinomio->Polinomio
+insertarMonomio m(P[])=P[m]
+insertarMonomio m(P(x:xs))=if m>x then (P(m:x:xs)) else (insertarMonomio m(P xs))
+
+--b. Borrar Monomio
+eliminaMonomio:: Int->Polinomio->Polinomio
+eliminaMonomio n(P [])=(P[])
+eliminaMonomio n(P((M(a,b)):ms))
+	|n==b = P ms
+	|n > b = P((M(a,b)):ms)
+	|otherwise = (eliminaMonomio n (P ms))

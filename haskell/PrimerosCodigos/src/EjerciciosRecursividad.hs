@@ -198,3 +198,84 @@ subconjuntos (x:xs)=[x:ys | ys <- subconjuntos xs]++ subconjuntos xs
 subconjuntoAlfonso::[a]->[[a]]
 subconjuntoAlfonso []=[[]]
 subconjuntoAlfonso l=foldl(\acum e->acum ++map (e:)acum )[[]] l
+
+{--Implementa una funcion en haskell que elimine de una lista de entero aquellos números multiplo de x 
+--}
+listaMultiplo::Int->[Int]->[Int]
+listaMultiplo x []=[]
+listaMultiplo numero lista = foldl(\acum elemento-> if ((elemento `rem` numero)/=0)then acum++[elemento] else acum )[] lista
+
+{--Se pide una funcion en haskell que dada una lista de numeros enteros obtenga un numero entero con el resultado de calcular el doble de cada uno de los elementos de la lista original
+y sumarlos todos. Se debe hacer con recursividad final,no final y lambda--}
+sumaDoblesFinal::[Int]->Int
+sumaDoblesFinal []=0
+sumaDoblesFinal (x:xs)=2*x + sumaDoblesFinal xs
+
+sumaDoblesNoFinal ::[Int]->Int
+sumaDoblesNoFinal (x:xs)=if((length xs)==0)then 0 else 2*x + sumaDoblesNoFinal xs
+
+{--Implementa una funcion que sume los cuadrados de los numeros pares contenidos en una lista de numeros enteros. Se piden dos versiones
+a. version que haga uso de las funciones de orden superior de listas map y filter para definir la nueva funcion
+b. una version que utilice la definicion de listas por comprensión--}
+doblesPorCompresion :: [Int]-> [Int]
+doblesPorCompresion []= []
+doblesPorCompresion (x:xs)= if ((x`rem`2)==0)then x:doblesPorCompresion xs else doblesPorCompresion xs  
+
+doblesPorCompresionMap::[Int]->[Int]
+doblesPorCompresionMap (x:xs)= x*x : (doblesPorCompresion xs)	
+
+{-- Dada una lista de enteros, implementar una funcion para devolver tuplas formadas por los elementos sin repetir de la lista, junto con su posicion--}
+numeroYposicion::[Int]->[(Int,Int)]
+numeroYposicion xs = zip xs [0..]
+
+{--Dada una lista de numeros enteros implementar una funcion que devuelva una lista con los n elementos mayores de la lista original--}
+numerosMayores :: Int->[Int]->[Int]
+numerosMayores filtro [] = []
+numerosMayores filtro lista = foldl(\acum elemento-> if(elemento >filtro)then acum++[elemento]else acum)[] lista
+
+{--Implementa una funciona incluye en haskell que reciba dos listas de numeros enteros y nos diga si la primera de las listas está  contenida en otra si los elementos de la primera 
+aparecen dentro de la segunda, en el mismo roden y de forma consecutiva--}
+contiene::[Int]->[Int]->Bool
+contiene [] _ = True
+contiene _ [] = False
+contiene (x:xs) (y:ys) = (x==y && xs==(take(length xs)ys))|| (contiene(x:xs)ys)
+
+{--Implementa una funcion polimorfica en haskell que reciba 2 listas y vaya cogiendo un elemento de la primera lista y dos de la segunda creando una lista final de tiernas.
+Si una se acaba se mostrara la lista hasta ese momento--}
+mezclarEnTernas::[Int]->[Int]->[(Int,Int,Int)]
+mezclarEnTernas [] _ = []
+mezclarEnTernas _ [] = []
+mezclarEnTernas _ [x]=[]
+mezclarEnTernas (x:xs)(y1:y2:ys)=(x,y1,y2) :(mezclarEnTernas xs ys)
+
+{--Mediante la programacion de orden superior se pide implementar una de las funciones predefinidas en la libreria estandar de haskell: funcion zipWith
+Esta funcion recibe como parametro una funcion y dos listas y une ambas listas aplicando la funcion entre los correspondientes parámetros--}
+zipwith::(a -> b -> c)->[a]->[b]->[c]
+zipwith funcion l1 l2 =[funcion x y | (x,y)<-zip l1 l2]
+
+{--Hacer la funcion reverse usando recursion no final, final y folder--}
+--final
+invertirFinal::[a]->[a]
+invertirFinal []= []
+invertirFinal (x:xs) = invertirFinal xs ++[x]
+--no final
+invertirNoFinal ::[a]->[a]->[a]
+invertirNoFinal [] l =[]
+invertirNoFinal (x:xs) l= invertirNoFinal xs (x:l)
+--foldr
+invertirfoldr:: [a]->[a]
+invertirfoldr l=foldr(\x xs ->xs ++[x])[]l
+
+{--Define una funcion polimorfica que sea capaz de invertir los elementos de una lista de listas--}
+revertirListas:: [[a]]->[[a]]
+revertirListas l=map(invertirfoldr)(invertirfoldr l)
+
+{--Implementar la funcion predefinida de la libreria estandar flip. Esta funcion lo que hace es recibir una funcion y devolver otra funcion que es identrica a la funcion original
+salvo que intercambia los dos primeros parametros--}
+funcionFlip:: (a->b->c)->b->a->c
+funcionFlip funcion x y = funcion y x
+
+{--Implementar la funcion polimorfica predefinida de la libreria estandar map. Esta funcion lo que hace es recibir una funcion y una lista y devuelve la lista resultante de aplicar la funcion
+a cada elemento de la lista original--}
+funcionmap :: (a->b)->[a]->[b]
+funcionmap funcion lista = [funcion x | x <- lista]
