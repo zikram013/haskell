@@ -1,0 +1,26 @@
+
+module EstudioExamen where
+import Data.Char
+--conversor
+conversion ::String->Int
+conversion = foldr(\ x y -> (digitToInt)x + 2*y ) 0 
+
+--Divisores
+divisores::IO()
+divisores=do
+	putStrLn ("Dime el nombre del archivo")
+	fichero<-getLine
+	putStrLn ("Dime un numero para darte sus divisores")
+	numero <-getLine
+	let d = ((read numero)::Int)
+	if d == 0 then
+		putStrLn("adios")
+		else
+		let lista=factores d
+		writeFile fichero (factores d)
+		
+
+
+		
+factores :: Int ->[String]
+factores n =(map show [x|x <- [1..n], n `mod` x == 0 ])

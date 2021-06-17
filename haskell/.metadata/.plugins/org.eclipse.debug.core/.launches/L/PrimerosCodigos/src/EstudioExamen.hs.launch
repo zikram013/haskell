@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="net.sf.eclipsefp.haskell.core.launch.HaskellLaunchDelegate">
+<stringAttribute key="ARGUMENTS" value="--interactive &quot;D:\repositorios\multimedia\haskell\haskell\PrimerosCodigos\src\EstudioExamen.hs&quot;"/>
+<stringAttribute key="EXECUTABLE" value="C:\Program Files (x86)\EclipseGavab 2.0\ghc-6.8.1\bin\ghc.exe"/>
+<stringAttribute key="FIRST_SELECTED_RESOURCE" value="EstudioExamen.hs"/>
+<stringAttribute key="PROJECT_NAME" value="PrimerosCodigos"/>
+<stringAttribute key="WORKING_DIRECTORY" value="D:\repositorios\multimedia\haskell\haskell\PrimerosCodigos"/>
+</launchConfiguration>

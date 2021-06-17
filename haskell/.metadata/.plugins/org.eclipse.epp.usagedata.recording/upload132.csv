@@ -1,0 +1,17 @@
+what,kind,bundleId,bundleVersion,description,time
+executed,command,org.eclipse.ui,3.4.1.M20080910-0800,org.eclipse.ui.file.save,1614278377428
+deactivated,workbench,org.eclipse.ui.workbench,3.4.1.M20080827-0800a,,1614278382171
+activated,workbench,org.eclipse.ui.workbench,3.4.1.M20080827-0800a,,1614278383844
+activated,view,org.eclipse.ui.console,3.3.0.v20080529-1300,org.eclipse.ui.console.ConsoleView,1614278384912
+activated,editor,net.sf.eclipsefp.haskell.ui,0.10.0,net.sf.eclipsefp.haskell.ui.editor.HaskellEditor,1614278393621
+executed,command,org.eclipse.ui,3.4.1.M20080910-0800,org.eclipse.ui.file.save,1614278397593
+executed,command,org.eclipse.ui,3.4.1.M20080910-0800,org.eclipse.ui.file.save,1614278404374
+deactivated,workbench,org.eclipse.ui.workbench,3.4.1.M20080827-0800a,,1614278409151
+activated,workbench,org.eclipse.ui.workbench,3.4.1.M20080827-0800a,,1614278410837
+activated,view,org.eclipse.ui.console,3.3.0.v20080529-1300,org.eclipse.ui.console.ConsoleView,1614278412016
+deactivated,workbench,org.eclipse.ui.workbench,3.4.1.M20080827-0800a,,1614278432575
+activated,workbench,org.eclipse.ui.workbench,3.4.1.M20080827-0800a,,1614278433593
+activated,editor,org.eclipse.ui.editors,3.4.0.v20080603-2000,org.eclipse.ui.DefaultTextEditor,1614278433612
+deactivated,workbench,org.eclipse.ui.workbench,3.4.1.M20080827-0800a,,1614278437612
+activated,workbench,org.eclipse.ui.workbench,3.4.1.M20080827-0800a,,1614278438740
+closed,workbench,org.eclipse.ui.workbench,3.4.1.M20080827-0800a,,1614278439007
