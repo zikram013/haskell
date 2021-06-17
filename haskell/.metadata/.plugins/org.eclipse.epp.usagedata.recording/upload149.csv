@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+no handler,command,org.eclipse.ui.editors,3.4.0.v20080603-2000,org.eclipse.ui.edit.text.folding.expand,1623947011650
+deactivated,workbench,org.eclipse.ui.workbench,3.4.1.M20080827-0800a,,1623947023790
+activated,workbench,org.eclipse.ui.workbench,3.4.1.M20080827-0800a,,1623947025568
+executed,command,org.eclipse.ui,3.4.1.M20080910-0800,org.eclipse.ui.window.customizePerspective,1623947025585
+activated,view,org.eclipse.ui,3.4.1.M20080910-0800,org.eclipse.ui.internal.introview,1623947027136
+activated,editor,net.sf.eclipsefp.haskell.ui,0.10.0,net.sf.eclipsefp.haskell.ui.editor.HaskellEditor,1623947027146
+closed,view,org.eclipse.ui,3.4.1.M20080910-0800,org.eclipse.ui.internal.introview,1623947027170
+deactivated,workbench,org.eclipse.ui.workbench,3.4.1.M20080827-0800a,,1623947309791
+activated,workbench,org.eclipse.ui.workbench,3.4.1.M20080827-0800a,,1623947322569
+deactivated,workbench,org.eclipse.ui.workbench,3.4.1.M20080827-0800a,,1623947330956
+activated,workbench,org.eclipse.ui.workbench,3.4.1.M20080827-0800a,,1623947342098
+deactivated,workbench,org.eclipse.ui.workbench,3.4.1.M20080827-0800a,,1623947365865
+activated,workbench,org.eclipse.ui.workbench,3.4.1.M20080827-0800a,,1623947387078
+deactivated,workbench,org.eclipse.ui.workbench,3.4.1.M20080827-0800a,,1623947489024
+activated,workbench,org.eclipse.ui.workbench,3.4.1.M20080827-0800a,,1623947543714
+deactivated,workbench,org.eclipse.ui.workbench,3.4.1.M20080827-0800a,,1623947550409
+activated,workbench,org.eclipse.ui.workbench,3.4.1.M20080827-0800a,,1623947560431
+deactivated,workbench,org.eclipse.ui.workbench,3.4.1.M20080827-0800a,,1623947628166
+activated,workbench,org.eclipse.ui.workbench,3.4.1.M20080827-0800a,,1623947637197
+deactivated,workbench,org.eclipse.ui.workbench,3.4.1.M20080827-0800a,,1623947658460
+activated,workbench,org.eclipse.ui.workbench,3.4.1.M20080827-0800a,,1623947725541
+opened,view,net.sf.eclipsefp.haskell.ui,0.10.0,net.sf.eclipsefp.haskell.ui.views.coview.CompilerOutputView,1623947726096
+activated,view,net.sf.eclipsefp.haskell.ui,0.10.0,net.sf.eclipsefp.haskell.ui.views.coview.CompilerOutputView,1623947726111
+activated,view,org.eclipse.ui.console,3.3.0.v20080529-1300,org.eclipse.ui.console.ConsoleView,1623947727774
+activated,editor,net.sf.eclipsefp.haskell.ui,0.10.0,net.sf.eclipsefp.haskell.ui.editor.HaskellEditor,1623947728322
