@@ -1,0 +1,46 @@
+
+module AllEjercicios where
+import Data.Char
+import Data.List
+
+--------Tema 2-------
+
+{- Implementar una funcion en haskell que dados tres numeros enteros determine si estan ordenador de menor a mayor-}
+estanOrdenados:: Int->Int->Int->Bool
+estanOrdenados x y z = (x<y) && (y<z) && (x<z)
+
+{-Implementar una funcion en Haskell que dados tres numeros enteros lo devuelva ordenados de menor a mayor-}
+ordenarTresNumeros::Int->Int->Int->[Int]
+ordenarTresNumeros x y z 
+		|((x<y)&&(x<z)&&(y<z))=[x,y,z]
+		|((x<y)&&(x<z)&&(y>z))=[x,z,y]
+		|((y<x)&&(x<z)&&(y<z))=[y,x,z]
+		|((y<x)&&(x>z)&&(y<z))=[y,z,x]
+		|((x<y)&&(z<x)&&(z<y))=[z,x,y]
+		|otherwise = [z,y,x]
+		
+{-Implementar en haskell una funcion que reciba un numero real y devuelva una tupla con su parte entera y sus dos primeros decimales(como numero entero)-}
+tuplarDecimal::Float->(Int,Int)
+tuplarDecimal n = (truncate n , mod(truncate(n*100))100)
+
+{-Crear una funcion que reciba el readio de una circunferencia y devuelva una 2-tupla con la longitud de la circunferencia y con el area del circulo
+Emplea una deficinion local con la clausula where para almacenar el valor de PI
+Emplea despues una deficion local let para el mismo cometido-}
+areaCirculo::Float->(Float,Float)
+areaCirculo r = (2*pic*r , pic*r^2) where pic=3.14
+
+areaCirculoLet::Float->(Float,Float)
+areaCirculoLet r = let pic= 3.14 in (2*pic*r , pic*r^2)
+
+{-Implementar la funcion predefinida de listas concatm que se llamara concatenar, utilizando la definicion de listas por compresion-}
+concatenar::[[a]]->[a]
+concatenar l = [y|x<-l , y<-x]
+
+{-Implementar una funcion que dado un numero entero devuelva en una lista todos los factores de ese numero. Se debe utilizar la definicion de listas por compresion
+Tambien llamado todos los divisores de un numero-}
+factores::Int->[Int]
+factores n = [x | x<-[1..div n 2], mod n x == 0]++ [n]
+
+{-Implementar una funcion que diga si un numero es primo Para ello se deve utilizar la funcion que calcula el numero de factores-}
+esPrimo::Int->Bool
+esPrimo n = (length (factores n))==2

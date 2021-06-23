@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="15" version="2.0">
+<workbench progressCount="12" version="2.0">
 <workbenchAdvisor/>
 <window height="1047" maximized="true" width="974" x="490" y="1">
 <fastViewData fastViewLocation="1024"/>
@@ -36,13 +36,14 @@
 <part id="4"/>
 <part id="5"/>
 <part id="6"/>
+<part id="7"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
 <editor id="net.sf.eclipsefp.haskell.ui.editor.HaskellEditor" name="EjerciciosRecursividad.hs" partName="EjerciciosRecursividad.hs" path="D:/repositorios/multimedia/haskell/haskell/PrimerosCodigos/src/EjerciciosRecursividad.hs" title="EjerciciosRecursividad.hs" tooltip="PrimerosCodigos/src/EjerciciosRecursividad.hs" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/PrimerosCodigos/src/EjerciciosRecursividad.hs"/>
-<editorState selectionLength="5" selectionOffset="5415"/>
+<editorState selectionLength="0" selectionOffset="486"/>
 </editor>
 <editor id="net.sf.eclipsefp.haskell.ui.editor.HaskellEditor" name="EjerciciosTema3.hs" partName="EjerciciosTema3.hs" path="D:/repositorios/multimedia/haskell/haskell/PrimerosCodigos/src/EjerciciosTema3.hs" title="EjerciciosTema3.hs" tooltip="PrimerosCodigos/src/EjerciciosTema3.hs" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/PrimerosCodigos/src/EjerciciosTema3.hs"/>
@@ -64,32 +65,17 @@
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/PrimerosCodigos/src/EjerciciosExamen.hs"/>
 <editorState selectionLength="0" selectionOffset="0"/>
 </editor>
-<editor activePart="true" focus="true" id="net.sf.eclipsefp.haskell.ui.editor.HaskellEditor" name="RepasoPlegado.hs" partName="RepasoPlegado.hs" path="D:/repositorios/multimedia/haskell/haskell/PrimerosCodigos/src/RepasoPlegado.hs" title="RepasoPlegado.hs" tooltip="PrimerosCodigos/src/RepasoPlegado.hs" workbook="DefaultEditorWorkbook">
+<editor id="net.sf.eclipsefp.haskell.ui.editor.HaskellEditor" name="RepasoPlegado.hs" partName="RepasoPlegado.hs" path="D:/repositorios/multimedia/haskell/haskell/PrimerosCodigos/src/RepasoPlegado.hs" title="RepasoPlegado.hs" tooltip="PrimerosCodigos/src/RepasoPlegado.hs" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/PrimerosCodigos/src/RepasoPlegado.hs"/>
 <editorState selectionLength="0" selectionOffset="4304"/>
+</editor>
+<editor activePart="true" focus="true" id="net.sf.eclipsefp.haskell.ui.editor.HaskellEditor" name="AllEjercicios.hs" partName="AllEjercicios.hs" path="D:/repositorios/multimedia/haskell/haskell/PrimerosCodigos/src/AllEjercicios.hs" title="AllEjercicios.hs" tooltip="PrimerosCodigos/src/AllEjercicios.hs" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/PrimerosCodigos/src/AllEjercicios.hs"/>
+<editorState selectionLength="0" selectionOffset="8968"/>
 </editor>
 </editors>
 <views>
 <view id="org.eclipse.jdt.ui.TypeHierarchy" partName="Hierarchy"/>
-<view id="org.eclipse.ui.views.TaskList" partName="Tasks">
-<viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.completionField" categoryGroup="none" markerContentGenerator="org.eclipse.ui.ide.tasksGenerator" partName="Tasks">
-<columnWidths org.eclipse.ui.ide.completionField="40" org.eclipse.ui.ide.descriptionField="304" org.eclipse.ui.ide.locationField="64" org.eclipse.ui.ide.markerType="94" org.eclipse.ui.ide.pathField="124" org.eclipse.ui.ide.priorityField="20" org.eclipse.ui.ide.resourceField="94"/>
-<visible IMemento.internal.id="org.eclipse.ui.ide.completionField"/>
-<visible IMemento.internal.id="org.eclipse.ui.ide.priorityField"/>
-<visible IMemento.internal.id="org.eclipse.ui.ide.descriptionField"/>
-<visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
-<visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
-<visible IMemento.internal.id="org.eclipse.ui.ide.locationField"/>
-<visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
-</viewState>
-</view>
-<view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
-<viewState/>
-</view>
-<view id="net.sf.eclipsefp.haskell.ui.views.mbview.ModuleBrowser" partName="Module Browser"/>
-<view id="net.sf.eclipsefp.haskell.ui.views.coview.CompilerOutputView" partName="Haskell Compiler Output">
-<viewState/>
-</view>
 <view id="org.eclipse.ui.views.ResourceNavigator" partName="Navigator">
 <viewState LINK_NAVIGATOR_TO_EDITOR="0" sorter="1">
 <filters>
@@ -101,14 +87,13 @@
 <element path="/PrimerosCodigos/src"/>
 </expanded>
 <selection>
-<element path="/PrimerosCodigos/src/RepasoPlegado.hs"/>
+<element path="/PrimerosCodigos/src/AllEjercicios.hs"/>
 </selection>
 </viewState>
 </view>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
-<expanded>
-<category IMemento.internal.id="Errors (6 items)"/>
+<expanded>&#x0A;<category IMemento.internal.id="Errors (6 items)"/>
 <category IMemento.internal.id="Errors"/>
 </expanded>
 <columnWidths org.eclipse.ui.ide.locationField="64" org.eclipse.ui.ide.markerType="94" org.eclipse.ui.ide.pathField="124" org.eclipse.ui.ide.resourceField="94" org.eclipse.ui.ide.severityAndDescriptionField="300"/>
@@ -118,6 +103,9 @@
 <visible IMemento.internal.id="org.eclipse.ui.ide.locationField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
 </viewState>
+</view>
+<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
+<viewState/>
 </view>
 <view id="org.eclipse.jdt.ui.PackageExplorer" partName="Package Explorer">
 <viewState group_libraries="1" isWindowWorkingSet="false" layout="2" linkWithEditor="0" rootMode="1" workingSetName="">
@@ -145,9 +133,6 @@
 </customFilters>
 </viewState>
 </view>
-<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
-<viewState/>
-</view>
 <view id="org.eclipse.mylyn.tasks.ui.views.tasks" partName="Task List">
 <viewState linkWithEditor="true" presentation="org.eclipse.mylyn.tasks.ui.categorized">
 <org.eclipse.mylyn.tasklist.ui.views.tasklist.sortIndex>&#x0A;<sorter sortDirection="1" sortIndex="0"/>
@@ -155,7 +140,26 @@
 </org.eclipse.mylyn.tasklist.ui.views.tasklist.sortIndex>
 </viewState>
 </view>
+<view id="org.eclipse.ui.views.TaskList" partName="Tasks">
+<viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.completionField" categoryGroup="none" markerContentGenerator="org.eclipse.ui.ide.tasksGenerator" partName="Tasks">
+<columnWidths org.eclipse.ui.ide.completionField="40" org.eclipse.ui.ide.descriptionField="304" org.eclipse.ui.ide.locationField="64" org.eclipse.ui.ide.markerType="94" org.eclipse.ui.ide.pathField="124" org.eclipse.ui.ide.priorityField="20" org.eclipse.ui.ide.resourceField="94"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.completionField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.priorityField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.descriptionField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.locationField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
+</viewState>
+</view>
+<view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
+<viewState/>
+</view>
 <view id="org.eclipse.jdt.ui.SourceView" partName="Declaration"/>
+<view id="net.sf.eclipsefp.haskell.ui.views.coview.CompilerOutputView" partName="Haskell Compiler Output">
+<viewState/>
+</view>
+<view id="net.sf.eclipsefp.haskell.ui.views.mbview.ModuleBrowser" partName="Module Browser"/>
 <view id="org.eclipse.jdt.ui.JavadocView" partName="Javadoc"/>
 </views>
 <perspectives activePart="net.sf.eclipsefp.haskell.ui.editor.HaskellEditor" activePerspective="net.sf.eclipsefp.haskell.ui.HaskellPerspective">
@@ -380,16 +384,9 @@
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="net.sf.eclipsefp.haskell.ui.editor.HaskellEditor" path="/PrimerosCodigos/src/Patrones.hs"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="net.sf.eclipsefp.haskell.ui.editor.HaskellEditor" path="/PrimerosCodigos/src/ExamenOctubre2019.hs"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="net.sf.eclipsefp.haskell.ui.editor.HaskellEditor" path="/PrimerosCodigos/src/RepasoPlegado.hs"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="net.sf.eclipsefp.haskell.ui.editor.HaskellEditor" path="/PrimerosCodigos/src/AllEjercicios.hs"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="net.sf.eclipsefp.haskell.ui.editor.HaskellEditor" path="/PrimerosCodigos/src/EjerciciosRecursividad.hs"/>
 </editors>
-<item historyLabel="EjerciciosRecursividad.hs" index="2">
-<position/>
-</item>
-<item historyLabel="EntradaSalida.hs" index="1">
-<position info="not_deleted" x="1699" y="0"/>
-</item>
-<item historyLabel="EjerciciosRecursividad.hs" index="2">
-<position/>
-</item>
 <item historyLabel="EjerciciosTema3.hs" index="4">
 <position/>
 </item>
@@ -528,7 +525,16 @@
 <item historyLabel="ExamenOctubre2019.hs" index="18">
 <position info="not_deleted" x="894" y="16"/>
 </item>
-<item active="true" historyLabel="RepasoPlegado.hs" index="19">
+<item historyLabel="RepasoPlegado.hs" index="19">
+<position/>
+</item>
+<item historyLabel="AllEjercicios.hs" index="20">
+<position/>
+</item>
+<item historyLabel="EjerciciosRecursividad.hs" index="21">
+<position/>
+</item>
+<item active="true" historyLabel="AllEjercicios.hs" index="20">
 <position/>
 </item>
 </navigationHistory>
@@ -537,12 +543,8 @@
 <workbenchWindowAdvisor/>
 <actionBarAdvisor/>
 <trimLayout>
-<trimArea IMemento.internal.id="16384">
-<trimItem IMemento.internal.id="left"/>
-</trimArea>
 <trimArea IMemento.internal.id="131072">
 <trimItem IMemento.internal.id="right"/>
-<trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@4d45c6"/>
 </trimArea>
 <trimArea IMemento.internal.id="128">
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
@@ -551,11 +553,13 @@
 <trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
 <trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
-<trimItem IMemento.internal.id="bottom"/>
 </trimArea>
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="net.sf.eclipsefp.haskell.ui.editor.HaskellEditor" name="AllEjercicios.hs" tooltip="PrimerosCodigos/src/AllEjercicios.hs">
+<persistable path="/PrimerosCodigos/src/AllEjercicios.hs"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="net.sf.eclipsefp.haskell.ui.editor.HaskellEditor" name="RepasoPlegado.hs" tooltip="PrimerosCodigos/src/RepasoPlegado.hs">
 <persistable path="/PrimerosCodigos/src/RepasoPlegado.hs"/>
 </file>
@@ -597,9 +601,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="divis.txt" tooltip="PrimerosCodigos/src/divis.txt">
 <persistable path="/PrimerosCodigos/src/divis.txt"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="das.txt" tooltip="PrimerosCodigos/src/das.txt">
-<persistable path="/PrimerosCodigos/src/das.txt"/>
 </file>
 </mruList>
 </workbench>
