@@ -249,7 +249,7 @@ evaluar (e1 :+: e2) = evaluar (e1) + evaluar(e2)
 evaluar (e1 :-: e2) = evaluar (e1) - evaluar(e2)
 evaluar (e1 :*: e2) = evaluar (e1) * evaluar(e2)
 
-{--Se pide una funcion para calcular el numero de constatntes de una expresion--}
+{--Se pide una funcion para calcular el numero de constatntes de una expresion}
 contar::Expr->Integer
 contar (Valor n)=1
 contar(e1 :+: e2) = contar(e1) + contar(e2)
