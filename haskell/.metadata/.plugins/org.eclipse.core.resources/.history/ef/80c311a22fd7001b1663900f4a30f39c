@@ -134,11 +134,11 @@ listaContenida (x:xs)(y:ys) = (x==y && xs ==(take(length xs)ys)) || (listaConten
 
 {-Dada una lista de enteros, se pide implementar una funcion que ordene dicha lista de menor a mayor utilizando un algoritmo de insercion
 Dicho algoritmo consiste en recorrer la lista L, insertando cada elemento L[i] en el lugar correcto entre los elementos ya ordenador-}
-insertar1::Int->[Int]->[Int]
-insertar1 num [] = [num]
-insertar1 num (x:xs) = if(num<x) then num:x:xs else x:(insertar1 num xs)
+insertar::Int->[Int]->[Int]
+insertar num [] = [num]
+insertar num (x:xs) = if(num<x) then num:x:xs else x:(insertar num xs)
 insertarAux::[Int]->[Int]
-insertarAux l = foldr (\x l2->insertar1 x l2)[]l 
+insertarAux l = foldr (\x l2->insertar x l2)[]l 
 
 {-Implementa una funcion polimorfica en haskell que reciba 2 listas y vaya cogfiendo un elemento de la primera y dos de la segunda, creando una lista final de ternas
 En caso de que una de las dos lista se acaba, mostrara la lista de ternas construidas hasta ese momento-}
@@ -267,18 +267,18 @@ divide::(Fractional a)=>a->[a]->[a]
 divide n l = [x/n | x<-l]
 
 {-Dado un nuevo tipo de dato para representar un arbol binario de cualquier tipo-}
-data Arbol a = AV | Rama (Arbol a) a (Arbol a)
-instance(Show a)=>Show (Arbol a)where
-	show AV = "*"
-	show (Rama i r d) = "("++show i ++ "-|"++show r ++ "|-"++show d ++")"
---Implementar funcion espejo del arbol
-espejo::Arbol a -> Arbol a
-espejo AV = AV
-espejo (Rama i r d )= Rama (espejo d) r (espejo i)
+--data Arbol a = AV | Rama (Arbol a) a (Arbol a)
+--instance(Show a)=>Show (Arbol a)where
+--	show AV = "*"
+--	show (Rama i r d) = "("++show i ++ "-|"++show r ++ "|-"++show d ++")"
+----Implementar funcion espejo del arbol
+--espejo::Arbol a->Arbol a
+--espejo AV = AV
+--espejo (i r d)==Rama (espejo d) r (espejo i)
 
 {-Se quiere poder mostrar por pantalla los datos de los estudiantes matriculados en una universidad que pertenezcan a alguna de las asociaciones de esta
 Para ello se deberan crear nuevos tipo s de datos que representen-}
-data Titulacion = Grado_II | Grado_II_ADE | Grado_ADE deriving Show
+{-data Titulacion = Grado_II | Grado_II_ADE | Grado_ADE deriving Show
 type Nombre = String
 data Estudiante = Est Nombre Titulacion deriving Show
 data Asociacion = Cultural | Deportiva | Representacion deriving Show
@@ -286,120 +286,6 @@ type EstudianteMatriculado = [Estudiante]
 type Est_Aso=[(Estudiante,Asociacion)]
 instance Eq Estudiante where
 	(Est n1 t1) == (Est n2 t2) = n1 == n2
-	
 enAsociacion::Estudiante->[Estudiante]->Bool
 enAsociacion _ [] = False
-enAsociacion e (x:xs)= if (e==x) then True else enAsociacion e xs 
-
-estudianteEnAso::Est_Aso->[Estudiante]
-estudianteEnAso a = map(\(x,y)->x)a
-
-mostrar :: (EstudianteMatriculado,Est_Aso)->[Estudiante]
-mostrar (m,a) = [e|e<-m,enAsociacion e (estudianteEnAso a)]
-
-{-Se quuiere poder representar una fecha de la siguiente forma: dd/mm/aaaa, para ello se dbera crear un nuevo tipo de dato.-}
-data Fecha = F Int Int Int
-instance Show Fecha where
-	show (F dia mes anyo)=show dia ++ "/"++show mes ++"/"++show anyo
---Teniendo en cuenta esta definicion de funcion implementa la instancia EQ
-instance Eq Fecha 
-	where (F d1 m1 a1) == (F d2 m2 a2) = (d1==d2) && (m1==m2)&& (a1==a2)
---Ordenar listdo de fecha con quicksor
-instance Ord Fecha where
-	compare(F d1 m1 a1) (F d2 m2 a2) = if ((compare a1 a2)==EQ) then(if ((compare m1 m2)==EQ) then compare d1 d2 else compare m1 m2) else compare a1 a2
-	
---Se pide crear una nueva clase de tipos llamada coleccion para representar colecciones de datos
---de datos de cualquier tipo. 
---Comportamiento->esVacia,insertar,primero,eliminar,size
-class Coleccion c where
-	esVacia:: c a -> Bool
-	insertar::c a->a-> c a
-	primero:: c a -> a
-	eliminar:: c a -> c a
-	size:: c a-> Int
-
-data Pila a = Pil [a] deriving Show
-data Cola a = Col [a] deriving Show
-
-instance Coleccion Pila where
-	esVacia (Pil p)= length p ==0
-	insertar (Pil p) e=Pil(p++[e])
-	primero (Pil p) = last p
-	eliminar (Pil p)= Pil(init p)
-	size (Pil p)= length p
-	
---instance Coleccion Cola where
---	esVacia(Col c)=length c==0
---	insertar(Col c) e=Pil(c++[e])
---	primero(Col c)=head c
---	eliminar(Col (c:cs))= Col cs
---	size (Col c)=length c
-
-{-Binomio de tartaglia o triangulo numerico-}
-calcular::[Int]->[Int]
-calcular [] = []
-calcular [_] = []
-calcular (x:y:zs)= (x+y):(calcular(y:zs))
-
-triangulo::Int->[Int]
-triangulo 0 = [1]
-triangulo 1 = [1,1]
-triangulo 2= [1,2,1]
-triangulo n = 1:(calcular(triangulo (n-1))) ++[1]
-
-{-Primera aparicion-}
-esta::(Eq a)=>a->[(a,Int)]->Bool
-esta _ [] = False
-esta e ((x,idx):es)=if (e==x) then True else esta e es
-primeraAparicion::(Eq a)=>[a]->[(a,Int)]
-primeraAparicion l = foldl(\resultado(e,idx)-> if(esta e resultado)then resultado else resultado++[(e,idx)])[](zip l [1..])
-
-{-Ejercicio de los poliniomis-}
-data Monomio = M(Int,Int)
-data Polinomio = P[Monomio]
---Instanciar la clase show
-instance Show Monomio where
-	show(M(a,b))=(show a)++"x^"++(show b)
-
-instance Show Polinomio where
-	show (P (m:ms)) = show m ++ (if ms == [] then "" else "+" ++ show (P ms))
-
---Instanciar la clase eq
-instance Eq Monomio where
-	(M(a1,b1))==(M(a2,b2)) = (a1==a2 && b1==b2)
-	
-instance Eq Polinomio where
-	(P [])==(P[])=True
-	(P [])==(P _)=False
-	(P _)== (P [])= False
-	(P(m1:ms1))==(P(m2:ms2))= (m1==m2)&&(ms1==ms2)
-
---Instanciar clase ord
-instance Ord Monomio where
-	compare(M(a1,b1))(M(a2,b2))= if cmp==EQ then compare a1 a2 else cmp where cmp = compare b1 b2
-
-instance Ord Polinomio where
-	compare(P []) (P[])=EQ
-	compare(P []) (P _)=LT
-	compare (P _) (P [])=GT
-	compare(P(m1:ms1)) (P(m2:ms2))= if cmp == EQ then compare ms1 ms2 else cmp where cmp= compare m1 m2
-	
-{-Implementar la funcion evaluaPolinomio que recibvira un valor entero y un polinomio y nos devolvera su resultado-}
-evaluaPolinomio::Int->Polinomio->Int
-evaluaPolinomio x (P [])=0
-evaluaPolinomio x(P(M(a,b):ps))=(a*(x^b)) + (evaluaPolinomio x(P ps))
-
-{-Implementar la funcion inserta monomio que recibira un monomio y un polinomio y lo insertara en el mismo-}
-concac::Monomio->Polinomio->Polinomio
-concac m (P l) = P(m:l)
-insertarMonomio::Monomio->Polinomio->Polinomio
-intertarMonomio m (P [])= P[m]
-insertarMonomio m(P(x:xs))=if m>x then (P(m:x:xs))else concac x (intertarMonomio m(P xs))
-
-{-Funcion eliminar Monomio-}
-eliminaMonomio::Int->Polinomio->Polinomio
-eliminaMonomio n (P[]) = (P [])
-eliminaMonomio n (P((M(a,b)):ms))
-	|n == b = P ms
-	|n>b=P((M(a,b)):ms)
-	|otherwise = concac (M(a,b)) (eliminaMonomio n(P ms))
+enAsociacion e (x:xs)= if (e==x) then True else enAsociacion e xs -}

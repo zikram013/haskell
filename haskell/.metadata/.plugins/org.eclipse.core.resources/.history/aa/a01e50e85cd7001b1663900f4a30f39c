@@ -399,7 +399,4 @@ insertarMonomio m(P(x:xs))=if m>x then (P(m:x:xs))else concac x (intertarMonomio
 {-Funcion eliminar Monomio-}
 eliminaMonomio::Int->Polinomio->Polinomio
 eliminaMonomio n (P[]) = (P [])
-eliminaMonomio n (P((M(a,b)):ms))
-	|n == b = P ms
-	|n>b=P((M(a,b)):ms)
-	|otherwise = concac (M(a,b)) (eliminaMonomio n(P ms))
+eliminaMonomio n (P((M(a,b)):ms)

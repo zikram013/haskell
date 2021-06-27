@@ -350,56 +350,6 @@ triangulo n = 1:(calcular(triangulo (n-1))) ++[1]
 {-Primera aparicion-}
 esta::(Eq a)=>a->[(a,Int)]->Bool
 esta _ [] = False
-esta e ((x,idx):es)=if (e==x) then True else esta e es
+esta e ((x,idx):es)=if (e==X) then True else esta e es
 primeraAparicion::(Eq a)=>[a]->[(a,Int)]
-primeraAparicion l = foldl(\resultado(e,idx)-> if(esta e resultado)then resultado else resultado++[(e,idx)])[](zip l [1..])
-
-{-Ejercicio de los poliniomis-}
-data Monomio = M(Int,Int)
-data Polinomio = P[Monomio]
---Instanciar la clase show
-instance Show Monomio where
-	show(M(a,b))=(show a)++"x^"++(show b)
-
-instance Show Polinomio where
-	show (P (m:ms)) = show m ++ (if ms == [] then "" else "+" ++ show (P ms))
-
---Instanciar la clase eq
-instance Eq Monomio where
-	(M(a1,b1))==(M(a2,b2)) = (a1==a2 && b1==b2)
-	
-instance Eq Polinomio where
-	(P [])==(P[])=True
-	(P [])==(P _)=False
-	(P _)== (P [])= False
-	(P(m1:ms1))==(P(m2:ms2))= (m1==m2)&&(ms1==ms2)
-
---Instanciar clase ord
-instance Ord Monomio where
-	compare(M(a1,b1))(M(a2,b2))= if cmp==EQ then compare a1 a2 else cmp where cmp = compare b1 b2
-
-instance Ord Polinomio where
-	compare(P []) (P[])=EQ
-	compare(P []) (P _)=LT
-	compare (P _) (P [])=GT
-	compare(P(m1:ms1)) (P(m2:ms2))= if cmp == EQ then compare ms1 ms2 else cmp where cmp= compare m1 m2
-	
-{-Implementar la funcion evaluaPolinomio que recibvira un valor entero y un polinomio y nos devolvera su resultado-}
-evaluaPolinomio::Int->Polinomio->Int
-evaluaPolinomio x (P [])=0
-evaluaPolinomio x(P(M(a,b):ps))=(a*(x^b)) + (evaluaPolinomio x(P ps))
-
-{-Implementar la funcion inserta monomio que recibira un monomio y un polinomio y lo insertara en el mismo-}
-concac::Monomio->Polinomio->Polinomio
-concac m (P l) = P(m:l)
-insertarMonomio::Monomio->Polinomio->Polinomio
-intertarMonomio m (P [])= P[m]
-insertarMonomio m(P(x:xs))=if m>x then (P(m:x:xs))else concac x (intertarMonomio m(P xs))
-
-{-Funcion eliminar Monomio-}
-eliminaMonomio::Int->Polinomio->Polinomio
-eliminaMonomio n (P[]) = (P [])
-eliminaMonomio n (P((M(a,b)):ms))
-	|n == b = P ms
-	|n>b=P((M(a,b)):ms)
-	|otherwise = concac (M(a,b)) (eliminaMonomio n(P ms))
+primeraAparicion l = foldl(\resultado(e,idx)-> if(esta e resultado)then resultado else resultado++[(e,idx)])[])(zip l [1..])
