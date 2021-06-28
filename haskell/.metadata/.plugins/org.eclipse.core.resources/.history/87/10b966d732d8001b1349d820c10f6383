@@ -1,0 +1,82 @@
+
+module EjerciciosLibro where
+import Data.Char
+import Data.List
+
+{-Factorial de un numero-}
+--Condicional
+factorialCondicional::Int->Int
+factorialCondicional n = if n == 0 then 1 else n * factorialCondicional (n-1)
+--Guardas
+factorialGuarda::Int->Int
+factorialGuarda n
+	|n == 0 = 1
+	|otherwise = n * factorialGuarda (n-1)
+--Mediante patrones
+factorialPatrones::Int->Int
+factorialPatrones 0 = 1
+factorialPatrones (n+1)= n * factorialPatrones n
+--Predefinida
+factorialPredefinida::Int->Int
+factorialPredefinida n = product[1..]
+--Plegado
+factorialPlegado::Int->Int
+factorialPlegado n = foldr (*) 1 [1..n]
+
+{-Numero de combinacion n m = n!/k!*(n-k)!-}
+numeroCombinaciones::Int->Int->Int
+numeroCombinaciones n k = (factorialPlegado n) `div` ((factorialPlegado k)*(factorialPlegado(n-k)))
+
+{-Suma de cuadrados-}
+--con sum y listas intensionakl
+sumaCuadradosIntensional::[Int]->Int
+sumaCuadradosIntensional l = sum[x*x|x<-l]
+--con sum y lambda
+sumaCuadradoLambda::[Int]->Int
+sumaCuadradoLambda l = sum (map(\x->x*x)l)
+--SumaCuadradoConRecursion
+sumaCuadradoRecursion::[Int]->Int
+sumaCuadradoRecursion [] = 0
+sumaCuadradoRecursion (x:xs)=x*x + sumaCuadradoRecursion xs
+
+{-Raices de ecuaciones de segundo grado-}
+--directa
+raicesEcuacionDirecta::Double->Double->Double->[Double]
+raicesEcuacionDirecta a b c = [(-b+sqrt(b*b-4*a*c))/(2*a),(-b-sqrt(b*b-4*a*c))/(2*a)]
+--Entorno Local
+raicesEcuacionLocal::Double->Double->Double->[Double]
+raicesEcuacionLocal a b c =
+	[(-b+d)/n,(-b-d)/n] 
+		where d = sqrt(b*b-4*a*c)
+		      n = 2*a
+
+{-Redefinir la funcion signum tal que signum x es -1 si x es -1 si x es negativo, 0 si x es cero y 1 si x es positivo-}
+n_signum::Int->Int
+n_signum x | x>0 = 1
+ 			| x==0 = 0
+
+{-Potencias-}
+--patrones
+potenciaPatrones::Num a =>a->Int->a
+potenciaPatrones x 0 = 1
+potenciaPatrones x (n+1) = x *(potenciaPatrones x n)
+--condicionales
+potenciaCondicionales::Num a =>a->Int->a
+potenciaCondicionales x n = if n==0 then 1 else x * potenciaCondicionales x (n-1)
+
+{-Redifinicion de la funcion map tal que map f l es la lista obtenida aplicando f a cada elemento l-}
+--recursion
+mapRecursivo::(a->b)->[a]->[b]
+mapRecursivo f [] = []
+mapRecursivo f (x:xs) = f x : mapRecursivo f xs
+--lista intensional
+mapRecursivo::(a->b)->[a]->[b]
+mapRecursivo f xs = [f x | x<-xs]
+
+{-Redefinir la funcion filter-}
+--recursion
+filterRecursivo::(a->Bool)->[a]->[a]
+filterRecursivo p [] = []
+filterRecursivo p (x:xs) | p x = x:filterRecursivo p xs
+							|otherwise = filterRecursivo p xs
+			| otherwise = -1
