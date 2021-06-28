@@ -2820,3 +2820,12 @@ line 257:44: expecting '-', found '\r'
 	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:153)
 	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:238)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SESSION 2021-06-27 11:22:56.089 -----------------------------------------------
+eclipse.buildId=M20080911-1700
+java.version=1.6.0_12
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=es_ES
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.epp.usagedata.recording 1 0 2021-06-27 22:14:23.553
+!MESSAGE Usage data upload to http://udc.eclipse.org/upload.php failed with error code 302.
