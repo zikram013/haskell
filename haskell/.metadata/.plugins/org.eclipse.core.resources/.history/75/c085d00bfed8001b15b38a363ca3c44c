@@ -239,7 +239,7 @@ mezclar (x:xs) (y:ys)
 ordenarMezcla :: Ord a=>[a]->[a]
 ordenarMezcla [] = []
 ordenarMezcla [x]=[x]
-ordenarMezcla xs = mezclar (ordenarMezcla ys) (ordenarMezcla zs)
+ordenarMezcla xs = mezcla (ordenarMezcla ys) (ordenarMezcla zs)
 	where medio = (length xs) `div`2
 	      ys = take medio xs
 	      zs = drop medio xs
