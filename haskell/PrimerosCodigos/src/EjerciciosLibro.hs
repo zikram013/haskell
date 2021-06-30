@@ -133,11 +133,11 @@ lastRecursivo::[a]->a
 lastRecursivo [x] = x
 lastRecursivo (_:xs) = lastRecursivo xs
 --plegado
-redefinicionFoldr::(a->b->b)->b->[a]->b
-redefinicionFoldr f e [] = e
-redefinicionFoldr f e (x:xs) = f x (redefinicionFoldr f e xs)
-lastPlegado::[a]->a
-lastPlegado = redefinicionFoldr(\x y -> y)
+--redefinicionFoldr::(a->b->b)->b->[a]->b
+--redefinicionFoldr f e [] = e
+--redefinicionFoldr f e (x:xs) = f x (redefinicionFoldr f e xs)
+--lastPlegado::[a]->a
+--lastPlegado = redefinicionFoldr(\x y -> y)
 --con head y reverse
 lastHeadReverse::[a]->a
 lastHeadReverse xs = head(reverse xs)
@@ -228,18 +228,281 @@ igualdadConjuntos xs ys = aux (nub xs) (nub xs)
 	      aux (x:xs) ys = x `elem` ys && aux xs (delete x ys)
 	      
 {-Mezcla de dos listas ordenadas-}
-mezclar :: Ord a =>[a]->[a]->[a]
-mezclar [] ys = ys
-mezclar xs [] = xs
-mezclar (x:xs) (y:ys)
-	|x<=y = x : mezclar xs (y:ys)
-	|otherwise = y mezclar (x:xs)ys
+--mezclar :: Ord a =>[a]->[a]->[a]
+--mezclar [] ys = ys
+--mezclar xs [] = xs
+--mezclar (x:xs) (y:ys)
+--	|x<=y = x : mezclar xs (y:ys)
+--	|otherwise = y mezclar (x:xs)ys
 	
 {-Ordenacion por mezcla-}
-ordenarMezcla :: Ord a=>[a]->[a]
-ordenarMezcla [] = []
-ordenarMezcla [x]=[x]
-ordenarMezcla xs = mezclar (ordenarMezcla ys) (ordenarMezcla zs)
-	where medio = (length xs) `div`2
-	      ys = take medio xs
-	      zs = drop medio xs
+--ordenarMezcla :: Ord a=>[a]->[a]
+--ordenarMezcla [] = []
+--ordenarMezcla [x]=[x]
+--ordenarMezcla xs = mezclar (ordenarMezcla ys) (ordenarMezcla zs)
+--	where medio = (length xs) `div`2
+--	      ys = take medio xs
+--	      zs = drop medio xs
+	      
+{-Digito correspondiente a un caracter numérico-}
+digitoDeCaracter::Char->Int
+digitoDeCaracter c = ord c - ord '0'
+
+{-Caracter correspondiente a un digito-}
+caracterDeDigito::Int->Char
+caracterDeDigito n = chr (n+ord '0')
+
+{-Lista infinita de numeros-}
+listaInfinita::Int->[Int]
+listaInfinita n = n : listaInfinita (n+1)
+
+{-Lista con un elemento repetido inifnito-}
+--recursivo
+elementoRepetidoRecursivo::a->[a]
+elementoRepetidoRecursivo x = x : elementoRepetidoRecursivo x
+--con entorno lo local
+elementoRepetidoLocal::a->[a]
+elementoRepetidoLocal x = xs 
+	where xs = x:xs
+--Lista compresion
+elementoRepetidoCompresion::a->[a]
+elementoRepetidoCompresion x = [x|y<-[1..]]
+
+--Calculo de primos mediante la criba de erastotenes
+--definicionPerezosa
+erastotenesPerezosa::[Int]
+erastotenesPerezosa = map {-(take 10)-}head (iterate eliminar [2..])
+	where eliminar (x:xs) = filter (no_multiplo x) xs
+	      no_multiplo x y = y `mod` x /= 0
+--Compresion
+erastotenesCompresion::[Int]
+erastotenesCompresion = criba[2..]
+	where criba(p:xs)= p:criba [n|n<-xs,n`mod`p/=0]
+
+{-Triangulo numerico-}
+triangulo::Int->[[Int]]
+triangulo n = [[1..x]|x<-[1..n]]
+
+{-Posicion de un elemento de la lista-}
+posicion :: Eq a => a -> [a] -> Int
+posicion x xs = head ([pos |(y,pos) <- zip xs [1..length xs],y == x]++ [0])
+
+{-Ordenacion rapida-}
+ordenacionRapida:: Ord a =>[a]->[a]
+ordenacionRapida [] = []
+ordenacionRapida (x:xs) = ordenacionRapida menores ++[x]++ordenacionRapida mayores
+	where menores = [e|e<-xs,e<x]
+	      mayores = [e|e<-xs,e>=x]
+	      
+{-Redefinir la funcion splitAt-}
+splitAtDefinir::Int->[a]->([a],[a])
+splitAtDefinir n xs | n<=0 = ([],xs)
+splitAtDefinir _ [] = ([],[])
+splitAtDefinir n (x:xs)=(x:xs',xs'')
+	where(xs',xs'')=splitAtDefinir(n-1)xs
+	
+{-Sucesion de Fibnocacci-}
+--Recursivo
+fiboRecursivo::Int->Int
+fiboRecursivo 0 = 1
+fiboRecursivo 1 = 1
+fiboRecursivo (n+2)=fiboRecursivo n + fiboRecursivo (n+1)
+--Acumuladores
+fiboAcumulado::Int->Int
+fiboAcumulado n = fiboAcumuladoAux n 1 1 
+	where fiboAcumuladoAux 0 p q = p
+	      fiboAcumuladoAux (n+1) p q = fiboAcumuladoAux n q (p+q)
+--mediante listas infinitas
+fiboLista:: Int->Int
+fiboLista n = fiboListaAux!!n
+fiboListaAux::[Int]
+fiboListaAux=1:1:[a+b|(a,b)<-zip fiboListaAux(tail fiboListaAux)]
+
+{-Definir la funcion incmin tal que incmin l es la lista obtenida añadiendo a cada elemento de l el menos elemento de l-}
+--recursivo
+incminRecursivo :: [Int] -> [Int]
+incminRecursivo l = map (+e) l
+	where e = minimo l
+	      minimo [x] = x
+	      minimo (x:y:xs) = min x (minimo (y:xs))
+--eficiente
+incminEficiente:: [Int] -> [Int]
+incminEficiente [] = []
+incminEficiente l = nuevalista
+	where (minv, nuevalista) = un_paso l
+	      un_paso [x] = (x, [x+minv])
+	      un_paso (x:xs) = (min x y, (x+minv):ys)
+	      	where (y,ys) = un_paso xs
+	      	
+{-Numero racional entre dos numeros-}
+type Racional=(Int,Int)
+simplificar::(Int,Int)->(Int,Int)
+simplificar (n,d) = (((signum d)*n)`div`m,(abs d)`div`m)
+	where m=gcd n d
+	
+--qMul :: Racional -> Racional -> Racional
+--qMul (x1,y1) (x2,y2) = simplificar (x1*x2, y1*y2)
+--qDiv :: Racional -> Racional -> Racional
+--qDiv (x1,y1) (x2,y2) = simplificar (x1*y2, y1*x2)
+--qSum :: Racional -> Racional -> Racional
+--qSum (x1,y1) (x2,y2) = simplificar (x1*y2+y1*x2, y1*y2)
+--qRes :: Racional -> Racional -> Racional
+--qRes (x1,y1) (x2,y2) = simplificar (x1*y2-y1*x2, y1*y2)
+--escribeRacional :: Racional -> String
+--escribeRacional (x,y)
+--	| y' == 1 = show x'
+--	| otherwise = show x' ++ "/" ++ show y'
+--		where (x',y') = simplificar (x,y)y
+
+{-Maximo Comun divisor-}
+--recursivo
+mcdRecurisvo::Int->Int->Int
+mcdRecurisvo 0 0 = 0
+mcdRecurisvo x y = mcdRecursivoAux (abs x)(abs y)
+	where mcdRecursivoAux x 0 = x
+	      mcdRecursivoAux x y = mcdRecursivoAux y (x`rem`y)
+
+{-Redefinir Lookpo-}
+lookUp::Eq a=>a->[(a,b)]->Maybe b
+lookUp [] = Nothing
+lookUp k ((x,y):xys)
+	|k==x = Just y
+	|otherwise = lookUp k xys
+	
+{-Emparejamiento de dos listas-}
+--recursivo
+juntarDosListasRecursivo::[a]->[b]->[(a,b)]
+juntarDosListasRecursivo (x:xs)(y:ys)=(x,y):zip xs ys
+juntarDosListasRecursivo _ _ = []
+--ConZipWith
+juntarDosListasZip::[a]->[b]->[(a,b)]
+juntarDosListasZip = zipWith (\x y -> (x,y))
+--Con zipWithRedefinido
+juntarDosListasRedefinido::(a->b->c)->[a]->[b]->[c]
+juntarDosListasRedefinido f (x:xs) (y:ys) = f x y : zipWith f xs ys
+juntarDosListasRedefinido _ _ _=[]
+
+{-funciones curry y un curri para sumas-}
+curriRedefinido::((a,b)->c)->(a->b->c)
+curriRedefinido f x y = f (x,y)
+
+uncurriRedefinido::(a->b->c)->((a,b)->c)
+uncurriRedefinido f p = f(fst p)(snd p)
+
+{-Busqueda en una lista ordenada-}
+listaOrdenadaSearch::Ord a =>a->[a]->Bool
+listaOrdenadaSearch _ [] = False
+listaOrdenadaSearch e (x:xs) | x<e = listaOrdenadaSearch e xs
+							 | x == e = True
+							 |otherwise = False
+					
+{-RAcionales como tipo abstracto de datos-}
+data Ratio=Rac Int Int
+instance Show Ratio where
+	show (Rac x 1) = show x
+	show (Rac x y) = show x' ++ "/" ++ show y'
+		where (Rac x' y') = simplificarRatio (Rac x y)
+		      simplificarRatio :: Ratio -> Ratio
+		      simplificarRatio (Rac n d) = Rac (((signum d)*n) `div` m) ((abs d) `div` m)
+		       where m = gcd n d
+		       
+{-Problema de las n reinas-}
+type Tablero=[Int]
+reinas n = reinasAux n
+	where reinarsAux 0 = [[]]
+	      reinasAux (m+1) = [r:rs | rs<-reinasAux m,r<-([1..n]\\rs),noAtaca r rs 1]
+noAtaca::Int->Tablero->Int->Bool
+noAtaca_[]_=True
+noAtaca r(a:rs) distH = abs(r-a)/=distH && noAtaca r rs(distH+1)
+
+{-Los numeros de hammin forman una sucesion estrictamente creciente de numeros que cumplen las siguientes condiciones
+el numero 1 esta en la solucion
+si x esta en la sucesion entonces 2*x,3*x y 5*x lo estan
+ningun otro numero esta en la sucesion-}
+hamming::[Int]
+hamming = 1:mezcla3 [2*i|i<-hamming] 
+				    [3*i|i<-hamming] 
+				    [5*i|i<-hamming]
+				    
+mezcla3::[Int]->[Int]->[Int]->[Int]
+mezcla3 xs ys zs = mezcla2 xs (mezcla2 ys zs)
+
+mezcla2::[Int]->[Int]->[Int]
+mezcla2 p@(x:xs)q@(y:ys) | x<y = x:mezcla2 xs q
+						 | x>y = y:mezcla2 p xs
+						 |otherwise = x:mezcla2 xs ys
+mezcla2 [] ys = ys
+mezcla2 xs [] = xs
+
+{-Modelar un juego de cartas-}
+data Palo = Picas|Corazones|Diamantes|Treboles deriving (Eq,Show)
+instance Arbitrary Palo 
+	where Arbitrary = elements[Picas,Corazones,Diamantes,Treboles]
+--Definir el tipo de dato Color para representar los colores de las cartas
+data Color = Rojo | Negro deriving Show
+--Definir la funcion colo::Palo->Color
+color::Palo->Color
+color Picas = Negro
+color Treboles = Negro
+color Corazones = Rojo
+color Diamantes = Rojo
+--Los valores de las cartas se dividen en los numericos del 2 al 10 y las figuras a , j q k. Defirni el tipo de datos valor para representar los valores de la cartas Hacer que valor 
+--sea instancia de eq y show
+data Valor = Numerico Int|J|Q|K|A deriving (Eq,Show)
+
+--Ordena de las cartas
+mayor :: Valor -> Valor -> Bool
+mayor _ A = False
+mayor A _ = True
+mayor _ K = False
+mayor K _ = True
+mayor _ Q = False
+mayor Q _ = True
+mayor _ J = False
+mayor J _ = True
+mayor (Numerico m) (Numerico n) = m > n
+--definir el tipo de datos carta para representar las cartas mediante un valor y un palo
+data Carta = Carta Valor Palo deriving (Eq,Show)
+data Carta1 = Carta1{valor1 :: Valor, palo1::Palo}
+--definir la funcion valor::CArta->Carta
+valor::Carta->Valor
+valor ((Carta v p)) = v
+palo::Carta->Palo
+palo (Carta v p)= p
+--Defin ir la funcion gana carta donde la carta c1 gana a c2 cuando son del mismo palo o con palo de triunfo
+ganaCarta::Palo->Carta->Carta->Bool
+ganaCarta triunfo c c2
+	| palo c == palo c2 = mayor (valor c) (valor c2)
+	| palo c == triunfo = True
+	|otherwise = False
+--Reoresentar el tipo de dato Mano para una mano de juego
+data Mano = Vacia | Add Carta Mano deriving (Eq,Show)
+--Una mano gana a una carta c si alguna carta de la mano le gana a c
+ganaMano::Palo->Mano->Carta->Bool
+ganaMano triunfo Vacia c2 = False
+ganaMano triunfo (Add c m) c2 = ganaCarta triunfo c c2 || ganaMano triunfo m c2
+--Elegir una carta
+eligeCarta::Palo->Carta->Mano->Carta
+eligeCarta triunfo c1 (Add c Vacia)=c
+eligeCarta triunfo c1 (Add c resto)
+	|palo c == palo c1 && palo c2/=palo c1 = c
+	|palo c /= palo c1 && palo c2 == palo c1  = c2
+	|ganaCarta triunfo c c1 && not (ganaCarta triunfo c2 c1) = c
+	|ganaCarta triunfo c2 c1 && not (ganaCarta triunfo c c1) = c2
+	|mayor(valor c)(valor c2) = c2
+	|otherwise = c
+		where c2 = eligeCarta triunfo c1 resto
+		
+{-Torres de Hanoi-}
+hanoi:: Integer->Integer
+hanoi 1 = 1
+hanoi (n+1)=1+2*(hanoi n)
+
+{-criba de erastotenes-}
+elimina::Int->[Int]->[Int]
+elimina n xs = [x | x<-xs, x`mod`n/=0] 
+criba::[Int]->[Int]
+criba [] = []
+criba (n:ns) = n:criba(elimina n ns)
+primos100::[Int]
+primos100=criba[2..100]
