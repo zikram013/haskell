@@ -1,0 +1,25 @@
+
+module EjerciciosLibro1011exam where
+import Data.Char
+import Data.List
+
+{-Definiciones sobre cadenas, orden superior y plegado-}
+
+{-1.Una persona es tan agarrada que sólo compra cuando le
+-- hacen un descuento del 10% y el precio (con el descuento) es menor o
+-- igual que 199.
+--
+-- Definir, usando comprensión, la función
+-- agarrado :: [Float] -> Float
+-- tal que (agarrado ps) es el precio que tiene que pagar por una compra
+-- cuya lista de precios es ps. Por ejemplo,
+-- agarrado [45.00, 199.00, 220.00, 399.00] == 417.59998-}
+agarrado::[Float]->Float
+agarrado ps = sum [p * 0.9 | p<-ps, p*0.9<=199]
+--Definirlo por recurision
+agarradoRecursion::[Float]->Float
+agarradoRecursion [] = 0
+agarradoRecursion (p:ps) 
+					|precioConDescuento <=199 = precionConDescuento + agarradoRecursivo ps
+					|otherwise = agarradoRecursivo ps
+						where precioConDescuento = p*0.9
