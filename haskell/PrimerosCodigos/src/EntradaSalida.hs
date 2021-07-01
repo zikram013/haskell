@@ -140,4 +140,21 @@ auxiliar(x:xs)(y:ys)contador = do
 								putStrLn("operacion"++show contador++":"++show(x+y))
 								auxiliar xs ys (contador+1)
 
-	
+
+
+{-APi de metodos de lectura y escritura
+putChar::Char->IO() = Imprime un caracter
+getChar::IO->Char = Lee un caracter
+putStr::String -> IO() = Imprime una cadena
+putStrLn:: String->() = Imprime una cadena y un salto de línea
+print::Show a=>a->IO() = Imprime un valor de cualquier tipo imprimible (perteneciente a la clase Show)
+getLine::IO String = Lee una cadena de caracteres hasta que encuentra el salto de línea
+getContents::IO String = Lee en una cadena toda la entrada del usuario (esta cadena será potencialmente infinita y se podrá procesar gracias a la evaluación perezosa)
+return :: a -> IO a = Convierte un valor en una acción
+readLn :: Read a => IO a = Lee la entrada del usuario por teclado y la transforma en un tipo conocido de Haskell (ya sea una lista, cadena, booleano, etc)
+interact::(String->String)->IO() = Toma como argumento una función que procesa una cadena. A dicha función se le pasa la entrada del usuario como argumento y el resultado devuelto se imprime.
+writeFile::String->String->IO() = Toma como argumentos el nombre de un fichero y una cadena, y escribe dicha cadena en el fichero correspondiente
+appendFile::String->String->IO() = Toma como argumentos el nombre de un fichero y una cadena, y añade dicha cadena al final del fichero correspondiente
+readFile::String->IO String = Toma como argumento el nombre de un fichero y devuelve el contenido en una cadena.
+
+-}
