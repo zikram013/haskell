@@ -248,16 +248,3 @@ borrarRecursivo z (x:xs) |z==x = borrarRecursivo z xs
 				
 borrarPlegado::Eq a=>a->[a]->[a]
 borrarPlegado z = foldr (\x y -> if z ==x then y else x:y)[] 
-
-{-15.Definir, mediante recursión plegado, la función
--- diferenciaR :: Eq a => [a] -> [a] -> [a]
--- tal que (diferenciaR xs ys) es la diferencia del conjunto xs e ys; es
--- decir el conjunto de los elementos de xs que no pertenecen a ys. Por
--- ejemplo,diferenciaR [2,3,5,6] [5,2,7] == [3,6]-}
-diferenciaRecursivo :: Eq a =>[a]->[a]->[a]
-diferenciaRecursivo xs ys = auxDif xs xs ys
-	where auxDif a xs [] = a
-	      auxDif a xs (y:ys) = auxDif (borrarRecursivo y a)xs ys
-	  
-diferenciaPlegado::Eq a =>[a]->[a]->[a]
-diferenciaPlegado xs ys = foldl (flip borrarRecursivo) xs ys

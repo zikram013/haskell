@@ -258,6 +258,3 @@ diferenciaRecursivo :: Eq a =>[a]->[a]->[a]
 diferenciaRecursivo xs ys = auxDif xs xs ys
 	where auxDif a xs [] = a
 	      auxDif a xs (y:ys) = auxDif (borrarRecursivo y a)xs ys
-	  
-diferenciaPlegado::Eq a =>[a]->[a]->[a]
-diferenciaPlegado xs ys = foldl (flip borrarRecursivo) xs ys

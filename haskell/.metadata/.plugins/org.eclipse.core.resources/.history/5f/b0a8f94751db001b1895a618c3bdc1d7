@@ -193,7 +193,7 @@ maximunRecursivo::Ord a =>[a]->a
 maximunRecursivo [x] = x
 maximunRecursivo (x:y:ys)=max x (maximunRecursivo (y:ys))
 
-{-11.Definir, mediante recursión , recursion acumulador, plegado, la funciónRelación 10. Definiciones por plegado 101
+{-11.Definir, mediante recursión y plegado, la funciónRelación 10. Definiciones por plegado 101
 -- inversaR :: [a] -> [a]
 -- tal que (inversaR xs) es la inversa de la lista xs. Por ejemplo,
 -- inversaR [3,5,2,4,7] == [7,4,2,5,3]-}
@@ -202,62 +202,4 @@ inversaRecursivo [] = []
 inversaRecursivo (x:xs) = (inversaRecursivo xs)++[x]
 
 inversaPlegado::[a]->[a]
-inversaPlegado = foldr f [] where f x y = y ++[x] --con foldl seria foldl (\ys x -> x:ys) []
-
-inversaRecursionAcumulado::[a]->[a]
-inversaRecursionAcumulado xs = inversaRecursivoAux [] xs
-	where inversaRecursivoAux ys [] = ys
-	      inversaRecursivoAux ys (x:xs) = inversaRecursivoAux (x:ys)xs
-	      
-{-12.Definir, por recursión con acumulador, plegado, la función
--- dec2entR :: [Int] -> Int
--- tal que (dec2entR xs) es el entero correspondiente a la expresión
--- decimal xs. Por ejemplo,
--- dec2entR [2,3,4,5] == 2345-}
-dec2entRecursivoAcumulado::[Int]->Int
-dec2entRecursivoAcumulado xs = aux 0 xs
-	where aux a [] = a
-	      aux a (x:xs) = aux (10*a+x) xs
-
-dec2entPlegado::[Int]->Int
-dec2entPlegado = foldl (\a x -> 10*a+x)0
-
-{-13.Definir, mediante recursión,plegado, la función
--- sumllR :: Num a => [[a]] -> a
--- tal que (sumllR xss) es la suma de las sumas de las listas de xss.
--- Por ejemplo,
--- sumllR [[1,3],[2,5]] == 11-}
-sumllRecursivo::Num a=>[[a]]->a
-sumllRecursivo [] = 0
-sumllRecursivo (xs:xss)=sum xs + sumllRecursivo xss
-
-sumllPlegado::Num a=>[[a]]->a
-sumllPlegado = foldr (\xs n -> sum xs + n)0
-
-{-14.Definir, mediante recursión y plegado, la función
--- borraR :: Eq a => a -> a -> [a]
--- tal que (borraR y xs) es la lista obtenida borrando las ocurrencias de
--- y en xs. Por ejemplo,
--- borraR 5 [2,3,5,6] == [2,3,6]
--- borraR 5 [2,3,5,6,5] == [2,3,6]
--- borraR 7 [2,3,5,6,5] == [2,3,5,6,5]-}
-borrarRecursivo::Eq a =>a->[a]->[a]
-borrarRecursivo z [] = []
-borrarRecursivo z (x:xs) |z==x = borrarRecursivo z xs
-						 |otherwise = x : borrarRecursivo z xs
-				
-borrarPlegado::Eq a=>a->[a]->[a]
-borrarPlegado z = foldr (\x y -> if z ==x then y else x:y)[] 
-
-{-15.Definir, mediante recursión plegado, la función
--- diferenciaR :: Eq a => [a] -> [a] -> [a]
--- tal que (diferenciaR xs ys) es la diferencia del conjunto xs e ys; es
--- decir el conjunto de los elementos de xs que no pertenecen a ys. Por
--- ejemplo,diferenciaR [2,3,5,6] [5,2,7] == [3,6]-}
-diferenciaRecursivo :: Eq a =>[a]->[a]->[a]
-diferenciaRecursivo xs ys = auxDif xs xs ys
-	where auxDif a xs [] = a
-	      auxDif a xs (y:ys) = auxDif (borrarRecursivo y a)xs ys
-	  
-diferenciaPlegado::Eq a =>[a]->[a]->[a]
-diferenciaPlegado xs ys = foldl (flip borrarRecursivo) xs ys
+inversaPlegado = foldr f [] where f x y = y ++[x]
