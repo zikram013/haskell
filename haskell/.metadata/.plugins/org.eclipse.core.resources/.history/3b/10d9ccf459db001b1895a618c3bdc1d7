@@ -422,30 +422,3 @@ cabezasRecursion [] = [[]]
 cabezasRecursion (x:xs) = [] : [x:ys | ys<-cabezasRecursion xs]
 
 cabezasPlegado::[a]->[[a]]
-cabezasPlegado = foldr (\x y ->[x]:[x:ys | ys<-y]) []
-
-{-27.[La identidad de Bezout] Definir la función
--- bezout :: Integer -> Integer -> (Integer, Integer)
--- tal que (bezout a b) es un par de números x e y tal que a*x+b*y es el
--- máximo común divisor de a y b. Por ejemplo,
--- bezout 21 15 == (-2,3)
--- Indicación: Se puede usar la función quotRem tal que (quotRem x y) es
--- el par formado por el cociente y el resto de dividir x entre y
- Sean q, r el cociente y el resto de a entre b, d el máximo común
--- denominador de a y b y (x,y) el valor de (bezout b r) . Entonces,
--- a = bp+r
--- d = bx+ry
--- Por tanto,
--- d = bx + (a-bp)y
--- = ay + b(x-qy)
--- Luego,
--- bezout a b = (y,x-qy)-}
-bezout :: Int->Int->(Int,Int)
-bezout _ 0 =(1,0)
-bezout _ 1 =(0,1)
-bezout a b = (y,x-q*y) 
-	where (x,y) = bezout b r
-	      (q,r)=qoutRem (a,b)
-	  
-qoutRem::(Int,Int)->(Int,Int)
-qoutRem (a,b) = (a `mod` b , a`rem`b)

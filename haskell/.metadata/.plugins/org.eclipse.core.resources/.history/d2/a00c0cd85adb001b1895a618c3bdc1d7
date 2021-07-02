@@ -445,7 +445,7 @@ bezout _ 0 =(1,0)
 bezout _ 1 =(0,1)
 bezout a b = (y,x-q*y) 
 	where (x,y) = bezout b r
-	      (q,r)=qoutRem (a,b)
+	      (q,r)=qoutRem a b
 	  
 qoutRem::(Int,Int)->(Int,Int)
-qoutRem (a,b) = (a `mod` b , a`rem`b)
+qoutRem a b = (a `mod` b , a`rem`b)
