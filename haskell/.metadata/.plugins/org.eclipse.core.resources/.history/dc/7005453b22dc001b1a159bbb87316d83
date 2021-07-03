@@ -574,3 +574,446 @@ sumaCifrasListaRecursion (x:xs) = sumaCifras x + sumaCifrasListaRecursion xs
 
 sumaCifrasPlegado::[Int]->Int
 sumaCifrasPlegado = foldr f 0 where f x y = sumaCifras x + y
+
+{-38.Conjecura de collaz, siempre llegar al uno
+Sea la siguiente operación, aplicable a cualquier número entero
+-- positivo:
+-- * Si el número es par, se divide entre 2.
+-- * Si el número es impar, se multiplica por 3 y se suma 1.-}
+siguiente::Int->Int
+siguiente n | even n = n`div` 2
+			|otherwise = 3*n+1
+			
+collatz::Int->[Int]
+collatz 1 = [1]
+collatz n = n: collatz (siguiente n)
+
+{-Ejercicios de examenesdel curso 2010-11-}
+{-39. Definir por recursión y plegado la función
+-- sumaR :: Num b => (a -> b) -> [a] -> b
+-- tal que (suma f xs) es la suma de los valores obtenido aplicando la
+-- función f a lo elementos de la lista xs. Por ejemplo,
+-- sumaR (*2) [3,5,10] == 36
+-- sumaR (/10) [3,5,10] == 1.8-}
+sumaRecursion::Num b => (a->b)->[a]->b
+sumaRecursion f [] = 0
+sumaRecursion f (x:xs) = f x + sumaRecursion f xs
+
+sumaPlegado::Num b => (a->b)->[a]->b
+sumaPlegado f = foldr (\x y -> (f x) + y) 0
+
+{-40.Sean m y n números enteros mayores que 1. Se definen los conjuntos
+-- P(m) = {1/m, 2/m,..., (m-1)/m} y P(n) = {1/n, 2/n,..., (n-1)/n}.
+-- Encontrar la distancia entre P(m) y P(n), que se define como
+-- mín {|a - b| : a en P(m), b en P(n)}.
+-- Definir la función
+-- distancia :: Float -> Float -> Float
+-- tal que (distancia m n) es la distancia entre P(m) y P(n). Por
+-- ejemplo,
+-- distancia 2 7 == 7.142857e-2
+-- distancia 2 8 == 0.0
+
+Solucion
+distancia::Float->Float->Float
+distancia m n = min [abs (i/m - j/n) | i <- [1..m-1], j <- [1..n-1]]
+-}
+
+{-41. Definir la función
+-- multiplosRestringidos :: Int -> (Int -> Bool) -> [Int]
+-- tal que (multiplosRestringidos n x) es la lista de los múltiplos de n
+-- tales que todas sus cifras verifican la propiedad p. Por ejemplo,
+-- take 4 (multiplosRestringidos 5 (<=3)) == [10,20,30,100]
+-- take 5 (multiplosRestringidos 3 (<=4)) == [3,12,21,24,30]
+-- take 5 (multiplosRestringidos 3 even) == [6,24,42,48,60]-}
+multiplosRestringidos::Int->(Int->Bool)->[Int]
+multiplosRestringidos n p = [y|y<-[n,2*n..],all p (cifrasEuler y)]
+
+cifrasEuler::Int->[Int]
+cifrasEuler n = [read [x] |x<-show n]
+
+{-42. Definir la función
+-- sumaDeDosPrimos :: Int -> [(Int,Int)]
+-- tal que (sumaDeDosPrimos n) es la lista de las distintas
+-- descomposiciones de n como suma de dos números primos. Por ejemplo,
+-- sumaDeDosPrimos 30 == [(7,23),(11,19),(13,17)]
+-- Calcular, usando la función sumaDeDosPrimos, el menor número que
+-- puede escribirse de 10 formas distintas como suma de dos primos.-}
+sumaDeDosPrimos::Int->[(Int,Int)]
+sumaDeDosPrimos n = [(x,n-x) | x<-primosAux, x<n-x,elem(n-x)primosAux]
+	where primosAux = takeWhile(<=n)primos
+	
+primos :: [Int]
+primos = criba[2..]
+	where criba [] = []
+	      criba (n:ns) = n :criba (elimina n ns)
+	      elimina n xs = [x|x<-xs,x`mod` n/=0]
+	      
+{-43.Definir la función
+-- segmentos :: (a -> Bool) -> [a] -> [a]
+-- tal que (segmentos p xs) es la lista de los segmentos de xs cuyos
+-- elementos verifican la propiedad p. Por ejemplo,
+-- segmentos even [1,2,0,4,5,6,48,7,2] == [[],[2,0,4],[6,48],[2]]-}
+segmentos::(a->Bool)->[a]->[[a]]
+segmentos _ [] = []
+segmentos p xs = takeWhile p xs : (segmentos p (dropWhile (not.p)(dropWhile p xs)))
+
+{-VCombinatoria-}
+{-44.Definir, por recursión, la función
+-- subconjunto :: Eq a => [a] -> [a] -> Bool
+-- tal que (subconjunto xs ys) se verifica si xs es un subconjunto de
+-- ys. Por ejemplo,
+-- subconjunto [1,3,2,3] [1,2,3] == True
+-- subconjunto [1,3,4,3] [1,2,3] == False-}
+subconjunto::Eq a => [a]->[a]->Bool
+subconjunto [] _ = True
+subconjunto (x:xs) ys = elem x ys && subconjunto xs ys
+
+{-45.Definir la función
+-- igualConjunto :: Eq a => [a] -> [a] -> Bool
+-- tal que (igualConjunto xs ys) se verifica si las listas xs e ys,
+-- vistas como conjuntos, son iguales. Por ejemplo,
+-- igualConjunto [1..10] [10,9..1] == True
+-- igualConjunto [1..10] [11,10..1] == False-}
+igualConjunto::Eq a =>[a]->[a]->Bool
+igualConjunto xs ys = subconjunto xs ys && subconjunto ys xs
+
+{-46.Definir la función
+-- subconjuntos :: [a] -> [[a]]
+-- tal que (subconjuntos xs) es la lista de las subconjuntos de la lista
+-- xs. Por ejemplo,
+-- ghci> subconjuntos [2,3,4]
+-- [[2,3,4],[2,3],[2,4],[2],[3,4],[3],[4],[]]
+-- ghci> subconjuntos [1,2,3,4]
+-- [[1,2,3,4],[1,2,3],[1,2,4],[1,2],[1,3,4],[1,3],[1,4],[1],
+-- [2,3,4], [2,3], [2,4], [2], [3,4], [3], [4], []]-}
+subconjuntos1::[a]->[[a]]
+subconjuntos1 [] =[[]]
+subconjuntos1 (x:xs) = [x:ys | ys<-subconjuntos1 xs]++subconjuntos1 xs
+
+{-47.Definir la función
+-- intercala :: a -> [a] -> [[a]]
+-- tal que (intercala x ys) es la lista de las listas obtenidas
+-- intercalando x entre los elementos de ys. Por ejemplo,
+-- intercala 1 [2,3] == [[1,2,3],[2,1,3],[2,3,1]]-}
+intercala::a->[a]->[[a]]
+intercala x [] = [[x]]
+intercala x (y:ys) = (x:y:ys) : [y:zs | zs <-intercala x ys]
+
+{-48.Definir la función
+-- permutaciones :: [a] -> [[a]]
+-- tal que (permutaciones xs) es la lista de las permutaciones de la
+-- lista xs. Por ejemplo,
+-- permutaciones ”bc” == [”bc”,”cb”]
+-- permutaciones ”abc” == [”abc”,”bac”,”bca”,”acb”,”cab”,”cba”]-}
+permutaciones :: [a]->[[a]]
+permutaciones [] = [[]]
+permutaciones (x:xs) = concat [intercala x ys | ys <-permutaciones xs]
+
+{-49.Definir la función
+-- fact :: Integer -> Integer
+-- tal que (fact n) es el factorial de n. Por ejemplo,
+-- fact 3 == 6-}
+fact :: Int -> Int
+fact n = product [1..n]
+
+{-50.Definir la función
+-- combinaciones :: Integer -> [a] -> [[a]]
+-- tal que (combinaciones k xs) es la lista de las combinaciones de
+-- orden k de los elementos de la lista xs. Por ejemplo,
+-- ghci> combinaciones 2 ”bcde”
+-- [”bc”,”bd”,”be”,”cd”,”ce”,”de”]
+-- ghci> combinaciones 3 ”bcde”
+-- [”bcd”,”bce”,”bde”,”cde”]
+-- ghci> combinaciones 3 ”abcde”
+-- [”abc”,”abd”,”abe”,”acd”,”ace”,”ade”,”bcd”,”bce”,”bde”,”cde”]-}
+combinaciones::Int->[a]->[[a]]
+combinaciones 0 _ = [[]]
+combinaciones _ [] = []
+combinaciones k (x:xs)= [x:ys | ys<-combinaciones (k-1)xs]++combinaciones k xs
+
+{-51.. Definir la función
+-- comb :: Integer -> Integer -> Integer
+-- tal que (comb n k) es el número combinatorio n sobre k; es decir, .
+-- (comb n k) = n! / (k!(n-k)!).
+-- Por ejemplo,
+-- comb 4 2 == 6
+-- comb 4 3 == 4-}
+comb::Int->Int->Int
+comb n k = (fact n) `div` ((fact k)*(fact(n-k)))
+
+{-52.Definir la función
+-- variacionesR :: Integer -> [a] -> [[a]]
+-- tal que (variacionesR k xs) es la lista de las variaciones de orden
+-- k de los elementos de xs con repeticiones. Por ejemplo,
+-- ghci> variacionesR 1 ”ab”
+-- [”a”,”b”]
+-- ghci> variacionesR 2 ”ab”
+-- [”aa”,”ab”,”ba”,”bb”]
+-- ghci> variacionesR 3 ”ab”
+-- [”aaa”,”aab”,”aba”,”abb”,”baa”,”bab”,”bba”,”bbb”]-}
+variacion1::Int->[a]->[[a]]
+variacion1 _ [] = [[]]
+variacion1 0 _ = [[]]
+variacion1 k xs = [z:ys|z<-xs,ys<-variacion1(k-1)xs]
+
+{-53.El triángulo de Pascal es un triángulo de números
+-- 1
+-- 1 1
+-- 1 2 1
+-- 1 3 3 1
+-- 1 4 6 4 1
+-- 1 5 10 10 5 1
+-- construido de la siguiente forma
+-- * la primera fila está formada por el número 1;
+-- * las filas siguientes se construyen sumando los números adyacentes
+-- de la fila superior y añadiendo un 1 al principio y al final de la
+-- fila.
+-- Definir la función
+-- pascal :: Integer -> [Integer]
+-- tal que (pascal n) es la n-ésima fila del triángulo de Pascal. Por
+-- ejemplo,
+-- pascal 6 == [1,5,10,10,5,1]-}
+pascal::Int->[Int]
+pascal 1 =[1]
+pascal n = [1]++[x+y|(x,y)<-pares(pascal(n-1))]++[1]
+
+pares::[a]->[(a,a)]
+pares(x:y:xs) = (x,y):pares(y:xs)
+pares _ = []
+
+{-Tipo de datos algebraico-}
+
+{-54.Usando el tipo de dato Nat y la función suma definidas
+-- en las transparencias del tema 9, definir la función
+-- producto :: Nat -> Nat -> Nat
+-- tal que (producto m n) es el producto de los números naturales m y
+-- n. Por ejemplo,
+-- ghci> producto (Suc (Suc Cero)) (Suc (Suc (Suc Cero)))
+-- Suc (Suc (Suc (Suc (Suc (Suc Cero)))))-}
+data Nat = Cero | Suc Nat deriving (Eq,Show)
+
+suma::Nat->Nat->Nat
+suma Cero n = n
+suma (Suc m) n = Suc ( suma m n)
+
+productoTipo::Nat->Nat->Nat
+productoTipo Cero _ = Cero
+productoTipo (Suc m) n = suma n (productoTipo m n)
+
+--Sobre arboles
+data Arbol = Hoja Int
+			| Nodo Arbol Int Arbol deriving (Show, Eq)
+ejArbol :: Arbol
+ejArbol = Nodo (Nodo (Hoja 1) 3 (Hoja 4))5(Nodo (Hoja 6) 7 (Hoja 9))
+
+{--65.Definir la función
+-- ocurre :: Int -> Arbol -> Bool
+-- tal que (ocurre x a) se verifica si x ocurre en el árbol a como valor
+-- de un nodo o de una hoja. Por ejemplo,
+-- ocurre 4 ejArbol == True
+-- ocurre 10 ejArbol == False--}
+ocurre :: Int -> Arbol -> Bool
+ocurre m (Hoja n) = m == n
+ocurre m (Nodo i n d) = m == n || ocurre m i || ocurre m d
+
+{-66.En el preludio está definido el tipo de datos
+-- data Ordering = LT | EQ | GT
+-- junto con la función
+-- compare :: Ord a => a -> a -> Ordering
+-- que decide si un valor en un tipo ordenado es menor (LT), igual (EQ)
+-- o mayor (GT) que otro.
+--
+-- Usando esta función, redefinir la función
+-- ocurre :: Int -> Arbol -> Bool
+-- del ejercicio anterior.-}
+ocurre1 :: Int -> Arbol -> Bool
+ocurre1 m (Hoja n) = m == n
+ocurre1 m (Nodo i n d) = case compare m n of
+							LT -> ocurre1 m i
+							EQ -> True
+							GT -> ocurre1 m d
+							
+--mas sobre arboles
+data ArbolB = HojaB Int | NodoB ArbolB ArbolB deriving Show
+ejArbolB :: ArbolB
+ejArbolB = NodoB (NodoB (HojaB 1) (HojaB 4)) (NodoB (HojaB 6) (HojaB 9))
+
+{-67.Definir la función
+-- nHojas :: ArbolB -> Int
+-- tal que (nHojas a) es el número de hojas del árbol a. Por ejemplo,
+-- nHojas (NodoB (HojaB 5) (NodoB (HojaB 3) (HojaB 7))) == 3
+-- nHojas ejArbolB == 4-}
+nHojas :: ArbolB -> Int
+nHojas (HojaB _) = 1
+nHojas (NodoB a1 a2) = nHojas a1 + nHojas a2
+
+{-68.ARbol balanceado-}
+balanceado :: ArbolB -> Bool
+balanceado (HojaB _) = True
+balanceado (NodoB a1 a2) = abs (nHojas a1 - nHojas a2) <= 1 && balanceado a1 && balanceado a2
+
+{-69.Definir la función
+-- mitades :: [a] -> ([a],[a])
+-- tal que (mitades xs) es un par de listas que se obtiene al dividir xs
+-- en dos mitades cuya longitud difiere como máximo en uno. Por ejemplo,
+-- mitades [2,3,5,1,4,7] == ([2,3,5],[1,4,7])
+-- mitades [2,3,5,1,4,7,9] == ([2,3,5],[1,4,7,9])-}
+mitades::[a]->([a],[a])
+mitades xs = splitAt (length xs `div`2)xs
+
+{-70. Definir la función
+-- arbolBalanceado :: [Int] -> ArbolB
+-- tal que (arbolBalanceado xs) es el árbol balanceado correspondiente
+-- a la lista xs. Por ejemplo,
+-- ghci> arbolBalanceado [2,5,3]
+-- NodoB (HojaB 2) (NodoB (HojaB 5) (HojaB 3))176 Ejercicios de programación funcional (2011–12)
+-- ghci> arbolBalanceado [2,5,3,7]
+-- NodoB (NodoB (HojaB 2) (HojaB 5)) (NodoB (HojaB 3) (HojaB 7))-}
+arbolBalanceado :: [Int] -> ArbolB
+arbolBalanceado [x] = HojaB x
+arbolBalanceado xs = NodoB (arbolBalanceado ys) (arbolBalanceado zs)
+	where (ys,zs) = mitades xs
+	
+
+-- mar arboles
+data Arbol1 a = Hoja1 | Nodo1 a (Arbol1 a) (Arbol1 a) deriving (Show, Eq) 
+arbol1 = Nodo1 9 (Nodo1 3(Nodo1 2 Hoja1 Hoja1)(Nodo1 4 Hoja1 Hoja1))(Nodo1 7 Hoja1 Hoja1)
+{-71.Definir la función
+-- nNodos :: Arbol a -> Int
+-- tal que (nNodos x) es el número de nodos del árbol x. Por ejemplo,
+-- ghci> arbol
+-- Nodo 9 (Nodo 3 (Nodo 2 Hoja Hoja) (Nodo 4 Hoja Hoja)) (Nodo 7 Hoja Hoja)
+-- ghci> nNodos arbol
+-- 5-}
+nNodos :: Arbol1 a -> Int
+nNodos Hoja1 = 0
+nNodos (Nodo1 x i d) = 1 + nNodos i + nNodos d
+
+{-72. Definir la función
+-- profundidad :: Arbol a -> Int
+-- tal que (profundidad x) es la profundidad del árbol x. Por ejemplo,
+-- ghci> arbol
+-- Nodo 9 (Nodo 3 (Nodo 2 Hoja Hoja) (Nodo 4 Hoja Hoja)) (Nodo 7 Hoja Hoja)
+-- ghci> profundidad arbol
+-- 3-}
+profundidad :: Arbol1 a -> Int
+profundidad Hoja1 = 0
+profundidad (Nodo1 x i d) = 1 + max (profundidad i) (profundidad d)
+{-73 recorridos preorden y postorde-}
+preorden :: Arbol1 a -> [a]
+preorden Hoja1 = []
+preorden (Nodo1 x i d) = x : (preorden i ++ preorden d)
+
+preordenIt :: Arbol1 a -> [a]
+preordenIt x = preordenItAux x []
+	where preordenItAux Hoja1 xs = xs
+	      preordenItAux (Nodo1 x i d) xs = x : preordenItAux i (preordenItAux d xs)
+
+postorden :: Arbol1 a -> [a]
+postorden Hoja1 = []
+postorden (Nodo1 x i d) = postorden i ++ postorden d ++ [x]
+
+--Programacion Funcional con listas infinitas
+{-74.La sucesión de los números triangulares se obtiene sumando los
+-- números naturales. Así, el 7º número triangular es
+-- 1 + 2 + 3 + 4 + 5 + 6 + 7 = 28.
+-- Los primeros 10 números triangulares son
+-- 1, 3, 6, 10, 15, 21, 28, 36, 45, 55, ...
+-- Los divisores de los primeros 7 números triangulares son:
+-- 1: 1
+-- 3: 1,3
+-- 6: 1,2,3,6
+-- 10: 1,2,5,10
+-- 15: 1,3,5,15
+-- 21: 1,3,7,21
+-- 28: 1,2,4,7,14,28
+-- Como se puede observar, 28 es el menor número triangular con más de 5 divisores.
+-- Definir la función
+-- euler12 :: Int -> Integer
+-- tal que (euler12 n) es el menor número triangular con más de n
+-- divisores. Por ejemplo,
+-- euler12 5 == 28-}
+euler12::Int->Int
+euler12 n = head [x | x<-triangulares,nDivisores x>n]
+
+triangulares::[Int]
+triangulares = 1:[x+y|(x,y)<-zip[2..]triangulares]
+
+divisores1::Int->[Int] --Lista de todos los divisores de un numero
+divisores1 x = [y|y<-[1..x],mod x y ==0]
+
+nDivisores::Int->Int
+nDivisores x = length(divisores1 x)
+
+{-75.Definir la función
+-- circulo :: Int -> Int
+-- tal que (circulo n) es el la cantidad de pares de números naturales
+-- (x,y) que se encuentran dentro del círculo de radio n. Por ejemplo,
+-- circulo 3 == 9
+-- circulo 4 == 15
+-- circulo 5 == 22-}
+circulo::Int->Int
+circulo n = length [(x,y) | x<-[0..n],y<-[0..n],x*x+y*y<n*n]
+
+--Ejercicios Complementarios
+{-76.Definir la función
+-- sumas_de_filas :: Num a => [[a]] -> [a]
+-- tal que (sumas_de_filas xss) es la lista de las sumas de las filas de
+-- la matriz xss. Por ejemplo,sumas_de_filas [[2,4,0],[7,1,3],[6,1,8]] == [6,11,15]-}
+sumaDeFilas::Num a=>[[a]]->[a]
+sumaDeFilas = map sum
+
+sumasDeColumnas :: Num a => [[a]] -> [a]
+sumasDeColumnas = sumaDeFilas . traspuesta
+
+{-77.Definir la función
+-- diagonal_pral :: [[a]] -> [a]
+-- tal que (diagonal_pral m) es la diagonal principal de la matriz m. Por
+-- ejemplo,
+-- diagonal_pral [[3,5,2],[4,7,1],[6,9,0]] == [3,7,0]
+-- diagonal_pral [[3,5,2],[4,7,1]] == [3,7]-}
+diagonalPrincipal::[[a]]->[a]
+diagonalPrincipal ((x1:_):xs) = x1 : diagonalPrincipal [tail x | x<-xs]
+diagonalPrincipal _ = [] -- la secundaria seria añadir un diagonal_Sec.reverse como otra funcion con los mismos parametros
+
+{-78.Cuadrado Magicos Los cuadrados mágicos de orden 3 tienen la forma
+-- +---+---+---+
+-- | a | b | c |
+-- +---+---+---+
+-- | d | e | f |
+-- +---+---+---+
+-- | g | h | i |
+-- +---+---+---+
+-- y se pueden construir como sigue:
+-- * a es un elemento de [1..9],
+-- * b es un elemento de los restantes (es decir, de [1..9] \\ [a]),
+-- * c es un elemento de los restantes,
+-- * a+b+c tiene que ser igual a 15,
+-- * d es un elemento de los restantes,
+-- * g es un elemento de los restantes,
+-- * a+d+g tiene que ser igual a 15,
+-- y así sucesivamente.
+--
+-- Definir la función
+-- cuadradosMagicos_3 :: [[[Int]]]
+-- tal que cuadradosMagicos_3 es la lista de los cuadrados mágicos de
+-- orden 3 construidos usando el proceso anterior. Por ejemplo,
+-- ghci> take 2 cuadradosMagicos_3
+-- [[[2,7,6],[9,5,1],[4,3,8]],[[2,9,4],[7,5,3],[6,1,8]]]-}
+cuadradosMagicos_3 :: [[[Int]]]
+cuadradosMagicos_3 = [[[a,b,c],[d,e,f],[g,h,i]] |
+	a <- [1..9],
+	b <- [1..9] -- [a],
+	c <- [1..9] -- [a,b],
+	a+b+c == 15,
+	d <- [1..9] -- [a,b,c],
+	g <- [1..9] -- [a,b,c,d],
+	a+d+g == 15,
+	e <- [1..9] -- [a,b,c,d,g],
+	c+e+g == 15,
+	i <- [1..9] -- [a,b,c,d,g,e],
+	a+e+i == 15,
+	f <- [1..9] -- [a,b,c,d,g,e,i],
+	h <- [1..9] -- [a,b,c,d,g,e,i,f],
+	c+f+i == 15,
+	d+e+f == 15]
