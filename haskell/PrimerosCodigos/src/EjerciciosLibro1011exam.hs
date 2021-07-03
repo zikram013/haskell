@@ -449,3 +449,143 @@ bezout a b = (y,x-q*y)
 	  
 qoutRem::(Int,Int)->(Int,Int)
 qoutRem (a,b) = (a `mod` b , a`rem`b)
+
+
+{-Relacion de propiedades por inducion-}
+
+{-28.Definir por recursión la función
+-- sumaImpares :: Int -> Int
+-- tal que (sumaImpares n) es la suma de los n primeros números impares. Por ejemplo,
+-- sumaImpares 5 == 25-}
+sumaImpares::Int->Int
+sumaImpares 0 = 0
+sumaImpares (n+1)=sumaImpares n + (2*n+1)
+
+{-29.Definir la funcion grafoSumaImpares :: Int -> Int -> [(Int,Int)]
+-- tal que (grafoSumaImpares m n) es la lista formadas por los números x
+-- entre m y n y los valores de (sumaImpares x).
+-- Calcular (grafoSumaImpares 1 9).-}
+grafoSumaImpares::Int->Int->[(Int,Int)]
+grafoSumaImpares m n = [(x,sumaImpares x)|x<-[m..n]]
+
+
+{-30.Definir por recursión la función
+-- sumaPotenciasDeDosMasUno :: Int -> Int
+-- tal que
+-- sumaPotenciasDeDosMasUno n = 1 + 2^0 + 2^1 + 2^2 + ... + 2^n.
+-- Por ejemplo,
+-- sumaPotenciasDeDosMasUno 3 == 16-}
+sumaPotenciasDeDosMasUno::Int->Int
+sumaPotenciasDeDosMasUno 0 = 2
+sumaPotenciasDeDosMasUno (n+1) = sumaPotenciasDeDosMasUno n + 2^(n+1)
+
+{-31.Definir por recursión la función
+-- copia :: Int -> a -> [a]
+-- tal que (copia n x) es la lista formado por n copias del elemento
+-- x. Por ejemplo,
+-- copia 3 2 == [2,2,2]-}
+copia::Int->a->[a]
+copia 0 _ = []
+copia (n+1) x = x : copia n x
+
+{-32.Definir la función
+-- traspuesta :: [[a]] -> [[a]]
+-- tal que (traspuesta m) es la traspuesta de la matriz m. Por ejemplo,
+-- traspuesta [[1,2,3],[4,5,6]] == [[1,4],[2,5],[3,6]]
+-- traspuesta [[1,4],[2,5],[3,6]] == [[1,2,3],[4,5,6]]-}
+traspuesta::[[a]]->[[a]]
+traspuesta [] = []
+traspuesta([]:xss)=traspuesta xss
+traspuesta((x:xs):xss)=(x:[h | (h:_)<-xss]):traspuesta (xs:[t | (_:t)<-xss])
+
+{-Ejercicios sobre numeros primos-}
+{-33.Definir la función mediante compresion,recurion y plegado
+-- elimina :: Int -> [Int] -> [Int]
+-- tal que (elimina n xs) es la lista obtenida eliminando en la lista xs
+-- los múltiplos de n. Por ejemplo,
+-- elimina 3 [2,3,8,9,5,6,7] == [2,8,5,7]-}
+eliminaCompresion::Int->[Int]->[Int]
+eliminaCompresion n xs = [x|x<-xs,x`mod`n /=0]
+
+eliminaRecursion::Int->[Int]->[Int]
+eliminaRecursion n [] = []
+eliminaRecursion n (x:xs) 
+	  | mod x n == 0 = eliminaRecursion n xs
+	  | otherwise = x : eliminaRecursion n xs
+
+eliminaPlegado::Int->[Int]->[Int]
+eliminaPlegado n = foldr f []
+	where f x y | mod x n == 0 = y
+	             |otherwise = x:y
+	             
+{-34.Definir la función
+-- criba :: [Int] -> [Int]
+-- tal que (criba xs) es la lista obtenida cribando la lista xs con el
+-- método descrito anteriormente. Por ejemplo,
+-- criba [2..20] == [2,3,5,7,11,13,17,19]
+-- take 10 (criba [2..]) == [2,3,5,7,11,13,17,19,23,29]-}
+criba::[Int]->[Int]
+criba [] = []
+criba (n:ns) = n : criba(eliminaPlegado n ns)
+
+{-35.Definir la función
+-- prefijosConSuma :: [Int] -> Int -> [[Int]]
+-- tal que (prefijosConSuma xs n) es la lista de los prefijos de xs cuya
+-- suma es n. Por ejemplo,
+-- prefijosConSuma [1..10] 3 == [[1,2]]
+-- prefijosConSuma [1..10] 4 == []-}
+prefijosConSuma::[Int]->Int->[[Int]]
+prefijosConSuma [] 0 = [[]]
+prefijosConSuma [] n = []
+prefijosConSuma (x:xs) n 
+	|x<n = [x:ys | ys <-prefijosConSuma xs (n-x)]
+	|x==n=[[x]]
+	|x>n=[]
+	
+{-36.Definir la función
+-- consecutivosConSuma :: [Int] -> Int -> [[Int]]
+-- (consecutivosConSuma xs n) es la lista de los elementos consecutivos
+-- de xs cuya suma es n. Por ejemplo,
+-- consecutivosConSuma [1..10] 9 == [[2,3,4],[4,5],[9]]-}
+consecutivosConSuma::[Int]->Int->[[Int]]
+consecutivosConSuma [] 0 = [[]]
+consecutivosConSuma [] n = []
+consecutivosConSuma (x:xs) n = (prefijosConSuma(x:xs)n)++(consecutivosConSuma xs n)
+
+{-37.Definir la función
+-- sumaCifras :: Int -> Int
+-- tal que (sumaCifras x) es la suma de las cifras del número x. Por
+-- ejemplo,
+-- sumaCifras 254 == 11-}
+sumaCifras::Int->Int
+sumaCifras x = sum [read [y] | y<-show x]
+
+{-38.Definir la función por recursion y plegado y compresion
+-- sumaCifrasLista :: [Int] -> Int
+-- tal que (sumaCifrasLista xs) es la suma de las cifras de la lista de
+-- números xs. Por ejemplo,
+-- sumaCifrasLista [254, 61] == 18-}
+sumaCifrasListaCompresion::[Int]->Int
+sumaCifrasListaCompresion xs = sum [sumaCifras y | y<-xs]
+
+sumaCifrasListaRecursion :: [Int] -> Int
+sumaCifrasListaRecursion [] = 0
+sumaCifrasListaRecursion (x:xs) = sumaCifras x + sumaCifrasListaRecursion xs
+
+sumaCifrasPlegado::[Int]->Int
+sumaCifrasPlegado = foldr f 0 where f x y = sumaCifras x + y
+
+{-38.Conjecura de collaz, siempre llegar al uno
+Sea la siguiente operación, aplicable a cualquier número entero
+-- positivo:
+-- * Si el número es par, se divide entre 2.
+-- * Si el número es impar, se multiplica por 3 y se suma 1.-}
+siguiente::Int->Int
+siguiente n | even n = n`div` 2
+			|otherwise = 3*n+1
+			
+collatz::Int->[Int]
+collatz 1 = [1]
+collatz n = n: collatz (siguiente n)
+
+{-Ejercicios de examenesdel curso 2010-11-}

@@ -56,7 +56,7 @@
 </editor>
 <editor activePart="true" focus="true" id="net.sf.eclipsefp.haskell.ui.editor.HaskellEditor" name="EjerciciosLibro1011exam.hs" partName="EjerciciosLibro1011exam.hs" path="D:/repositorios/multimedia/haskell/haskell/PrimerosCodigos/src/EjerciciosLibro1011exam.hs" title="EjerciciosLibro1011exam.hs" tooltip="PrimerosCodigos/src/EjerciciosLibro1011exam.hs" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/PrimerosCodigos/src/EjerciciosLibro1011exam.hs"/>
-<editorState selectionLength="0" selectionOffset="6794"/>
+<editorState selectionLength="0" selectionOffset="17936"/>
 </editor>
 </editors>
 <views>
@@ -352,7 +352,6 @@
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="net.sf.eclipsefp.haskell.ui.editor.HaskellEditor" path="/PrimerosCodigos/src/EjerciciosLibro.hs"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="net.sf.eclipsefp.haskell.ui.editor.HaskellEditor" path="/PrimerosCodigos/src/EjerciciosRecursividad.hs"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="net.sf.eclipsefp.haskell.ui.editor.HaskellEditor" path="/PrimerosCodigos/src/EjerciciosTema3.hs"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="net.sf.eclipsefp.haskell.ui.editor.HaskellEditor" path="/PrimerosCodigos/src/PrimerosPasos.hs"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="net.sf.eclipsefp.haskell.ui.editor.HaskellEditor" path="/PrimerosCodigos/src/Listas.hs"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="net.sf.eclipsefp.haskell.ui.editor.HaskellEditor" path="/PrimerosCodigos/src/Patrones.hs"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="net.sf.eclipsefp.haskell.ui.editor.HaskellEditor" path="/PrimerosCodigos/src/EstudioExamen.hs"/>
@@ -366,35 +365,29 @@
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="net.sf.eclipsefp.haskell.ui.editor.HaskellEditor" path="/PrimerosCodigos/src/EntradaSalida.hs"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="net.sf.eclipsefp.haskell.ui.editor.HaskellEditor" path="/PrimerosCodigos/src/AllEjercicios.hs"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="net.sf.eclipsefp.haskell.ui.editor.HaskellEditor" path="/PrimerosCodigos/src/EjerciciosLibro1011exam.hs"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="net.sf.eclipsefp.haskell.ui.editor.HaskellEditor" path="/PrimerosCodigos/src/EjerciciosExamen.hs"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="net.sf.eclipsefp.haskell.ui.editor.HaskellEditor" path="/PrimerosCodigos/src/EntradaSalida.hs"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="net.sf.eclipsefp.haskell.ui.editor.HaskellEditor" path="/PrimerosCodigos/src/EjerciciosLibro1011exam.hs"/>
 </editors>
-<item historyLabel="EjerciciosRecursividad.hs" index="1">
-<position info="not_deleted" x="486" y="0"/>
-</item>
 <item historyLabel="EjerciciosTema3.hs" index="2">
 <position/>
 </item>
-<item historyLabel="PrimerosPasos.hs" index="3">
+<item historyLabel="Listas.hs" index="3">
 <position/>
 </item>
-<item historyLabel="EjerciciosTema3.hs" index="2">
+<item historyLabel="Patrones.hs" index="4">
 <position/>
 </item>
-<item historyLabel="Listas.hs" index="4">
-<position/>
-</item>
-<item historyLabel="Patrones.hs" index="5">
-<position/>
-</item>
-<item historyLabel="EstudioExamen.hs" index="6">
+<item historyLabel="EstudioExamen.hs" index="5">
 <position info="not_deleted" x="47" y="383"/>
 </item>
-<item historyLabel="Funtores.hs" index="7">
+<item historyLabel="Funtores.hs" index="6">
 <position/>
 </item>
-<item historyLabel="ExamenOctubre2019.hs" index="8">
+<item historyLabel="ExamenOctubre2019.hs" index="7">
 <position/>
 </item>
-<item historyLabel="EjerciciosExamen.hs" index="9">
+<item historyLabel="EjerciciosExamen.hs" index="8">
 <position/>
 </item>
 <item historyLabel="EjerciciosLibro.hs" index="0">
@@ -403,119 +396,128 @@
 <item historyLabel="EjerciciosRecursividad.hs" index="1">
 <position info="not_deleted" x="486" y="0"/>
 </item>
-<item historyLabel="ExamenOctubre2019.hs" index="8">
+<item historyLabel="ExamenOctubre2019.hs" index="7">
 <position/>
 </item>
-<item historyLabel="EstudioExamen.hs" index="6">
+<item historyLabel="EstudioExamen.hs" index="5">
 <position info="not_deleted" x="47" y="383"/>
 </item>
-<item historyLabel="Tema4Recursividad.hs" index="10">
+<item historyLabel="Tema4Recursividad.hs" index="9">
 <position info="not_deleted" x="1034" y="0"/>
 </item>
 <item historyLabel="EjerciciosLibro.hs" index="0">
 <position info="not_deleted" x="7551" y="0"/>
 </item>
-<item historyLabel="Patrones.hs" index="5">
+<item historyLabel="Patrones.hs" index="4">
 <position/>
 </item>
-<item historyLabel="Funtores.hs" index="7">
+<item historyLabel="Funtores.hs" index="6">
 <position/>
 </item>
-<item historyLabel="ExamenOctubre2019.hs" index="8">
+<item historyLabel="ExamenOctubre2019.hs" index="7">
 <position/>
 </item>
 <item historyLabel="EjerciciosRecursividad.hs" index="1">
 <position info="not_deleted" x="486" y="0"/>
 </item>
-<item historyLabel="ExamenOctubre2019.hs" index="8">
+<item historyLabel="ExamenOctubre2019.hs" index="7">
 <position/>
 </item>
 <item historyLabel="EjerciciosTema3.hs" index="2">
 <position/>
 </item>
-<item historyLabel="Tema4Recursividad.hs" index="10">
+<item historyLabel="Tema4Recursividad.hs" index="9">
 <position info="not_deleted" x="1034" y="0"/>
 </item>
 <item historyLabel="EjerciciosTema3.hs" index="2">
 <position/>
 </item>
-<item historyLabel="RepasoPlegado.hs" index="11">
+<item historyLabel="RepasoPlegado.hs" index="10">
 <position info="not_deleted" x="894" y="132"/>
 </item>
 <item historyLabel="EjerciciosTema3.hs" index="2">
 <position/>
 </item>
-<item historyLabel="RepasoPlegado.hs" index="11">
+<item historyLabel="RepasoPlegado.hs" index="10">
 <position info="not_deleted" x="894" y="132"/>
 </item>
-<item historyLabel="EstudioExamen.hs" index="6">
+<item historyLabel="EstudioExamen.hs" index="5">
 <position info="not_deleted" x="499" y="0"/>
 </item>
-<item historyLabel="RepasoPlegado.hs" index="11">
+<item historyLabel="RepasoPlegado.hs" index="10">
 <position info="not_deleted" x="894" y="132"/>
 </item>
 <item historyLabel="EjerciciosLibro.hs" index="0">
 <position info="not_deleted" x="7551" y="0"/>
 </item>
-<item historyLabel="RepasoPlegado.hs" index="11">
+<item historyLabel="RepasoPlegado.hs" index="10">
 <position info="not_deleted" x="894" y="132"/>
 </item>
-<item historyLabel="ExamenOctubre2019.hs" index="8">
+<item historyLabel="ExamenOctubre2019.hs" index="7">
 <position/>
 </item>
-<item historyLabel="AllEjercicios.hs" index="12">
+<item historyLabel="AllEjercicios.hs" index="11">
 <position info="not_deleted" x="30" y="36"/>
 </item>
-<item historyLabel="ExamenOctubre2019.hs" index="8">
+<item historyLabel="ExamenOctubre2019.hs" index="7">
 <position/>
 </item>
-<item historyLabel="Funtores.hs" index="7">
+<item historyLabel="Funtores.hs" index="6">
 <position/>
 </item>
-<item historyLabel="EjerciciosExamen.hs" index="9">
+<item historyLabel="EjerciciosExamen.hs" index="8">
 <position/>
 </item>
-<item historyLabel="AllEjercicios.hs" index="12">
+<item historyLabel="AllEjercicios.hs" index="11">
 <position/>
 </item>
-<item historyLabel="EjerciciosLibro.hs" index="13">
+<item historyLabel="EjerciciosLibro.hs" index="12">
 <position/>
 </item>
-<item historyLabel="EntradaSalida.hs" index="14">
+<item historyLabel="EntradaSalida.hs" index="13">
 <position/>
 </item>
-<item historyLabel="EjerciciosLibro.hs" index="13">
+<item historyLabel="EjerciciosLibro.hs" index="12">
 <position info="not_deleted" x="20917" y="0"/>
 </item>
-<item historyLabel="EntradaSalida.hs" index="14">
+<item historyLabel="EntradaSalida.hs" index="13">
 <position info="not_deleted" x="5228" y="0"/>
 </item>
-<item historyLabel="EjerciciosLibro.hs" index="13">
+<item historyLabel="EjerciciosLibro.hs" index="12">
 <position info="not_deleted" x="20917" y="0"/>
 </item>
-<item historyLabel="AllEjercicios.hs" index="15">
+<item historyLabel="AllEjercicios.hs" index="14">
 <position info="not_deleted" x="578" y="0"/>
 </item>
-<item historyLabel="EntradaSalida.hs" index="14">
+<item historyLabel="EntradaSalida.hs" index="13">
 <position info="not_deleted" x="5228" y="0"/>
 </item>
-<item historyLabel="EjerciciosLibro.hs" index="13">
+<item historyLabel="EjerciciosLibro.hs" index="12">
 <position info="not_deleted" x="20917" y="0"/>
 </item>
-<item historyLabel="EjerciciosLibro1011exam.hs" index="16">
+<item historyLabel="EjerciciosLibro1011exam.hs" index="15">
 <position/>
 </item>
-<item historyLabel="EjerciciosLibro.hs" index="13">
+<item historyLabel="EjerciciosLibro.hs" index="12">
 <position info="not_deleted" x="32" y="36"/>
 </item>
-<item historyLabel="EjerciciosLibro1011exam.hs" index="16">
+<item historyLabel="EjerciciosLibro1011exam.hs" index="15">
 <position/>
 </item>
-<item historyLabel="EjerciciosLibro.hs" index="13">
+<item historyLabel="EjerciciosLibro.hs" index="12">
 <position info="not_deleted" x="32" y="36"/>
 </item>
-<item active="true" historyLabel="EjerciciosLibro1011exam.hs" index="16">
+<item historyLabel="EjerciciosLibro1011exam.hs" index="15">
 <position info="not_deleted" x="6794" y="0"/>
+</item>
+<item historyLabel="EjerciciosExamen.hs" index="16">
+<position/>
+</item>
+<item historyLabel="EntradaSalida.hs" index="17">
+<position info="not_deleted" x="5228" y="0"/>
+</item>
+<item active="true" historyLabel="EjerciciosLibro1011exam.hs" index="18">
+<position/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -523,9 +525,6 @@
 <workbenchWindowAdvisor/>
 <actionBarAdvisor/>
 <trimLayout>
-<trimArea IMemento.internal.id="16384">
-<trimItem IMemento.internal.id="left"/>
-</trimArea>
 <trimArea IMemento.internal.id="131072">
 <trimItem IMemento.internal.id="right"/>
 </trimArea>
@@ -536,7 +535,6 @@
 <trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
 <trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
-<trimItem IMemento.internal.id="bottom"/>
 </trimArea>
 </trimLayout>
 </window>

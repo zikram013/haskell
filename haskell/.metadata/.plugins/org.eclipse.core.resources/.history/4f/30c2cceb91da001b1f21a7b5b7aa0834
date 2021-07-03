@@ -1,5 +1,0 @@
-
-module EjerciciosLibro1011exam where
-import Data.Char
-import Data.List
-
