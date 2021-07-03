@@ -1,0 +1,36 @@
+
+module LogicaMetamaticaInHAskell where
+import Data.List
+
+data FProp = Const Bool
+	| Var Char
+	| Neg FProp
+	| Conj FProp FProp
+	| Disj FProp FProp -- Añadido
+	| Impl FProp FProp
+	| Equi FProp FProp -- Añadido
+	deriving Show
+type Interpretacion = [(Char, Bool)]
+valor :: Interpretacion -> FProp -> Bool
+valor _ (Const b) = b
+valor i (Var x) = busca x i
+valor i (Neg p) = not (valor i p)
+valor i (Conj p q) = valor i p && valor i q
+valor i (Disj p q) = valor i p || valor i q -- Añadido
+valor i (Impl p q) = valor i p <= valor i q
+valor i (Equi p q) = valor i p == valor i q -- Añadido
+busca :: Eq c => c -> [(c,v)] -> v
+busca c t = head [v | (c’,v) <- t, c == c’]
+variables :: FProp -> [Char]
+variables (Const _) = []
+variables (Var x) = [x]
+variables (Neg p) = variables p
+variables (Conj p q) = variables p ++ variables q
+variables (Disj p q) = variables p ++ variables q -- Añadido
+variables (Impl p q) = variables p ++ variables q
+variables (Equi p q) = variables p ++ variables q -- Añadido
+interpretacionesVar :: Int -> [[Bool]]
+interpretacionesVar 0 = [[]]
+interpretacionesVar (n+1) =
+map (False:) bss ++ map (True:) bss
+where bss = interpretacionesVar n

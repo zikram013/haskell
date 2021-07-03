@@ -1,0 +1,69 @@
+
+module LogicaMetamaticaInHAskell where
+import Data.List
+
+data FProp = Const Bool
+	| Var Char
+	| Neg FProp
+	| Conj FProp FProp
+	| Disj FProp FProp -- Añadido
+	| Impl FProp FProp
+	| Equi FProp FProp -- Añadido
+	deriving Show
+type Interpretacion = [(Char, Bool)]
+valor :: Interpretacion -> FProp -> Bool
+valor _ (Const b) = b
+valor i (Var x) = busca x i
+valor i (Neg p) = not (valor i p)
+valor i (Conj p q) = valor i p && valor i q
+valor i (Disj p q) = valor i p || valor i q -- Añadido
+valor i (Impl p q) = valor i p <= valor i q
+valor i (Equi p q) = valor i p == valor i q -- Añadido
+busca :: Eq c => c -> [(c,v)] -> v
+busca c t = head [v | (c1,v) <- t, c == c1]
+variables :: FProp -> [Char]
+variables (Const _) = []
+variables (Var x) = [x]
+variables (Neg p) = variables p
+variables (Conj p q) = variables p ++ variables q
+variables (Disj p q) = variables p ++ variables q -- Añadido
+variables (Impl p q) = variables p ++ variables q
+variables (Equi p q) = variables p ++ variables q -- Añadido
+interpretacionesVar :: Int -> [[Bool]]
+interpretacionesVar 0 = [[]]
+interpretacionesVar (n+1) = map (False:) bss ++ map (True:) bss
+	where bss = interpretacionesVar n
+interpretaciones :: FProp -> [Interpretacion]
+interpretaciones p = map (zip vs) (interpretacionesVar (length vs))
+	where vs = nub (variables p)
+esTautologia :: FProp -> Bool
+esTautologia p = and [valor i p | i <- interpretaciones p]
+
+-- ---------------------------------------------------------------------
+-- Ejercicio 2. Definir la función
+-- interpretacionesVar’ :: Int -> [[Bool]]
+-- que sea equivalente a interpretacionesVar pero que en su definición
+-- use listas de comprensión en lugar de map. Por ejemplo,
+-- ghci> interpretacionesVar’ 2
+-- [[False,False],[False,True],[True,False],[True,True]]
+-- ---------------------------------------------------------------------
+interpretacionesVar’ :: Int -> [[Bool]]
+interpretacionesVar’ 0 = [[]]
+interpretacionesVar’ (n+1) = [False:bs | bs <- bss] ++ [True:bs | bs <- bss]
+	where bss = interpretacionesVar’ n
+-- ---------------------------------------------------------------------
+-- Ejercicio 3. Definir la función
+-- interpretaciones’ :: FProp -> [Interpretacion]
+-- que sea equivalente a interpretaciones pero que en su definición
+-- use listas de comprensión en lugar de map. Por ejemplo,
+-- ghci> interpretaciones’ (Impl (Var ’A’) (Conj (Var ’A’) (Var ’B’)))
+-- [[(’A’,False),(’B’,False)],
+-- [(’A’,False),(’B’,True)],
+-- [(’A’,True),(’B’,False)],
+-- [(’A’,True),(’B’,True)]]
+-- ---------------------------------------------------------------------
+interpretaciones’ :: FProp -> [Interpretacion]
+interpretaciones’ p =
+[zip vs i | i <- is]
+	where vs = nub (variables p)
+	      is = interpretacionesVar (length vs)
