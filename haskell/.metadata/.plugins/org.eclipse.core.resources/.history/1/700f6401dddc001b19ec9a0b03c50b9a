@@ -87,10 +87,3 @@ todos' even [2,6,4] ==> True
 todos' even [2,5,4] ==> False-}
 todos::(a->Bool)->[a]->Bool
 todos p = foldr f True where f x y = p x && y
-
-
-{-Con esto eliminamos elementos con foldr
-eliminaP :: Int -> [Int] -> [Int]
-eliminaP n = foldr f []
-where f x y | rem x n == 0 = y
-| otherwise = x:y-}
