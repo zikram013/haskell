@@ -1197,17 +1197,3 @@ sumaPrimosTruncables n = sum (take n [x|x<-primos,primoTruncable x])
 -- take 10 enteros == [0,-1,1,-2,2,-3,3,-4,4,-5]
 enteros::[Int]
 enteros = 0 : concat [[-x,x]|x<-[1..]]
-
---Definir la función
--- posicion :: Int -> Int
--- tal que (posicion x) es la posición del entero x en la ordenación
--- anterior. Por ejemplo,
--- posicion 2 == 4
-posicion::Int->Int
-posicion x = aux enteros 0 
-	where aux (y:ys) n | x==y = n
-						|otherwise = aux ys (n+1)
--- Definición por comprensión
-posicion_2 :: Int -> Int
-posicion_2 x = head [n | (n,y) <- zip [0..] enteros, y == x]
-						

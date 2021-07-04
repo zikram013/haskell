@@ -1207,7 +1207,3 @@ posicion::Int->Int
 posicion x = aux enteros 0 
 	where aux (y:ys) n | x==y = n
 						|otherwise = aux ys (n+1)
--- Definición por comprensión
-posicion_2 :: Int -> Int
-posicion_2 x = head [n | (n,y) <- zip [0..] enteros, y == x]
-						
