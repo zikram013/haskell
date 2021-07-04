@@ -1,0 +1,4 @@
+
+module MasPlegado where
+import Data.Char
+import Data.List

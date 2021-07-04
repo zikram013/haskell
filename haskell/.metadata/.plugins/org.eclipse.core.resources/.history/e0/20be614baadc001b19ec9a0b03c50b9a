@@ -1,0 +1,10 @@
+
+module MasPlegado where
+import Data.Char
+import Data.List
+
+{-1.Redefinir, usando foldr, la función filter. Por
+-- ejemplo, 
+--    filter' (<4) [1,7,3,2]  =>  [1,3,2]-}
+filterPlegado::(a->Bool)->[a]->[a]
+filterPlegado p = foldr (\x y -> if (p x)then(x:y) else y) []

@@ -1,0 +1,18 @@
+
+module MasTiposDeDatos where
+import Data.Char
+import Data.List
+
+{-1.Definición del tipo de datos Figura y función que calcula el perímetro de una
+figura.-}
+type Radio = Float
+type Lado = Float
+
+data Figura = Circulo Radio | Cuadrado Lado | Rectangulo Lado Lado  deriving Show
+
+perimetro::Figura->Float
+perimetro (Circulo radio)= 2 * pi * radio
+perimetro (Cuadrado lado) = 4 * lado
+perimetro (Rectangulo ancho alto) = 2 * ancho + 2 * alto
+
+{-2.-}

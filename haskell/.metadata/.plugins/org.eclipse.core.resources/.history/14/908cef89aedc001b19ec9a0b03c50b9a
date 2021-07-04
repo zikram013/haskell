@@ -1,0 +1,115 @@
+
+module MasTiposDeDatos where
+import Data.Char
+import Data.List
+
+{-1.Definición del tipo de datos Figura y función que calcula el perímetro de una
+figura.-}
+type Radio = Float
+type Lado = Float
+
+data Figura = Circulo Radio | Cuadrado Lado | Rectangulo Lado Lado  deriving Show
+
+perimetro::Figura->Float
+perimetro (Circulo radio)= 2 * pi * radio
+perimetro (Cuadrado lado) = 4 * lado
+perimetro (Rectangulo ancho alto) = 2 * ancho + 2 * alto
+
+{-2.Definición de tipos Real, Imaginario, Complejo y Resultado. El tipo Resultado 
+almacena las soluciones de una ecuacion de segundo grado.
+La función 'raices' calcula las raíces de una ecuación de segundo grado de
+la forma: ax^2 + bx + c = 0-}
+type Real = Float
+type Imag = Float
+
+data Compleo = Float :-Float deriving Show
+data Resultado = UnaReal Float | DorReales Float Float | DosComplejas Float Float deriving Show
+
+{-
+Ejercicio 6.4
+Dado el tipo recursivo Nat, algunas operaciones sobre
+dicho tipo.
+-}
+
+data Nat = Cero | Suc Nat deriving Show
+
+cinco :: Nat
+cinco = Suc(Suc(Suc(Suc(Suc Cero))))
+
+dos :: Nat
+dos = Suc(Suc Cero)
+
+uno :: Nat
+uno = Suc Cero
+
+-- resta
+resta :: Nat -> Nat -> Nat
+resta Cero _ = Cero
+resta x Cero = x
+resta (Suc x) (Suc y) = resta x y
+
+{- Funciones de plegado, más abajo
+-- suma
+suma :: Nat -> Nat -> Nat
+suma x Cero = x
+suma x (Suc y) = suma (Suc x) y
+-- producto
+producto :: Nat -> Nat -> Nat
+producto _ Cero = Cero
+producto x (Suc y) = suma x (producto x y)
+-}
+
+-- potencia
+potencia :: Nat -> Nat -> Nat
+potencia _ Cero = Suc Cero
+potencia Cero _ = Cero
+potencia x (Suc Cero) = x
+potencia x (Suc y) = producto x (potencia x y)
+
+-- convierte un número de Integer a Nat
+
+intANat :: Integer -> Nat
+intANat 0 = Cero
+intANat (n + 1) = Suc(intANat(n))
+
+-- convierte de Nat a Integer
+
+natAInt :: Nat -> Integer
+natAInt Cero = 0
+natAInt (Suc x) = 1 + natAInt x
+
+-- cociente y resto de dividir dos Nat
+
+cocNat :: Nat -> Nat -> Nat
+cocNat x y = intANat(cociente (natAInt x) (natAInt y))
+
+resNat :: Nat -> Nat -> Nat
+resNat x y = intANat(resto (natAInt x) (natAInt y))
+
+{-
+Ejercicio 6.5
+Definir las funciones suma y productoS con la función de plegado
+foldNat.
+-}
+
+foldNat :: (a -> a) -> a -> (Nat -> a)
+foldNat f e Cero = e
+foldNat f e (Suc n) = f(foldNat f e n)
+
+{-
+suma :: Nat -> Nat -> Nat
+suma x Cero = x
+suma x (Suc y) = Suc(suma x y)
+-}
+
+suma :: Nat -> Nat -> Nat
+suma m = foldNat Suc m
+
+{-
+producto :: Nat -> Nat -> Nat
+producto _ Cero = Cero
+producto x (Suc y) = suma x (producto x y)
+-}
+
+producto :: Nat -> Nat -> Nat
+producto n = foldNat (\x -> suma x n) Cero

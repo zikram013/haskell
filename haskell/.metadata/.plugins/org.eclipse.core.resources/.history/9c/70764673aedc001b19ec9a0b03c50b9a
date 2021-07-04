@@ -1,0 +1,26 @@
+
+module MasTiposDeDatos where
+import Data.Char
+import Data.List
+
+{-1.Definición del tipo de datos Figura y función que calcula el perímetro de una
+figura.-}
+type Radio = Float
+type Lado = Float
+
+data Figura = Circulo Radio | Cuadrado Lado | Rectangulo Lado Lado  deriving Show
+
+perimetro::Figura->Float
+perimetro (Circulo radio)= 2 * pi * radio
+perimetro (Cuadrado lado) = 4 * lado
+perimetro (Rectangulo ancho alto) = 2 * ancho + 2 * alto
+
+{-2.Definición de tipos Real, Imaginario, Complejo y Resultado. El tipo Resultado 
+almacena las soluciones de una ecuacion de segundo grado.
+La función 'raices' calcula las raíces de una ecuación de segundo grado de
+la forma: ax^2 + bx + c = 0-}
+type Real = Float
+type Imag = Float
+
+data Compleo = Float :-Float deriving Show
+data Resultado = UnaReal Float | DorReales Float Float | DosComplejas Float Float deriving Show
