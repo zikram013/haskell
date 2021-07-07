@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workbench progressCount="12" version="2.0">
 <workbenchAdvisor/>
-<window height="1047" maximized="true" width="974" x="490" y="1">
+<window height="1047" maximized="true" width="974" x="953" y="0">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="160"/>
@@ -35,6 +35,8 @@
 <part id="3"/>
 <part id="4"/>
 <part id="5"/>
+<part id="6"/>
+<part id="7"/>
 </presentation>
 </folder>
 </info>
@@ -45,11 +47,11 @@
 </editor>
 <editor id="net.sf.eclipsefp.haskell.ui.editor.HaskellEditor" name="AllEjercicios.hs" partName="AllEjercicios.hs" path="D:/repositorios/multimedia/haskell/haskell/PrimerosCodigos/src/AllEjercicios.hs" title="AllEjercicios.hs" tooltip="PrimerosCodigos/src/AllEjercicios.hs" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/PrimerosCodigos/src/AllEjercicios.hs"/>
-<editorState selectionLength="0" selectionOffset="578"/>
+<editorState selectionLength="0" selectionOffset="23972"/>
 </editor>
 <editor id="net.sf.eclipsefp.haskell.ui.editor.HaskellEditor" name="EjerciciosLibro.hs" partName="EjerciciosLibro.hs" path="D:/repositorios/multimedia/haskell/haskell/PrimerosCodigos/src/EjerciciosLibro.hs" title="EjerciciosLibro.hs" tooltip="PrimerosCodigos/src/EjerciciosLibro.hs" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/PrimerosCodigos/src/EjerciciosLibro.hs"/>
-<editorState selectionLength="7" selectionOffset="13598"/>
+<editorState selectionLength="0" selectionOffset="0"/>
 </editor>
 <editor id="net.sf.eclipsefp.haskell.ui.editor.HaskellEditor" name="EntradaSalida.hs" partName="EntradaSalida.hs" path="D:/repositorios/multimedia/haskell/haskell/PrimerosCodigos/src/EntradaSalida.hs" title="EntradaSalida.hs" tooltip="PrimerosCodigos/src/EntradaSalida.hs" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/PrimerosCodigos/src/EntradaSalida.hs"/>
@@ -57,11 +59,19 @@
 </editor>
 <editor id="net.sf.eclipsefp.haskell.ui.editor.HaskellEditor" name="EjerciciosLibro1011exam.hs" partName="EjerciciosLibro1011exam.hs" path="D:/repositorios/multimedia/haskell/haskell/PrimerosCodigos/src/EjerciciosLibro1011exam.hs" title="EjerciciosLibro1011exam.hs" tooltip="PrimerosCodigos/src/EjerciciosLibro1011exam.hs" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/PrimerosCodigos/src/EjerciciosLibro1011exam.hs"/>
-<editorState selectionLength="4" selectionOffset="39521"/>
+<editorState selectionLength="0" selectionOffset="0"/>
 </editor>
-<editor activePart="true" focus="true" id="net.sf.eclipsefp.haskell.ui.editor.HaskellEditor" name="MasPlegado.hs" partName="MasPlegado.hs" path="D:/repositorios/multimedia/haskell/haskell/PrimerosCodigos/src/MasPlegado.hs" title="MasPlegado.hs" tooltip="PrimerosCodigos/src/MasPlegado.hs" workbook="DefaultEditorWorkbook">
+<editor id="net.sf.eclipsefp.haskell.ui.editor.HaskellEditor" name="MasPlegado.hs" partName="MasPlegado.hs" path="D:/repositorios/multimedia/haskell/haskell/PrimerosCodigos/src/MasPlegado.hs" title="MasPlegado.hs" tooltip="PrimerosCodigos/src/MasPlegado.hs" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/PrimerosCodigos/src/MasPlegado.hs"/>
-<editorState selectionLength="0" selectionOffset="3174"/>
+<editorState selectionLength="0" selectionOffset="3471"/>
+</editor>
+<editor id="net.sf.eclipsefp.haskell.ui.editor.HaskellEditor" name="EstudioExamen.hs" partName="EstudioExamen.hs" path="D:/repositorios/multimedia/haskell/haskell/PrimerosCodigos/src/EstudioExamen.hs" title="EstudioExamen.hs" tooltip="PrimerosCodigos/src/EstudioExamen.hs" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/PrimerosCodigos/src/EstudioExamen.hs"/>
+<editorState selectionLength="0" selectionOffset="1640"/>
+</editor>
+<editor focus="true" id="net.sf.eclipsefp.haskell.ui.editor.HaskellEditor" name="EjerciciosRecursividad.hs" partName="EjerciciosRecursividad.hs" path="D:/repositorios/multimedia/haskell/haskell/PrimerosCodigos/src/EjerciciosRecursividad.hs" title="EjerciciosRecursividad.hs" tooltip="PrimerosCodigos/src/EjerciciosRecursividad.hs" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/PrimerosCodigos/src/EjerciciosRecursividad.hs"/>
+<editorState selectionLength="9" selectionOffset="2512"/>
 </editor>
 </editors>
 <views>
@@ -77,7 +87,7 @@
 <element path="/PrimerosCodigos/src"/>
 </expanded>
 <selection>
-<element path="/PrimerosCodigos/src/OtrosExamenes.hs"/>
+<element path="/PrimerosCodigos/src/EjerciciosRecursividad.hs"/>
 </selection>
 </viewState>
 </view>
@@ -152,7 +162,7 @@
 <view id="net.sf.eclipsefp.haskell.ui.views.mbview.ModuleBrowser" partName="Module Browser"/>
 <view id="org.eclipse.jdt.ui.JavadocView" partName="Javadoc"/>
 </views>
-<perspectives activePart="net.sf.eclipsefp.haskell.ui.editor.HaskellEditor" activePerspective="net.sf.eclipsefp.haskell.ui.HaskellPerspective">
+<perspectives activePart="org.eclipse.ui.console.ConsoleView" activePerspective="net.sf.eclipsefp.haskell.ui.HaskellPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.jdt.internal.ui.JavaPerspectiveFactory" id="org.eclipse.jdt.ui.JavaPerspective" label="Java"/>
 <alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
@@ -327,7 +337,7 @@
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.16453382" ratioLeft="270" ratioRight="1371" relationship="2" relative="left"/>
-<info folder="true" part="bottom" ratio="0.603652" ratioLeft="562" ratioRight="369" relationship="4" relative="org.eclipse.ui.editorss">
+<info folder="true" part="bottom" ratio="0.6047261" ratioLeft="563" ratioRight="368" relationship="4" relative="org.eclipse.ui.editorss">
 <folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
@@ -355,13 +365,6 @@
 <navigationHistory>
 <editors>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="net.sf.eclipsefp.haskell.ui.editor.HaskellEditor" path="/PrimerosCodigos/src/EjerciciosLibro.hs"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="net.sf.eclipsefp.haskell.ui.editor.HaskellEditor" path="/PrimerosCodigos/src/EstudioExamen.hs"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="net.sf.eclipsefp.haskell.ui.editor.HaskellEditor" path="/PrimerosCodigos/src/Funtores.hs"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="net.sf.eclipsefp.haskell.ui.editor.HaskellEditor" path="/PrimerosCodigos/src/ExamenOctubre2019.hs"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="net.sf.eclipsefp.haskell.ui.editor.HaskellEditor" path="/PrimerosCodigos/src/EjerciciosExamen.hs"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="net.sf.eclipsefp.haskell.ui.editor.HaskellEditor" path="/PrimerosCodigos/src/RepasoPlegado.hs"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="net.sf.eclipsefp.haskell.ui.editor.HaskellEditor" path="/PrimerosCodigos/src/AllEjercicios.hs"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="net.sf.eclipsefp.haskell.ui.editor.HaskellEditor" path="/PrimerosCodigos/src/EjerciciosLibro.hs"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="net.sf.eclipsefp.haskell.ui.editor.HaskellEditor" path="/PrimerosCodigos/src/EntradaSalida.hs"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="net.sf.eclipsefp.haskell.ui.editor.HaskellEditor" path="/PrimerosCodigos/src/AllEjercicios.hs"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="net.sf.eclipsefp.haskell.ui.editor.HaskellEditor" path="/PrimerosCodigos/src/EjerciciosLibro1011exam.hs"/>
@@ -374,156 +377,167 @@
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="net.sf.eclipsefp.haskell.ui.editor.HaskellEditor" path="/PrimerosCodigos/src/MasTiposDeDatos.hs"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="net.sf.eclipsefp.haskell.ui.editor.HaskellEditor" path="/PrimerosCodigos/src/OtrosExamenes.hs"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="net.sf.eclipsefp.haskell.ui.editor.HaskellEditor" path="/PrimerosCodigos/src/EjerciciosLibro.hs"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="net.sf.eclipsefp.haskell.ui.editor.HaskellEditor" path="/PrimerosCodigos/src/AllEjercicios.hs"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="net.sf.eclipsefp.haskell.ui.editor.HaskellEditor" path="/PrimerosCodigos/src/EjerciciosLibro1011exam.hs"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="net.sf.eclipsefp.haskell.ui.editor.HaskellEditor" path="/PrimerosCodigos/src/EjerciciosExamen.hs"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="net.sf.eclipsefp.haskell.ui.editor.HaskellEditor" path="/PrimerosCodigos/src/EjerciciosLibro.hs"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="net.sf.eclipsefp.haskell.ui.editor.HaskellEditor" path="/PrimerosCodigos/src/EjerciciosExamen.hs"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="net.sf.eclipsefp.haskell.ui.editor.HaskellEditor" path="/PrimerosCodigos/src/EstudioExamen.hs"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="net.sf.eclipsefp.haskell.ui.editor.HaskellEditor" path="/PrimerosCodigos/src/AllEjercicios.hs"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="net.sf.eclipsefp.haskell.ui.editor.HaskellEditor" path="/PrimerosCodigos/src/EntradaSalida.hs"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="net.sf.eclipsefp.haskell.ui.editor.HaskellEditor" path="/PrimerosCodigos/src/EjerciciosLibro1011exam.hs"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="net.sf.eclipsefp.haskell.ui.editor.HaskellEditor" path="/PrimerosCodigos/src/MasPlegado.hs"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="net.sf.eclipsefp.haskell.ui.editor.HaskellEditor" path="/PrimerosCodigos/src/EjerciciosRecursividad.hs"/>
 </editors>
-<item historyLabel="EstudioExamen.hs" index="1">
-<position info="not_deleted" x="499" y="0"/>
+<item historyLabel="AllEjercicios.hs" index="2">
+<position info="not_deleted" x="578" y="0"/>
 </item>
-<item historyLabel="RepasoPlegado.hs" index="5">
-<position info="not_deleted" x="894" y="132"/>
+<item historyLabel="EntradaSalida.hs" index="1">
+<position info="not_deleted" x="5228" y="0"/>
 </item>
 <item historyLabel="EjerciciosLibro.hs" index="0">
-<position info="not_deleted" x="7551" y="0"/>
+<position info="not_deleted" x="20917" y="0"/>
 </item>
-<item historyLabel="RepasoPlegado.hs" index="5">
-<position info="not_deleted" x="894" y="132"/>
-</item>
-<item historyLabel="ExamenOctubre2019.hs" index="3">
+<item historyLabel="EjerciciosLibro1011exam.hs" index="3">
 <position/>
 </item>
-<item historyLabel="AllEjercicios.hs" index="6">
-<position info="not_deleted" x="30" y="36"/>
+<item historyLabel="EjerciciosLibro.hs" index="0">
+<position info="not_deleted" x="32" y="36"/>
 </item>
-<item historyLabel="ExamenOctubre2019.hs" index="3">
+<item historyLabel="EjerciciosLibro1011exam.hs" index="3">
 <position/>
 </item>
-<item historyLabel="Funtores.hs" index="2">
-<position/>
+<item historyLabel="EjerciciosLibro.hs" index="0">
+<position info="not_deleted" x="32" y="36"/>
+</item>
+<item historyLabel="EjerciciosLibro1011exam.hs" index="3">
+<position info="not_deleted" x="6794" y="0"/>
 </item>
 <item historyLabel="EjerciciosExamen.hs" index="4">
 <position/>
 </item>
-<item historyLabel="AllEjercicios.hs" index="6">
-<position/>
-</item>
-<item historyLabel="EjerciciosLibro.hs" index="7">
-<position/>
-</item>
-<item historyLabel="EntradaSalida.hs" index="8">
-<position/>
-</item>
-<item historyLabel="EjerciciosLibro.hs" index="7">
-<position info="not_deleted" x="20917" y="0"/>
-</item>
-<item historyLabel="EntradaSalida.hs" index="8">
+<item historyLabel="EntradaSalida.hs" index="5">
 <position info="not_deleted" x="5228" y="0"/>
 </item>
-<item historyLabel="EjerciciosLibro.hs" index="7">
-<position info="not_deleted" x="20917" y="0"/>
-</item>
-<item historyLabel="AllEjercicios.hs" index="9">
-<position info="not_deleted" x="578" y="0"/>
-</item>
-<item historyLabel="EntradaSalida.hs" index="8">
-<position info="not_deleted" x="5228" y="0"/>
-</item>
-<item historyLabel="EjerciciosLibro.hs" index="7">
-<position info="not_deleted" x="20917" y="0"/>
-</item>
-<item historyLabel="EjerciciosLibro1011exam.hs" index="10">
+<item historyLabel="EjerciciosLibro1011exam.hs" index="6">
 <position/>
 </item>
 <item historyLabel="EjerciciosLibro.hs" index="7">
-<position info="not_deleted" x="32" y="36"/>
-</item>
-<item historyLabel="EjerciciosLibro1011exam.hs" index="10">
-<position/>
-</item>
-<item historyLabel="EjerciciosLibro.hs" index="7">
-<position info="not_deleted" x="32" y="36"/>
-</item>
-<item historyLabel="EjerciciosLibro1011exam.hs" index="10">
-<position info="not_deleted" x="6794" y="0"/>
-</item>
-<item historyLabel="EjerciciosExamen.hs" index="11">
-<position/>
-</item>
-<item historyLabel="EntradaSalida.hs" index="12">
-<position info="not_deleted" x="5228" y="0"/>
-</item>
-<item historyLabel="EjerciciosLibro1011exam.hs" index="13">
-<position/>
-</item>
-<item historyLabel="EjerciciosLibro.hs" index="14">
 <position info="not_deleted" x="6971" y="11"/>
 </item>
-<item historyLabel="EjerciciosLibro1011exam.hs" index="13">
+<item historyLabel="EjerciciosLibro1011exam.hs" index="6">
 <position info="not_deleted" x="38243" y="0"/>
 </item>
-<item historyLabel="EjerciciosLibro.hs" index="14">
+<item historyLabel="EjerciciosLibro.hs" index="7">
 <position info="not_deleted" x="6971" y="11"/>
 </item>
-<item historyLabel="EjerciciosLibro1011exam.hs" index="13">
+<item historyLabel="EjerciciosLibro1011exam.hs" index="6">
 <position info="not_deleted" x="34577" y="0"/>
 </item>
-<item historyLabel="LogicaMetamaticaInHAskell.hs" index="15">
+<item historyLabel="LogicaMetamaticaInHAskell.hs" index="8">
 <position/>
 </item>
-<item historyLabel="EjerciciosLibro1011exam.hs" index="13">
+<item historyLabel="EjerciciosLibro1011exam.hs" index="6">
 <position info="not_deleted" x="34577" y="0"/>
 </item>
-<item historyLabel="EjerciciosLibro.hs" index="14">
+<item historyLabel="EjerciciosLibro.hs" index="7">
 <position info="not_deleted" x="13598" y="7"/>
 </item>
-<item historyLabel="EjerciciosLibro1011exam.hs" index="13">
+<item historyLabel="EjerciciosLibro1011exam.hs" index="6">
 <position info="not_deleted" x="34577" y="0"/>
 </item>
-<item historyLabel="EjerciciosLibro.hs" index="14">
+<item historyLabel="EjerciciosLibro.hs" index="7">
 <position info="not_deleted" x="13598" y="7"/>
 </item>
-<item historyLabel="EjerciciosLibro1011exam.hs" index="13">
+<item historyLabel="EjerciciosLibro1011exam.hs" index="6">
 <position info="not_deleted" x="34577" y="0"/>
 </item>
-<item historyLabel="MasPlegado.hs" index="16">
+<item historyLabel="MasPlegado.hs" index="9">
 <position/>
 </item>
-<item historyLabel="EjerciciosLibro1011exam.hs" index="13">
+<item historyLabel="EjerciciosLibro1011exam.hs" index="6">
 <position info="not_deleted" x="40" y="34"/>
 </item>
-<item historyLabel="MasPlegado.hs" index="16">
+<item historyLabel="MasPlegado.hs" index="9">
 <position/>
 </item>
-<item historyLabel="MasTiposDeDatos.hs" index="17">
+<item historyLabel="MasTiposDeDatos.hs" index="10">
 <position/>
 </item>
-<item historyLabel="MasPlegado.hs" index="16">
+<item historyLabel="MasPlegado.hs" index="9">
 <position info="not_deleted" x="27" y="34"/>
 </item>
-<item historyLabel="MasTiposDeDatos.hs" index="17">
+<item historyLabel="MasTiposDeDatos.hs" index="10">
 <position/>
 </item>
-<item historyLabel="OtrosExamenes.hs" index="18">
+<item historyLabel="OtrosExamenes.hs" index="11">
 <position/>
 </item>
-<item historyLabel="MasTiposDeDatos.hs" index="17">
+<item historyLabel="MasTiposDeDatos.hs" index="10">
 <position info="not_deleted" x="4376" y="0"/>
 </item>
-<item historyLabel="MasPlegado.hs" index="16">
+<item historyLabel="MasPlegado.hs" index="9">
 <position info="not_deleted" x="27" y="34"/>
 </item>
-<item historyLabel="EjerciciosLibro1011exam.hs" index="13">
+<item historyLabel="EjerciciosLibro1011exam.hs" index="6">
 <position info="not_deleted" x="45101" y="0"/>
 </item>
-<item historyLabel="MasPlegado.hs" index="16">
+<item historyLabel="MasPlegado.hs" index="9">
 <position info="not_deleted" x="27" y="34"/>
 </item>
-<item historyLabel="EjerciciosLibro.hs" index="19">
+<item historyLabel="EjerciciosLibro.hs" index="12">
 <position info="not_deleted" x="13598" y="7"/>
 </item>
-<item historyLabel="EjerciciosLibro1011exam.hs" index="13">
+<item historyLabel="EjerciciosLibro1011exam.hs" index="6">
 <position info="not_deleted" x="39521" y="4"/>
 </item>
-<item active="true" historyLabel="MasPlegado.hs" index="16">
+<item historyLabel="MasPlegado.hs" index="9">
 <position info="not_deleted" x="3287" y="0"/>
+</item>
+<item historyLabel="AllEjercicios.hs" index="13">
+<position info="not_deleted" x="578" y="0"/>
+</item>
+<item historyLabel="EjerciciosLibro1011exam.hs" index="14">
+<position info="not_deleted" x="39521" y="4"/>
+</item>
+<item historyLabel="MasPlegado.hs" index="9">
+<position info="not_deleted" x="3471" y="0"/>
+</item>
+<item historyLabel="EjerciciosExamen.hs" index="15">
+<position/>
+</item>
+<item historyLabel="EjerciciosLibro.hs" index="16">
+<position info="not_deleted" x="13598" y="7"/>
+</item>
+<item historyLabel="EjerciciosExamen.hs" index="17">
+<position/>
+</item>
+<item historyLabel="EstudioExamen.hs" index="18">
+<position/>
+</item>
+<item historyLabel="EjerciciosExamen.hs" index="17">
+<position/>
+</item>
+<item historyLabel="AllEjercicios.hs" index="19">
+<position info="not_deleted" x="23972" y="0"/>
+</item>
+<item historyLabel="EntradaSalida.hs" index="20">
+<position info="not_deleted" x="5228" y="0"/>
+</item>
+<item historyLabel="EjerciciosLibro.hs" index="16">
+<position/>
+</item>
+<item historyLabel="EjerciciosLibro1011exam.hs" index="21">
+<position/>
+</item>
+<item historyLabel="MasPlegado.hs" index="22">
+<position info="not_deleted" x="3471" y="0"/>
+</item>
+<item historyLabel="EstudioExamen.hs" index="18">
+<position info="not_deleted" x="1640" y="0"/>
+</item>
+<item active="true" historyLabel="EjerciciosRecursividad.hs" index="23">
+<position/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -545,6 +559,12 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="net.sf.eclipsefp.haskell.ui.editor.HaskellEditor" name="EjerciciosRecursividad.hs" tooltip="PrimerosCodigos/src/EjerciciosRecursividad.hs">
+<persistable path="/PrimerosCodigos/src/EjerciciosRecursividad.hs"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="net.sf.eclipsefp.haskell.ui.editor.HaskellEditor" name="EstudioExamen.hs" tooltip="PrimerosCodigos/src/EstudioExamen.hs">
+<persistable path="/PrimerosCodigos/src/EstudioExamen.hs"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="net.sf.eclipsefp.haskell.ui.editor.HaskellEditor" name="OtrosExamenes.hs" tooltip="PrimerosCodigos/src/OtrosExamenes.hs">
 <persistable path="/PrimerosCodigos/src/OtrosExamenes.hs"/>
 </file>
@@ -583,12 +603,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="net.sf.eclipsefp.haskell.ui.editor.HaskellEditor" name="Listas.hs" tooltip="PrimerosCodigos/src/Listas.hs">
 <persistable path="/PrimerosCodigos/src/Listas.hs"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="net.sf.eclipsefp.haskell.ui.editor.HaskellEditor" name="PrimerosPasos.hs" tooltip="PrimerosCodigos/src/PrimerosPasos.hs">
-<persistable path="/PrimerosCodigos/src/PrimerosPasos.hs"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="net.sf.eclipsefp.haskell.ui.editor.HaskellEditor" name="HojaDeEjerciciosDeDefinicionesDeTipos.hs" tooltip="PrimerosCodigos/src/HojaDeEjerciciosDeDefinicionesDeTipos.hs">
-<persistable path="/PrimerosCodigos/src/HojaDeEjerciciosDeDefinicionesDeTipos.hs"/>
 </file>
 </mruList>
 </workbench>

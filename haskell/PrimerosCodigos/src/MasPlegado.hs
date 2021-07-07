@@ -94,3 +94,9 @@ eliminaP :: Int -> [Int] -> [Int]
 eliminaP n = foldr f []
 where f x y | rem x n == 0 = y
 | otherwise = x:y-}
+
+
+{-count e = foldr (\x acc -> if e ==x then acc+1 else acc)0-}
+{-isAll e = foldr (\x acc ->e==x && acc) equivale a true-}
+{-length=foldr(\x ->(+)1)0-}
+{-map f = foldr ((:).f)[]-}

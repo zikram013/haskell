@@ -1,0 +1,52 @@
+module EstudioExamen where
+import Data.Char
+--conversor
+conversion ::String->Int
+conversion = foldr(\ x y -> (digitToInt)x + 2*y ) 0 
+
+--Divisores
+divisores::IO()
+divisores=do
+	putStrLn ("Dime el nombre del archivo")
+	fichero<-getLine
+	putStrLn ("Dime un numero para darte sus divisores")
+	numero <-getLine
+	let d = ((read numero)::Int)
+	if d == 0 then
+		putStrLn("adios")
+		else
+		appendFile fichero (factores d)
+		
+
+
+		
+factores :: Int ->String
+factores n =unwords (map show [x|x <- [1..n], n `mod` x == 0 ])
+
+
+{-Haskell abril 2021-}
+data Categoria = ATP1000 | ATP500 | ATP250 | GrandSlam deriving Show
+type Nombre = String
+data Torneo = Tor Nombre Categoria
+data Temporada = Temp [Torneo]
+
+openAustralia :: Torneo
+openAustralia = Tor "Open de Australia" GrandSlam
+indianWells :: Torneo
+indianWells = Tor "Indian Wells" ATP1000
+mutuaMadridOpen :: Torneo
+mutuaMadridOpen = Tor "Mutua Madrid Open" ATP1000
+wimbledon :: Torneo
+wimbledon = Tor "Wimbledon" GrandSlam
+temporada2013 :: Temporada
+temporada2013 = Temp [openAustralia, indianWells, mutuaMadridOpen, wimbledon]
+{-
+Se pide implementar una función utilizando funciones de plegado que dada una temporada sea capaz de
+mostrar el listado de torneos de GrandSlam que tiene esa temporada. Un ejemplo de aplicación de la
+función junto con la salida que debe obtener es el siguiente:
+-}
+getNombre::Torneo->String
+getNombre (Tor n _) = n
+
+getCategoria::Torneo->String
+getCategoria (Tor _ n) = n

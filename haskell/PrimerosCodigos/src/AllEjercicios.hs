@@ -532,3 +532,66 @@ auxiliar _[]_=putStrLn("adios")
 auxiliar(x:xs)(y:ys)contador = do
 								putStrLn("operacion"++show contador++":"++show(x+y))
 								auxiliar xs ys (contador+1)
+								
+								
+{-Ejercicios Random de internet-}
+{-Definir una funcion que calcule el promoedio de 3 numeros recibidos como argumentos:-}
+promedioTres::Int->Int->Int->Float
+promedioTres n m p = fromIntegral(n+m+p)/3.0
+
+{-4) Definir las dos siguientes funciones:
+a) una función min que calcule el mínimo de 2 números enteros. 
+b) una función minTres que calcule el mínimo de 3 números enteros usando la función min del apartado a) aplicándola con notación prefija.
+c) idem pero con notación infija.-}
+mini::Int->Int->Int
+mini x y 
+	|(x<=y)=x
+	|otherwise = y
+
+minTres::Int->Int->Int->Int
+minTres x y z = mini (mini x y)z
+
+minTres2::Int->Int->Int->Int
+minTres2 x y z = (x`mini`y) `mini`z
+
+{-5.Definir una función que devuelva el número central de tres números 
+(mediana),usando una función estanOrd::Int -> Int -> Int -> Bool 
+que devuelve true si el segundo argumento es mayor o igual que el primero y menor o igual que el tercero-}
+estanOrd:: Int-> Int ->Int -> Bool
+estanOrd x y z = (x <= y) && (y <= z)
+
+mediana2 :: Int-> Int ->Int -> Int
+mediana2 x y z
+	| estanOrd x y z || estanOrd z y x = y
+	| estanOrd y z x || estanOrd x z y = z
+	| estanOrd y x z || estanOrd z x y = x
+	
+{-6.Define la función howManyEqual, que recibe 3 argumentos y devuelve cuántos de ellos son iguales.
+howManyEqual 34 25 36 = 0
+howManyEqual 34 25 34 = 2
+howManyEqual 3 3 3 = 3-}
+howManyEqual::Int->Int->Int->Int
+howManyEqual n m p 
+	|(n==m) && (m==p)=3
+	|(n==m) || (m==p) || (n==p) = 2
+	|otherwise = 0
+
+{-7.Se pide una función que dado un número entero devuelva verdadero si está entre 0 y 9 (ambos excluidos) y falso en caso contrario.
+ Se piden tres versiones, una de ellas utilizando la expresión condicional if, 
+y otra donde se utilicen guardas-}
+numEntre1y8a :: Int -> Bool
+numEntre1y8a n = if (n > 0) && (n < 9) then True else False
+
+numEntreGuarda::Int->Bool
+numEntreGuarda n
+	|(n>0) &&(n<9)=True
+	|otherwise = False
+	
+{-8.Definir una función charToNum :: Char -> Int, que convierte un carácter dígito
+ como ‘8’ a su valor 8. Si no es un dígito devuelve -1.-}
+num:: Char -> Int
+num  n 
+	| isDigit n  = ord n - ord '0'
+	| otherwise = -1
+	
+
